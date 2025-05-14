@@ -1,0 +1,47 @@
+[
+  {
+    "meta": {
+      "id": "12345",
+      "name": "username",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z"
+    },
+    "data": {
+      "1ec01a60c17e6d42_exp": {
+        "title": "Tempestissimo",
+        "score": 1007965,
+        "const": 13.9,
+        "rate": 15.94,
+        "rank": "SSS"
+      },
+      "1ec01a60c17e6d42_mas": {
+        "title": "Tempestissimo",
+        "score": 970059,
+        "const": 15.1,
+        "rate": 14.77,
+        "rank": "AAA"
+      },
+      "77bdec3e104b3aec_mas": {
+        "title": "旅星に渇く",
+        "score": 970563,
+        "const": 14.9,
+        "rate": 14.6,
+        "rank": "AAA"
+      },
+      "6efd3921eedf86cf_mas": {
+        "title": "殺屋中毒",
+        "score": 992711,
+        "const": 13.6,
+        "rate": 14.299999999999999,
+        "rank": "S+"
+      },
+      "0b994191bf7d6dfb_mas": {
+        "title": "Black MInD",
+        "score": 966875,
+        "const": 14.8,
+        "rate": 14.32,
+        "rank": "AAA"
+      }
+    }
+  }
+]
