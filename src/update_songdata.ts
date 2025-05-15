@@ -11,6 +11,8 @@ interface Song {
         id: string;
         title: string;
         genre: string;
+        artist: string;
+        release: string;
     };
     data: {
         EXP?: {
@@ -35,6 +37,8 @@ fetch(URL)
             id: song.meta.id,
             title: song.meta.title,
             genre: song.meta.genre,
+            artist: song.meta.artist,
+            verse: new Date(song.meta.release) >= new Date("2024-12-12") ? true : false,
             dif_exp: song.data.EXP ? song.data.EXP.const : null,
             dif_mas: song.data.MAS ? song.data.MAS.const : null,
             dif_ult: song.data.ULT ? song.data.ULT.const : null

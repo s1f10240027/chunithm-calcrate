@@ -12,7 +12,6 @@ const rl = readline.createInterface({
 });
 
 const TOKEN = process.env.CHUNITHM_API_TOKEN;
-
 function getSongData(id: string) {
     const URL: string = `https://api.chunirec.net/2.0/music/show.json?region=jp2&id=${id}&token=${TOKEN}`;
     fetch(URL)
