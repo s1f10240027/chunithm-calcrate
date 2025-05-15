@@ -17,6 +17,7 @@ function getSongData(id: string) {
         .then((response) => response.json())
         .then((data: any) => {
             console.log(data)
+            console.log("=====")
             console.log(data.meta.title);
             console.log(`ジャンル: ${data.meta.genre}`);
             console.log(`アーティスト: ${data.meta.artist}`);

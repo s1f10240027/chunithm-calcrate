@@ -1,0 +1,167 @@
+
+import { createCanvas, loadImage } from 'canvas';
+
+import axios from "axios";
+import path from "path";
+import fs from 'fs';
+
+import { getJacketFromUnirec } from './get_jacket.js';
+
+const x_add = 170;
+const y_add = 170;
+let original_locs_b = {
+    "jacket": [50,200],
+    "ranking": [55,230],
+    "songname": [52,260],
+    "difficulty": [65,280],
+    "score": [65,300],
+    "rank": [160, 300],
+    "rating": [60,340],
+}
+
+let original_locs_n = JSON.parse(JSON.stringify(original_locs_b));
+for (const key in original_locs_n) {
+    original_locs_n[key as keyof typeof original_locs_n][0] += 990;
+}
+
+export async function createRateImage(b_result: any[], n_result: any[], user: string) {
+    let locs_b = JSON.parse(JSON.stringify(original_locs_b));
+    let locs_n = JSON.parse(JSON.stringify(original_locs_n));
+
+    const allResults = [
+        { results: b_result, locs: locs_b, original_locs: original_locs_b },
+        { results: n_result, locs: locs_n, original_locs: original_locs_n }
+    ];
+
+     0
+    let b_TotalRate: number = 0
+    let n_TotalRate: number = 0
+    for (let b of b_result) {
+        b_TotalRate += b.rate;
+    }
+    for (let n of n_result) {
+        n_TotalRate += n.rate;
+    }
+    let allRate: number = b_TotalRate + n_TotalRate;
+    let b_AvgRate: number = Math.floor((b_TotalRate / b_result.length) * 100) / 100;
+    let n_AvgRate: number = Math.floor((n_TotalRate / n_result.length) * 100) / 100;
+    let all_AvgRate: number = Math.floor(allRate / (b_result.length + n_result.length) * 100) / 100;
+        
+        
+    const canvas = createCanvas(1920, 1080);
+    const ctx = canvas.getContext('2d');
+
+    // background
+    const backgroundImage = await loadImage('img/background.jpg');
+    ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
+
+    // header
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 48px Sans";
+    ctx.fillText("CHUNITHM RATING", 50, 70);
+
+    // chart header
+    ctx.font = "Bold 38px Sans";
+    ctx.fillText("Best Chart", 370, 170);
+
+    ctx.font = "Bold 38px Sans";
+    ctx.fillText("New Chart", 1360, 170);
+
+    // userdata
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 37px Sans";
+    ctx.fillText(`User: ${user}`, 1200, 80);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 30px Sans";
+    ctx.fillText(`Rating: ${all_AvgRate}`, 1692, 50);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 30px Sans";
+    ctx.fillText(`Avg. Best: ${b_AvgRate}`, 1650, 90);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 30px Sans";
+    ctx.fillText(`Avg. New: ${n_AvgRate}`, 1650, 130);
+
+    for (const { results, locs, original_locs } of allResults) {
+        let ranknum = 1;
+        let linecount = 0;
+
+        for (const b of results) {
+            // ジャケット画像取得
+            let JacketPath = await getJacketFromUnirec(b.id);
+            if (!JacketPath) {
+                JacketPath = "https://ul.h3z.jp/iZzGl7oh.png";
+            }
+
+            const tempImagePath = path.join("tmp", "jacket.jpg");
+            const response = await axios.get(JacketPath, {
+                responseType: "arraybuffer",
+                headers: {
+                    "User-Agent": "Mozilla/5.0",
+                    "Referer": "https://db.chunirec.net/", 
+                },
+            });
+
+            fs.writeFileSync(tempImagePath, response.data);
+            const image = await loadImage(tempImagePath);
+            fs.unlinkSync(tempImagePath);
+
+            ctx.drawImage(image, locs["jacket"][0], locs["jacket"][1], 150, 150);
+            ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
+            ctx.fillRect(locs["jacket"][0], locs["jacket"][1], 150, 150);
+
+            const data = {
+                title: b.title,
+                difficulty: b.difficulty,
+                rating: `${b.const} → ${b.rate}`,
+                score: `${b.score}`,
+                rank: b.rank,
+                ranking: `#${ranknum}`        
+            };
+
+            ctx.fillStyle = "#BABABA";
+            ctx.font = "Bold 21px Sans";
+            ctx.fillText(data.ranking, locs["ranking"][0], locs["ranking"][1]);
+
+            ctx.fillStyle = "#fff";
+            ctx.font = "Bold 19px Sans";
+            let showTitle = data.title;
+            while (ctx.measureText(showTitle).width > 150) {
+                showTitle = showTitle.slice(0, -1);
+            }
+
+            ctx.fillText(showTitle, locs["songname"][0], locs["songname"][1]);
+            ctx.font = "Bold 16px Sans";
+            ctx.fillText(data.difficulty, locs["difficulty"][0], locs["difficulty"][1]);
+            ctx.fillText(data.score, locs["score"][0], locs["score"][1]);
+            ctx.fillText(data.rank, locs["rank"][0], locs["rank"][1]);
+            ctx.font = "Bold 19px Sans";
+            ctx.fillText(data.rating, locs["rating"][0], locs["rating"][1]);
+
+            for (const key in locs) {
+                locs[key as keyof typeof locs][0] += x_add;
+            }
+
+            ranknum++;
+            linecount++;
+
+            if (linecount >= 5) {
+                linecount = 0;
+                for (const key in locs) {
+                    locs[key as keyof typeof locs][0] = original_locs[key as keyof typeof original_locs][0];
+                    locs[key as keyof typeof locs][1] += y_add;
+                }
+            }
+        }
+    }
+    
+
+    // 保存
+    const out = fs.createWriteStream('./output.png');
+    const stream = canvas.createPNGStream();
+    stream.pipe(out);
+    
+
+}

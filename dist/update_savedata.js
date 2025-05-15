@@ -8,7 +8,12 @@ const rl = readline.createInterface({
 });
 const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 function update_savedata(title, diff, score) {
-    const savedata = JSON.parse(fs.readFileSync("userdata/tonton", "utf-8"));
+    const path = "userdata/tonton";
+    if (!fs.existsSync(path)) {
+        fs.writeFileSync(path, JSON.stringify({ "meta": {}, "data": {} }, null, 2), "utf-8");
+    }
+    ;
+    const savedata = JSON.parse(fs.readFileSync(path, "utf-8"));
     const song = songs.find((song) => song.title == title);
     if (song) {
         /*
@@ -25,14 +30,18 @@ function update_savedata(title, diff, score) {
         C	500,000	0
         */
         let chart;
+        let difname = "";
         if (diff == "exp") {
             chart = song.dif_exp;
+            difname = "Expart";
         }
         else if (diff == "mas") {
             chart = song.dif_mas;
+            difname = "Master";
         }
         else if (diff == "ult") {
             chart = song.dif_ult;
+            difname = "Ultima";
         }
         let rate = CHUNITHMRating.calculate(score, chart);
         const ranksList = [
@@ -49,14 +58,17 @@ function update_savedata(title, diff, score) {
         ];
         const rank = ranksList.find(r => score >= r.score)?.rank ?? "C";
         const songData = {
+            id: song.id,
             title: title,
+            difficulty: difname,
             score: score,
             const: chart,
             rate: rate,
-            rank: rank
+            rank: rank,
+            verse: song.verse
         };
-        savedata[0].data[`${song.id}_${diff}`] = songData;
-        fs.writeFileSync("userdata/tonton", JSON.stringify(savedata, null, 2), "utf-8");
+        savedata.data[`${song.id}_${diff}`] = songData;
+        fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
         console.log('✅ スコアを更新しました');
     }
     else {
