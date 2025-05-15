@@ -11,7 +11,13 @@ const rl = readline.createInterface({
 const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 
 function update_savedata(title: string, diff: string, score: number) {
-    const savedata = JSON.parse(fs.readFileSync("userdata/tonton", "utf-8"));
+    const path: string = "userdata/tonton";
+
+    if (!fs.existsSync(path)) {
+        fs.writeFileSync(path, JSON.stringify({ "meta": {}, "data": {} }, null, 2), "utf-8");
+    };
+
+    const savedata = JSON.parse(fs.readFileSync(path, "utf-8"));
     const song = songs.find((song: any) => song.title == title);
     if (song) {
         /*
@@ -58,11 +64,10 @@ function update_savedata(title: string, diff: string, score: number) {
             const: chart,
             rate: rate,
             rank: rank,
-            verse: 
-            
+            verse: song.verse            
         };
-        savedata[0].data[`${song.id}_${diff}`] = songData;
-        fs.writeFileSync("userdata/tonton", JSON.stringify(savedata, null, 2), "utf-8");
+        savedata.data[`${song.id}_${diff}`] = songData;
+        fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
         console.log('✅ スコアを更新しました');
     } else {
         console.error("⚠️ 曲が見つかりませんでした");
