@@ -57,7 +57,9 @@ function update_savedata(title: string, diff: string, score: number) {
             score: score,
             const: chart,
             rate: rate,
-            rank: rank
+            rank: rank,
+            verse: 
+            
         };
         savedata[0].data[`${song.id}_${diff}`] = songData;
         fs.writeFileSync("userdata/tonton", JSON.stringify(savedata, null, 2), "utf-8");

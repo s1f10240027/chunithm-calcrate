@@ -4,7 +4,6 @@ import fetch from 'node-fetch';
 import dotenv from "dotenv";
 dotenv.config();
 
-
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
