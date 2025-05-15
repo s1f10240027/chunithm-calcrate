@@ -34,12 +34,16 @@ function update_savedata(title: string, diff: string, score: number) {
         C	500,000	0
         */
         let chart;
+        let difname = ""
         if (diff == "exp") {
             chart = song.dif_exp;
+            difname = "Expart"
         } else if (diff == "mas") {
             chart = song.dif_mas;
+            difname = "Master"
         } else if (diff == "ult") {
             chart = song.dif_ult;
+            difname = "Ultima"
         }
 
         let rate: number = CHUNITHMRating.calculate(score, chart);
@@ -59,7 +63,9 @@ function update_savedata(title: string, diff: string, score: number) {
         const rank = ranksList.find(r => score >= r.score)?.rank ?? "C";
 
         const songData = {
+            id: song.id,
             title: title,
+            difficulty: difname,
             score: score,
             const: chart,
             rate: rate,
