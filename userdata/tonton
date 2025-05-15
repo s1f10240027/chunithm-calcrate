@@ -16,10 +16,10 @@
       },
       "1ec01a60c17e6d42_mas": {
         "title": "Tempestissimo",
-        "score": 970059,
+        "score": 970056,
         "const": 15.1,
         "rate": 14.77,
-        "rank": "AAA"
+        "rank": ""
       },
       "77bdec3e104b3aec_mas": {
         "title": "旅星に渇く",
@@ -32,7 +32,7 @@
         "title": "殺屋中毒",
         "score": 992711,
         "const": 13.6,
-        "rate": 14.299999999999999,
+        "rate": 14.3,
         "rank": "S+"
       },
       "0b994191bf7d6dfb_mas": {
@@ -41,6 +41,34 @@
         "const": 14.8,
         "rate": 14.32,
         "rank": "AAA"
+      },
+      "722cf9686d28fea2_exp": {
+        "title": "Aether Crest: Celestial",
+        "score": 1003832,
+        "const": 14.4,
+        "rate": 15.78,
+        "rank": "SS"
+      },
+      "7627bc3c7a41a921_mas": {
+        "title": "Oracle",
+        "score": 985707,
+        "const": 14.8,
+        "rate": 15.22,
+        "rank": "S"
+      },
+      "7627bc3c7a41a921_exp": {
+        "title": "Oracle",
+        "score": 1006812,
+        "const": 13.1,
+        "rate": 14.96,
+        "rank": "SS+"
+      },
+      "29142d677f867deb_exp": {
+        "title": "Chronomia",
+        "score": 1007819,
+        "const": 12.7,
+        "rate": 14.73,
+        "rank": "SSS"
       }
     }
   }
