@@ -42,10 +42,9 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
         n_TotalRate += n.rate;
     }
     let allRate: number = b_TotalRate + n_TotalRate;
-    let b_AvgRate: number = Math.floor((b_TotalRate / b_result.length) * 100) / 100;
-    let n_AvgRate: number = Math.floor((n_TotalRate / n_result.length) * 100) / 100;
-    let all_AvgRate: number = Math.floor(allRate / (b_result.length + n_result.length) * 100) / 100;
-        
+    let b_AvgRate: string = (Math.round((b_TotalRate / b_result.length) * 100) / 100).toFixed(2);
+    let n_AvgRate: string = (Math.round((n_TotalRate / n_result.length) * 100) / 100).toFixed(2);
+    let all_AvgRate: string = (Math.round(allRate / (b_result.length + n_result.length) * 100) / 100).toFixed(2);
         
     const canvas = createCanvas(1920, 1080);
     const ctx = canvas.getContext('2d');
