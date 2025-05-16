@@ -69,19 +69,23 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
     // userdata
     ctx.fillStyle = "#ffffff";
     ctx.font = "Bold 37px Sans";
-    ctx.fillText(`User: ${user}`, 1200, 80);
+    ctx.fillText(`User: ${user}`, 1600, 80);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 18px Sans";
+    ctx.fillText(`RATING`, 920, 120);
+
+    ctx.fillStyle = "#ffffff";
+    ctx.font = "Bold 40px Sans";
+    ctx.fillText(`${all_AvgRate}`, 900, 160);
 
     ctx.fillStyle = "#ffffff";
     ctx.font = "Bold 30px Sans";
-    ctx.fillText(`Rating: ${all_AvgRate}`, 1692, 50);
+    ctx.fillText(`Avg: ${b_AvgRate}`, 680,  175);
 
     ctx.fillStyle = "#ffffff";
     ctx.font = "Bold 30px Sans";
-    ctx.fillText(`Avg. Best: ${b_AvgRate}`, 1650, 90);
-
-    ctx.fillStyle = "#ffffff";
-    ctx.font = "Bold 30px Sans";
-    ctx.fillText(`Avg. New: ${n_AvgRate}`, 1650, 130);
+    ctx.fillText(`Avg: ${n_AvgRate}`, 1670, 175);
 
     for (const { results, locs, original_locs } of allResults) {
         let ranknum: number = 1;
