@@ -7,8 +7,7 @@ import fs from 'fs';
 
 import { getJacketFromUnirec } from './get_jacket.js';
 
-const x_add = 170;
-const y_add = 170;
+const addNum: number = 170;
 let original_locs_b = {
     "jacket": [50,200],
     "ranking": [55,230],
@@ -85,8 +84,8 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
     ctx.fillText(`Avg. New: ${n_AvgRate}`, 1650, 130);
 
     for (const { results, locs, original_locs } of allResults) {
-        let ranknum = 1;
-        let linecount = 0;
+        let ranknum: number = 1;
+        let linecount: number = 0;
 
         for (const b of results) {
             // ジャケット画像取得
@@ -141,7 +140,7 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
             ctx.fillText(data.rating, locs["rating"][0], locs["rating"][1]);
 
             for (const key in locs) {
-                locs[key as keyof typeof locs][0] += x_add;
+                locs[key as keyof typeof locs][0] += addNum;
             }
 
             ranknum++;
@@ -151,7 +150,7 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
                 linecount = 0;
                 for (const key in locs) {
                     locs[key as keyof typeof locs][0] = original_locs[key as keyof typeof original_locs][0];
-                    locs[key as keyof typeof locs][1] += y_add;
+                    locs[key as keyof typeof locs][1] += addNum;
                 }
             }
         }
