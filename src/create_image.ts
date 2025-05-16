@@ -7,15 +7,16 @@ import fs from 'fs';
 
 import { getJacketFromUnirec } from './get_jacket.js';
 
-const addNum: number = 170;
+const jacketWidth: number = 130;
+const addNum: number = 145;
 let original_locs_b = {
-    "jacket": [50,200],
-    "ranking": [55,230],
-    "songname": [52,260],
-    "difficulty": [65,280],
-    "score": [65,300],
-    "rank": [160, 300],
-    "rating": [60,340],
+    "jacket": [110,190],
+    "ranking": [115,215],
+    "songname": [112,245],
+    "difficulty": [125,260],
+    "score": [125,280],
+    "rank": [205,280],
+    "rating": [120,305],
 }
 
 let original_locs_n = JSON.parse(JSON.stringify(original_locs_b));
@@ -32,7 +33,6 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
         { results: n_result, locs: locs_n, original_locs: original_locs_n }
     ];
 
-     0
     let b_TotalRate: number = 0
     let n_TotalRate: number = 0
     for (let b of b_result) {
@@ -80,12 +80,12 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
     ctx.fillText(`${all_AvgRate}`, 900, 160);
 
     ctx.fillStyle = "#ffffff";
-    ctx.font = "Bold 30px Sans";
-    ctx.fillText(`Avg: ${b_AvgRate}`, 680,  175);
+    ctx.font = "Bold 27px Sans";
+    ctx.fillText(`Avg: ${b_AvgRate}`, 660,  175);
 
     ctx.fillStyle = "#ffffff";
-    ctx.font = "Bold 30px Sans";
-    ctx.fillText(`Avg: ${n_AvgRate}`, 1670, 175);
+    ctx.font = "Bold 27px Sans";
+    ctx.fillText(`Avg: ${n_AvgRate}`, 1650, 175);
 
     for (const { results, locs, original_locs } of allResults) {
         let ranknum: number = 1;
@@ -111,9 +111,9 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
             const image = await loadImage(tempImagePath);
             fs.unlinkSync(tempImagePath);
 
-            ctx.drawImage(image, locs["jacket"][0], locs["jacket"][1], 150, 150);
+            ctx.drawImage(image, locs["jacket"][0], locs["jacket"][1], jacketWidth, jacketWidth);
             ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
-            ctx.fillRect(locs["jacket"][0], locs["jacket"][1], 150, 150);
+            ctx.fillRect(locs["jacket"][0], locs["jacket"][1], jacketWidth, jacketWidth);
 
             const data = {
                 title: b.title,
@@ -129,18 +129,18 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
             ctx.fillText(data.ranking, locs["ranking"][0], locs["ranking"][1]);
 
             ctx.fillStyle = "#fff";
-            ctx.font = "Bold 19px Sans";
+            ctx.font = "Bold 17px Sans";
             let showTitle = data.title;
-            while (ctx.measureText(showTitle).width > 150) {
+            while (ctx.measureText(showTitle).width > jacketWidth) {
                 showTitle = showTitle.slice(0, -1);
             }
 
             ctx.fillText(showTitle, locs["songname"][0], locs["songname"][1]);
-            ctx.font = "Bold 16px Sans";
+            ctx.font = "Bold 14px Sans";
             ctx.fillText(data.difficulty, locs["difficulty"][0], locs["difficulty"][1]);
             ctx.fillText(data.score, locs["score"][0], locs["score"][1]);
             ctx.fillText(data.rank, locs["rank"][0], locs["rank"][1]);
-            ctx.font = "Bold 19px Sans";
+            ctx.font = "Bold 17px Sans";
             ctx.fillText(data.rating, locs["rating"][0], locs["rating"][1]);
 
             for (const key in locs) {
