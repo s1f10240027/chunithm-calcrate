@@ -1,6 +1,8 @@
 import readline from "readline";
 import fs from "fs";
 import { CHUNITHMRating } from "rg-stats"
+import { parse } from 'csv-parse/sync';
+
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
@@ -33,6 +35,16 @@ function update_savedata(title: string, diff: string, score: number) {
         BBB	800,000	(譜面定数－5.0)/2	
         C	500,000	0
         */
+        //更新チェック
+        if (savedata.data[`${song.id}_${diff}`]) {
+            const oldScore = savedata.data[`${song.id}_${diff}`].score;
+            if (oldScore >= score) {
+                console.log(`${title}の${diff}のスコアの更新はスキップします。`);
+                return;
+            }
+        }
+
+
         let chart;
         let difname = ""
         if (diff == "exp") {
@@ -47,7 +59,7 @@ function update_savedata(title: string, diff: string, score: number) {
         }
 
         let rate: number = CHUNITHMRating.calculate(score, chart);
-       const ranksList = [
+        const ranksList = [
             { score: 1009000, rank: "SSS+" },
             { score: 1007500, rank: "SSS" },
             { score: 1005000, rank: "SS+" },
@@ -72,9 +84,10 @@ function update_savedata(title: string, diff: string, score: number) {
             rank: rank,
             verse: song.verse            
         };
+
         savedata.data[`${song.id}_${diff}`] = songData;
         fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
-        console.log('✅ スコアを更新しました');
+        console.log(`✅ スコアを更新しました : ${title} - ${diff}: ${score}`);
     } else {
         console.error("⚠️ 曲が見つかりませんでした");
     }
@@ -89,10 +102,35 @@ function isExistSong(title: string) {
     }
 }
 
+function UploadCSVdata() {
+    rl.question("csvのパスを入力: ", (path) => {
+        if (fs.existsSync(path)) {
+            const csv = fs.readFileSync(path, {encoding: "utf8"});
+            const records = parse(csv, {
+                columns: true,
+                skip_empty_lines: true,
+                quote: false
+            });
+            for (const record of records) {
+                const title = record["title"];
+                const difficulty = record["difficulty"].toLowerCase();
+                const score = parseInt(record["score"]);
+                update_savedata(title, difficulty, score);
+            }
+        } else {
+            console.error("⚠️ CSVファイルが見つかりませんでした");
+            return UploadCSVdata();
+        }
+    })
+}
 function EnterSongData() {
     rl.question("曲名を入力: ", (title) => {
         if (title === "exitloop") {
             rl.close();
+            return;
+        }
+        if (title === "read_csv") {
+            UploadCSVdata();
             return;
         }
 
@@ -102,7 +140,7 @@ function EnterSongData() {
         }
 
         rl.question("難易度を入力: ", (difficulty) => {
-            if (difficulty !== "exp" && difficulty !== "mas" && difficulty !== "ult") {
+            if (difficulty.toLowerCase() !== "exp" && difficulty.toLowerCase() !== "mas" && difficulty.toLowerCase() !== "ult") {
                 console.error("⚠️ 難易度は exp, mas, ult のいずれかで入力してください。");
                 return EnterSongData();
             }
