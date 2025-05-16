@@ -31,10 +31,10 @@
   },
   {
     "id": "f404bea7db4ddffa",
-    "title": "千本桜",
-    "genre": "niconico",
-    "artist": "黒うさP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.6,
+    "dif_ult": 13.7
   },
   {
     "id": "f50267248882c190",
@@ -48,38 +48,38 @@
   },
   {
     "id": "b916b3829654ea35",
-    "title": "taboo tears you up",
-    "genre": "東方Project",
-    "artist": "REDALiCE (HARDCORE TANO*C)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": 15
   },
   {
     "id": "9fdfd0bdfc359922",
-    "title": "ナイト・オブ・ナイツ",
-    "genre": "東方Project",
-    "artist": "ビートまりお",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "7f85a26edb736654",
-    "title": "一触即発☆禅ガール",
-    "genre": "niconico",
-    "artist": "れるりり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "9ed5a99b0d3466b2",
-    "title": "ドーナツホール",
-    "genre": "niconico",
-    "artist": "ハチ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "8becd571ff7b517b",
-    "title": "タイガーランペイジ",
-    "genre": "niconico",
-    "artist": "sasakure.UK",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": 15
   },
   {
     "id": "023ec0e550192561",
@@ -93,66 +93,66 @@
   },
   {
     "id": "1b9ff24dc2454688",
-    "title": "Lapis",
-    "genre": "VARIETY",
-    "artist": "SHIKI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": 14.9
   },
   {
     "id": "c3892a2e85603b84",
-    "title": "鳥の詩",
-    "genre": "POPS&ANIME",
-    "artist": "Lia「AIR」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.3,
+    "dif_ult": 12.2
   },
   {
     "id": "cac72bb087b2ddaa",
-    "title": "天ノ弱",
-    "genre": "niconico",
-    "artist": "164",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.1,
+    "dif_ult": 13.7
   },
   {
     "id": "2d407a8fc5f78b81",
-    "title": "sweet little sister",
-    "genre": "東方Project",
-    "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "1c06aff71db4a978",
-    "title": "L9",
-    "genre": "VARIETY",
-    "artist": "paraoka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": 15
   },
   {
     "id": "f067eee5d8a0804f",
-    "title": "Bad Apple!! feat.nomico",
-    "genre": "東方Project",
-    "artist": "Masayoshi Minoshima",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "ab1de4e454a233c6",
-    "title": "六兆年と一夜物語",
-    "genre": "niconico",
-    "artist": "kemu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": 14.1
   },
   {
     "id": "3fd1b3cda7de9b63",
-    "title": "Unlimited Spark!",
-    "genre": "東方Project",
-    "artist": "t+pazolite feat.鈴木 ななこ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": 14.1
   },
   {
     "id": "8acb28aa97dde791",
-    "title": "エピクロスの虹はもう見えない",
-    "genre": "東方Project",
-    "artist": "SYNC.ART'S feat.美里",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11,
+    "dif_ult": null
   },
   {
     "id": "90167cdab89b49e9",
@@ -186,10 +186,10 @@
   },
   {
     "id": "72c727106c97988d",
-    "title": "Invitation",
-    "genre": "ORIGINAL",
-    "artist": "れるりり feat.ろん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "9a06a4a4f2278c92",
@@ -203,10 +203,10 @@
   },
   {
     "id": "d8fca2665d5f7acf",
-    "title": "名も無い鳥",
-    "genre": "ORIGINAL",
-    "artist": "六弦アリス",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "fc4495cfc460b2ee",
@@ -220,38 +220,38 @@
   },
   {
     "id": "ef225d7b09becd8d",
-    "title": "今ぞ♡崇め奉れ☆オマエらよ！！～姫の秘メタル渇望～",
-    "genre": "ORIGINAL",
-    "artist": "あべにゅうぷろじぇくと feat.佐倉 紗織　produced by ave;new",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "d2a5ac02fc51dff6",
-    "title": "Anemone",
-    "genre": "ORIGINAL",
-    "artist": "ESTi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.1,
+    "dif_ult": 13.1
   },
   {
     "id": "e2c91bcefdf2a283",
-    "title": "明るい未来",
-    "genre": "ORIGINAL",
-    "artist": "豚乙女",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "dfc94f23f71e3e0b",
-    "title": "昵懇レファレンス",
-    "genre": "ORIGINAL",
-    "artist": "halyosy",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": 13.1
   },
   {
     "id": "f2cd647ed1c64107",
-    "title": "乗り切れ受験ウォーズ",
-    "genre": "ORIGINAL",
-    "artist": "solfa feat.茶太",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "e5569e1702c8020e",
@@ -265,17 +265,17 @@
   },
   {
     "id": "4a021463b7de66d9",
-    "title": "STAR",
-    "genre": "ORIGINAL",
-    "artist": "SEXY-SYNTHESIZER",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "9117746f1514b8d5",
-    "title": "Infantoon Fantasy",
-    "genre": "ORIGINAL",
-    "artist": "t+pazolite",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": 14.2
   },
   {
     "id": "e2a4a57593085a7b",
@@ -299,17 +299,17 @@
   },
   {
     "id": "add96d3d99c31377",
-    "title": "リリーシア",
-    "genre": "ORIGINAL",
-    "artist": "TaNaBaTa",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11,
+    "dif_ult": 12.6
   },
   {
     "id": "4cd53eb543f7dd23",
-    "title": "Counselor",
-    "genre": "ORIGINAL",
-    "artist": "DECO*27 feat.echo",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": 13.1
   },
   {
     "id": "2ca83a39acddc76a",
@@ -323,38 +323,38 @@
   },
   {
     "id": "934e61041980aabf",
-    "title": "ケモノガル",
-    "genre": "ORIGINAL",
-    "artist": "ゼッケン屋",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "71c1e4cafc11a36f",
-    "title": "ＧＯ！ＧＯ！ラブリズム♥",
-    "genre": "ORIGINAL",
-    "artist": "片霧烈火オンザみんマンション",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "0f3b648d4c513959",
-    "title": "Grab your sword",
-    "genre": "ORIGINAL",
-    "artist": "古代 祐三",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.4,
+    "dif_ult": null
   },
   {
     "id": "246c9270a9a73029",
-    "title": "Memories of Sun and Moon",
-    "genre": "ORIGINAL",
-    "artist": "Aiko Oi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "270cb91be3b127ac",
-    "title": "ロストワンの号哭",
-    "genre": "niconico",
-    "artist": "Neru",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": 14.2
   },
   {
     "id": "cff2141eda93820c",
@@ -368,10 +368,10 @@
   },
   {
     "id": "4ea5b5495409dfcb",
-    "title": "JET",
-    "genre": "VARIETY",
-    "artist": "from PACA PACA PASSION Special",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.3,
+    "dif_ult": 13.5
   },
   {
     "id": "d661823a5d82ae83",
@@ -385,10 +385,10 @@
   },
   {
     "id": "2ca61b1981ba9c2f",
-    "title": "Yet Another ”drizzly rain”",
-    "genre": "東方Project",
-    "artist": "myu314 feat.あまね（COOL&CREATE）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "d40deb09544aff7a",
@@ -402,59 +402,59 @@
   },
   {
     "id": "d1696ceaf06ec218",
-    "title": "蒼空に舞え、墨染の桜",
-    "genre": "東方Project",
-    "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "85fd868a39fec61f",
-    "title": "セツナトリップ",
-    "genre": "niconico",
-    "artist": "Last Note.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "418379089634501f",
-    "title": "砂漠のハンティングガール♡",
-    "genre": "ORIGINAL",
-    "artist": "海田 明里",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": 14.1
   },
   {
     "id": "9bcb58dd51c52d9a",
-    "title": "チルノのパーフェクトさんすう教室",
-    "genre": "東方Project",
-    "artist": "ARM＋夕野ヨシミ (IOSYS) feat.miko",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "ed97920db5bd92f9",
-    "title": "Help me, ERINNNNNN!!（Band ver.）",
-    "genre": "東方Project",
-    "artist": "ビートまりお",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.9,
+    "dif_ult": null
   },
   {
     "id": "086151c32ed725c5",
-    "title": "魔理沙は大変なものを盗んでいきました",
-    "genre": "東方Project",
-    "artist": "ARM＋夕野ヨシミ (IOSYS) feat.藤咲かりん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.3,
+    "dif_ult": 14.9
   },
   {
     "id": "89987ca0d423aa80",
-    "title": "言ノ葉カルマ",
-    "genre": "ゲキマイ",
-    "artist": "そらる・ろん×れるりり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": 14.3
   },
   {
     "id": "141140231eb65f04",
-    "title": "After the rain",
-    "genre": "ORIGINAL",
-    "artist": "霜月はるか",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12,
+    "dif_ult": 13.2
   },
   {
     "id": "b2b13af32d6f2e8f",
@@ -468,10 +468,10 @@
   },
   {
     "id": "16d03230e498d697",
-    "title": "Tuning Rangers",
-    "genre": "ORIGINAL",
-    "artist": "COOL&CREATE",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "063a05a233207876",
@@ -495,10 +495,10 @@
   },
   {
     "id": "60a72c1b9137c713",
-    "title": "overcome",
-    "genre": "ORIGINAL",
-    "artist": "景山 将太",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11,
+    "dif_ult": null
   },
   {
     "id": "4298a17421438708",
@@ -532,80 +532,80 @@
   },
   {
     "id": "8e59f4e91c622909",
-    "title": "ストリーミングハート",
-    "genre": "niconico",
-    "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": 14.1
   },
   {
     "id": "7234bda632d2b776",
-    "title": "Sweet Devil",
-    "genre": "niconico",
-    "artist": "八王子P",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "271a91f73d759732",
-    "title": "Dreaming",
-    "genre": "東方Project",
-    "artist": "Alstroemeria Records",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "47d509b63c551e8a",
-    "title": "M.S.S.Planet",
-    "genre": "niconico",
-    "artist": "M.S.S Project",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "568aef8c15cc834f",
-    "title": "腐れ外道とチョコレゐト",
-    "genre": "niconico",
-    "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": 14.8
   },
   {
     "id": "874ac79187f1b2fc",
-    "title": "アウターサイエンス",
-    "genre": "niconico",
-    "artist": "じん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "d5de8eb4cf44eb8a",
-    "title": "四次元跳躍機関",
-    "genre": "東方Project",
-    "artist": "koutaq",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "d3f376f8600208df",
-    "title": "東方妖々夢 ～the maximum moving about～",
-    "genre": "東方Project",
-    "artist": "石鹸屋",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "7d2bc3100aabcd91",
-    "title": "少女幻葬戦慄曲　～　Necro Fantasia",
-    "genre": "東方Project",
-    "artist": "どぶウサギ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "6512a534b60d69e4",
-    "title": "橙の幻想郷音頭",
-    "genre": "東方Project",
-    "artist": "発熱巫女～ず",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.7,
+    "dif_ult": null
   },
   {
     "id": "3d90a3c07e2bb52d",
-    "title": "The Formula",
-    "genre": "VARIETY",
-    "artist": "Junk",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "ff2b76350974aeb3",
@@ -619,17 +619,17 @@
   },
   {
     "id": "9fc759b5a31a9db3",
-    "title": "イカサマライフゲイム",
-    "genre": "niconico",
-    "artist": "kemu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": 14.1
   },
   {
     "id": "2be5105d242aced0",
-    "title": "シリョクケンサ",
-    "genre": "niconico",
-    "artist": "40mP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "f6a9db47893cc738",
@@ -653,10 +653,10 @@
   },
   {
     "id": "f63593962b835d57",
-    "title": "Äventyr",
-    "genre": "VARIETY",
-    "artist": "Grand Thaw / Rigel Theatre",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "93d80b988ecc9e5b",
@@ -680,10 +680,10 @@
   },
   {
     "id": "983e4d7a658c28cc",
-    "title": "Guilty",
-    "genre": "ORIGINAL",
-    "artist": "MintJam",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": 14.2
   },
   {
     "id": "d00b6fcde2f1b517",
@@ -697,31 +697,31 @@
   },
   {
     "id": "2d79d9daa6d22818",
-    "title": "Altale",
-    "genre": "VARIETY",
-    "artist": "削除",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "7aa888dba90ff97b",
-    "title": "ODDS&ENDS",
-    "genre": "niconico",
-    "artist": "ryo(supercell)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 10.6,
+    "dif_ult": 13.5
   },
   {
     "id": "b291ee2c0592f47f",
-    "title": "Aragami",
-    "genre": "VARIETY",
-    "artist": "xi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 14.6,
+    "dif_ult": null
   },
   {
     "id": "43d56d31916b37ac",
-    "title": "Change Our MIRAI！",
-    "genre": "イロドリミドリ",
-    "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "f3bee2543add532c",
@@ -735,17 +735,17 @@
   },
   {
     "id": "5a47fcf38690b945",
-    "title": "こころここから",
-    "genre": "ORIGINAL",
-    "artist": "ふわりP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.3,
+    "dif_ult": null
   },
   {
     "id": "54f0d142be5c77e6",
-    "title": "Theme of SeelischTact",
-    "genre": "ORIGINAL",
-    "artist": "植松 伸夫",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": 14.3
   },
   {
     "id": "9fcfd60316a1e145",
@@ -769,10 +769,10 @@
   },
   {
     "id": "d4e7f3bb6b683aad",
-    "title": "Alma",
-    "genre": "ORIGINAL",
-    "artist": "光田 康典",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "7246667a74713533",
@@ -796,52 +796,52 @@
   },
   {
     "id": "56d40f7198dc6c71",
-    "title": "フォルテシモBELL",
-    "genre": "イロドリミドリ",
-    "artist": "天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11,
+    "dif_ult": null
   },
   {
     "id": "81eebb19af02dd1e",
-    "title": "ジングルベル",
-    "genre": "POPS&ANIME",
-    "artist": "SEGA Sound Unit[H.]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 14.6,
+    "dif_ult": 15
   },
   {
     "id": "ac20aab4e9ef1ca8",
-    "title": "言ノ葉遊戯",
-    "genre": "ゲキマイ",
-    "artist": "S!N・高橋菜々×ひとしずく・やま△",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "176a311ee02f8387",
-    "title": "私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察",
-    "genre": "イロドリミドリ",
-    "artist": "小仏 凪(CV:佐倉 薫)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "4534467daebe2370",
-    "title": "幾四音-Ixion-",
-    "genre": "ORIGINAL",
-    "artist": "M.S.S Project",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": 14.3
   },
   {
     "id": "89a9f9b61896cce7",
-    "title": "ぼくらの16bit戦争",
-    "genre": "niconico",
-    "artist": "sasakure.UK",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.1,
+    "dif_ult": null
   },
   {
     "id": "1696bfc0499cda7f",
-    "title": "裏表ラバーズ",
-    "genre": "niconico",
-    "artist": "wowaka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.1,
+    "dif_ult": 14
   },
   {
     "id": "16ea1381844444cd",
@@ -855,10 +855,10 @@
   },
   {
     "id": "6b0ad4cecd49e393",
-    "title": "ネトゲ廃人シュプレヒコール",
-    "genre": "niconico",
-    "artist": "さつき が てんこもり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": 14.3
   },
   {
     "id": "7dc2afc869035791",
@@ -872,10 +872,10 @@
   },
   {
     "id": "22a29eff86a028b5",
-    "title": "DETARAME ROCK&ROLL THEORY",
-    "genre": "イロドリミドリ",
-    "artist": "箱部 なる(CV:M・A・O)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "00105450e5b83f4b",
@@ -899,10 +899,10 @@
   },
   {
     "id": "e571bfa4d9066667",
-    "title": "Jimang Shot",
-    "genre": "東方Project",
-    "artist": "じまんぐ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "d84d0ff24ec52aa7",
@@ -916,10 +916,10 @@
   },
   {
     "id": "0a354b6ad5d7d310",
-    "title": "すろぉもぉしょん",
-    "genre": "niconico",
-    "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": 14
   },
   {
     "id": "2ae296edb90c1cad",
@@ -933,17 +933,17 @@
   },
   {
     "id": "36ec36ae072d237d",
-    "title": "ユクエシレズ",
-    "genre": "niconico",
-    "artist": "こじろー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "800f86254a52ade8",
-    "title": "ってゐ！　～えいえんてゐVer～",
-    "genre": "東方Project",
-    "artist": "石鹸屋",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "89593fab2916e1f0",
@@ -977,38 +977,38 @@
   },
   {
     "id": "53197bcf0d30d3d4",
-    "title": "幽闇に目醒めしは",
-    "genre": "東方Project",
-    "artist": "セブンスヘブンMAXION",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "4e5affdbd471f2b8",
-    "title": "Starlight Vision",
-    "genre": "東方Project",
-    "artist": "矢鴇つかさ feat. 三澤秋",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "b36793567a3e0686",
-    "title": "Club Ibuki in Break All",
-    "genre": "東方Project",
-    "artist": "void＋夕野ヨシミ (IOSYS) feat.藤原鞠菜",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "524062c7c1ff67ac",
-    "title": "Phantasm Brigade",
-    "genre": "東方Project",
-    "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 14.1,
+    "dif_ult": null
   },
   {
     "id": "5d108e9ff5548ce3",
-    "title": "永遠のメロディ",
-    "genre": "東方Project",
-    "artist": "あ～るの～と（いえろ～ぜぶら）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "8fd5afa160701236",
@@ -1052,10 +1052,10 @@
   },
   {
     "id": "f90aa0963b0e6fc4",
-    "title": "無敵We are one!!",
-    "genre": "イロドリミドリ",
-    "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "4173c3b1c261a716",
@@ -1079,17 +1079,17 @@
   },
   {
     "id": "cdc328cf2c3206b6",
-    "title": "FLOWER",
-    "genre": "VARIETY",
-    "artist": "DJ YOSHITAKA",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": 14.2
   },
   {
     "id": "4594ee4f0b315577",
-    "title": "ちくわパフェだよ☆CKP",
-    "genre": "VARIETY",
-    "artist": "日向美ビタースイーツ♪",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": 14.4
   },
   {
     "id": "6ab968232b88d9e3",
@@ -1113,52 +1113,52 @@
   },
   {
     "id": "3b37a965f0ca0f10",
-    "title": "アスノヨゾラ哨戒班",
-    "genre": "niconico",
-    "artist": "Orangestar",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": 14
   },
   {
     "id": "067f8956e3e16597",
-    "title": "天樂",
-    "genre": "niconico",
-    "artist": "ゆうゆ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "c6612abccf575c1e",
-    "title": "いろは唄",
-    "genre": "niconico",
-    "artist": "銀サク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "3d92f357d19e7df8",
-    "title": "星屑ユートピア",
-    "genre": "niconico",
-    "artist": "otetsu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "8d0a8e7fec4f0a1c",
-    "title": "放課後革命",
-    "genre": "niconico",
-    "artist": "放課後楽園部 「ミカグラ学園組曲」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "be7535a4d7df2ae8",
-    "title": "楽園ファンファーレ",
-    "genre": "niconico",
-    "artist": "放課後楽園部 「ミカグラ学園組曲」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "f0b0451a4b9bf3de",
-    "title": "サウンドプレイヤー",
-    "genre": "ORIGINAL",
-    "artist": "tilt-six feat.バル",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "2828b7493697d32e",
@@ -1172,10 +1172,10 @@
   },
   {
     "id": "e08594e728a4ccdf",
-    "title": "如月アテンション",
-    "genre": "niconico",
-    "artist": "じん 「カゲロウプロジェクト」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "02bf7b24789ac792",
@@ -1199,17 +1199,17 @@
   },
   {
     "id": "1c0a02e055299f4a",
-    "title": "恋愛裁判",
-    "genre": "niconico",
-    "artist": "40mP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "2247941e89c5c7b2",
-    "title": "ウミユリ海底譚",
-    "genre": "niconico",
-    "artist": "n-buna",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "3763d63650af415b",
@@ -1223,17 +1223,17 @@
   },
   {
     "id": "75c5e6b717a53cda",
-    "title": "洗脳",
-    "genre": "ゲキマイ",
-    "artist": "ゆりん・柿チョコ×Neru",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "9497d446890085cc",
-    "title": "このふざけた素晴らしき世界は、僕の為にある",
-    "genre": "niconico",
-    "artist": "n.k",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "fa27a46bb0f9c58b",
@@ -1267,10 +1267,10 @@
   },
   {
     "id": "ac79d8b997d193df",
-    "title": "アルストロメリア",
-    "genre": "VARIETY",
-    "artist": "TAG",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": 14.6
   },
   {
     "id": "b29bc0aecbf458cb",
@@ -1294,17 +1294,17 @@
   },
   {
     "id": "6edeb2a83d352ec5",
-    "title": "回レ！雪月花",
-    "genre": "POPS&ANIME",
-    "artist": "歌組雪月花 夜々(原田 ひとみ)/いろり(茅野 愛衣)/小紫(小倉 唯) 「機巧少女は傷つかない」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": 14
   },
   {
     "id": "59d36fe89528644b",
-    "title": "Help me, あーりん！",
-    "genre": "イロドリミドリ",
-    "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "ff23829f91c7b5ec",
@@ -1348,17 +1348,17 @@
   },
   {
     "id": "c74b4d7a39299502",
-    "title": "Crazy ∞ nighT",
-    "genre": "niconico",
-    "artist": "ひとしずく×やま△",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "4a248159a9d2ccfb",
-    "title": "愛迷エレジー",
-    "genre": "niconico",
-    "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "781d20ff0c1ed0b6",
@@ -1422,17 +1422,17 @@
   },
   {
     "id": "13c1e2adca94483b",
-    "title": "D.E.A.D.L.Y.",
-    "genre": "ORIGINAL",
-    "artist": "さつき が てんこもり feat.YURiCa/花たん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "3ac40ccc47f446ee",
-    "title": "ロボットプラネットユートピア",
-    "genre": "ORIGINAL",
-    "artist": "lumo",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "eb4b050ef22cd4ea",
@@ -1446,38 +1446,38 @@
   },
   {
     "id": "a5e2b3faa4ccb586",
-    "title": "Hand in Hand",
-    "genre": "niconico",
-    "artist": "livetune",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "82551496fa7d150b",
-    "title": "My Dearest Song",
-    "genre": "イロドリミドリ",
-    "artist": "月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "f29d7a0029b751c1",
-    "title": "猫祭り",
-    "genre": "イロドリミドリ",
-    "artist": "箱部 なる(CV:M・A・O)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "9ec13dbcce022bb2",
-    "title": "ゲシュタルト！テスト期間！！",
-    "genre": "ORIGINAL",
-    "artist": "solfa feat.茶太",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "0307d20996bbb654",
-    "title": "心象蜃気楼",
-    "genre": "ORIGINAL",
-    "artist": "Orangestar",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "91deec6471b5e00c",
@@ -1491,10 +1491,10 @@
   },
   {
     "id": "766401b34fde6187",
-    "title": "エンヴィキャットウォーク",
-    "genre": "niconico",
-    "artist": "トーマ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "044d6633be57e718",
@@ -1508,66 +1508,66 @@
   },
   {
     "id": "1d56c911016c0a72",
-    "title": "有頂天ビバーチェ",
-    "genre": "niconico",
-    "artist": "Last Note.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "0e67ae076a65f06d",
-    "title": "ビバハピ",
-    "genre": "niconico",
-    "artist": "Mitchie M",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "a019cd85a1d5bbf0",
-    "title": "願い星",
-    "genre": "ORIGINAL",
-    "artist": "霜月はるか",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "e9e2549afb0a91a6",
-    "title": "愛言葉",
-    "genre": "niconico",
-    "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "d7bc3379d7105bb1",
-    "title": "後夜祭",
-    "genre": "ORIGINAL",
-    "artist": "田口囁一／感傷ベクトル",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "c4e715eb81bbe74e",
-    "title": "TRUST",
-    "genre": "イロドリミドリ",
-    "artist": "小仏 凪(CV:佐倉 薫)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "a9b9bd80f7780975",
-    "title": "からくりピエロ",
-    "genre": "niconico",
-    "artist": "40mP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "b85f312f5a459f5b",
-    "title": "深海少女",
-    "genre": "niconico",
-    "artist": "ゆうゆ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "4de2afef9782a50e",
-    "title": "リモコン",
-    "genre": "niconico",
-    "artist": "じーざすP（ワンダフル☆オポチュニティ！）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "a287995a62b29dc5",
@@ -1581,17 +1581,17 @@
   },
   {
     "id": "602fd7b0560c9a25",
-    "title": "アカツキアライヴァル",
-    "genre": "niconico",
-    "artist": "Last Note.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "44700e9036e65dc5",
-    "title": "神曲",
-    "genre": "niconico",
-    "artist": "おにゅうP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "17d0e13c6c0a8fc1",
@@ -1605,17 +1605,17 @@
   },
   {
     "id": "2127b75cb68dc28b",
-    "title": "メルト",
-    "genre": "niconico",
-    "artist": "supercell",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "5f5f32c1a253a245",
-    "title": "Tell Your World",
-    "genre": "niconico",
-    "artist": "livetune",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "b1e34f45450a8fc3",
@@ -1629,10 +1629,10 @@
   },
   {
     "id": "265ac0506c51a592",
-    "title": "First Twinkle",
-    "genre": "ORIGINAL",
-    "artist": "折戸伸治 feat.北沢綾香",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "52715614f2f32364",
@@ -1646,24 +1646,24 @@
   },
   {
     "id": "d2b588eb12e8e75b",
-    "title": "檄!帝国華撃団",
-    "genre": "VARIETY",
-    "artist": "真宮寺さくら（横山智佐）＆帝国歌劇団「サクラ大戦」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "6db740de7f39dbb9",
-    "title": "Kronos",
-    "genre": "VARIETY",
-    "artist": "削除",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "45504267218d2fc1",
-    "title": "月に叢雲華に風",
-    "genre": "東方Project",
-    "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "e1a4ea6d5acbec9f",
@@ -1687,38 +1687,38 @@
   },
   {
     "id": "ba80521ccd482f18",
-    "title": "響",
-    "genre": "ORIGINAL",
-    "artist": "志方あきこ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "1f0995b10f979713",
-    "title": "風仁雷仁",
-    "genre": "VARIETY",
-    "artist": "カラフル・サウンズ・ポート",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": 14.9
   },
   {
     "id": "53fe4d113cfec2c1",
-    "title": "PRIVATE SERVICE",
-    "genre": "VARIETY",
-    "artist": "from PACA PACA PASSION 2",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": 14.9
   },
   {
     "id": "5e1a37f35fc21f70",
-    "title": "No Routine",
-    "genre": "東方Project",
-    "artist": "A-One",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "b6dfa2bbbcde3a3f",
-    "title": "白い雪のプリンセスは",
-    "genre": "niconico",
-    "artist": "のぼる↑",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "e4735d83f13eaeb7",
@@ -1732,17 +1732,17 @@
   },
   {
     "id": "7663e24cf354d785",
-    "title": "Dreams Dreams:Kids Ver.",
-    "genre": "VARIETY",
-    "artist": "Tomoko Sasaki「NiGHTS～星降る夜の物語～」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 10.4,
+    "dif_ult": null
   },
   {
     "id": "d1d0c0d5d0d312f6",
-    "title": "In The Blue Sky '01",
-    "genre": "VARIETY",
-    "artist": "電脳戦機バーチャロンフォース",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "2434714a80b5b4d8",
@@ -1786,10 +1786,10 @@
   },
   {
     "id": "1c3ac2f63de5c628",
-    "title": "みくみくにしてあげる♪【してやんよ】",
-    "genre": "niconico",
-    "artist": "ika",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "e65756cc3f647986",
@@ -1813,24 +1813,24 @@
   },
   {
     "id": "fd57e444ff6ed036",
-    "title": "Say A Vengeance",
-    "genre": "VARIETY",
-    "artist": "ETIA. feat.Jenga",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "89292bc38726e570",
-    "title": "010",
-    "genre": "VARIETY",
-    "artist": "eoll",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "2a60dce049cbda32",
-    "title": "ERIS -Legend of Gaidelia-",
-    "genre": "VARIETY",
-    "artist": "Grand Thaw / Rigel Theatre",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": 15.1
   },
   {
     "id": "718d04f1762f4f20",
@@ -1864,17 +1864,17 @@
   },
   {
     "id": "cf70c675c363a477",
-    "title": "Her Majesty",
-    "genre": "VARIETY",
-    "artist": "naotyu-",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "d224ce0154a15e01",
-    "title": "Sakura Fubuki",
-    "genre": "VARIETY",
-    "artist": "Street",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "4fe98cb6f2d6551e",
@@ -1898,31 +1898,31 @@
   },
   {
     "id": "3b54b1a6e3d8a482",
-    "title": "STAIRWAY TO GENERATION",
-    "genre": "VARIETY",
-    "artist": "Yosh(Survive Said The Prophet)「ボーダーブレイク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "62960f82ec28c58a",
-    "title": "ドキドキDREAM!!!",
-    "genre": "イロドリミドリ",
-    "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": 13.8
   },
   {
     "id": "1ec97056483332c2",
-    "title": "猛進ソリストライフ！",
-    "genre": "イロドリミドリ",
-    "artist": "月鈴 那知(CV:今村 彩夏)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": 14.8
   },
   {
     "id": "dbe985da9a603b65",
-    "title": "空威張りビヘイビア",
-    "genre": "ゲキマイ",
-    "artist": "un:c・ろん×じーざすP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": 14
   },
   {
     "id": "6d7bb735080642de",
@@ -1956,45 +1956,45 @@
   },
   {
     "id": "3f998db84b00a3f5",
-    "title": "シジョウノコエ VOCALO ver.",
-    "genre": "niconico",
-    "artist": "OSTER project",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "2c7bc051caa89353",
-    "title": "Tic Tac DREAMIN’",
-    "genre": "イロドリミドリ",
-    "artist": "天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "095c52a3ef2eb1c4",
-    "title": "SPICY SWINGY STYLE",
-    "genre": "イロドリミドリ",
-    "artist": "明坂 芹菜(CV:新田 恵海)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "462c8e9ea34224b6",
-    "title": "RevolutionGame",
-    "genre": "ORIGINAL",
-    "artist": "れるりり feat.ろん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "c99320b334406c85",
-    "title": "Still",
-    "genre": "イロドリミドリ",
-    "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "1239368ae1d67e10",
-    "title": "おまかせ！！トラブルメイ娘☆とれびちゃん",
-    "genre": "ORIGINAL",
-    "artist": "かたほとり feat.桃箱",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.1,
+    "dif_ult": null
   },
   {
     "id": "e865a75f6e0f32c3",
@@ -2008,38 +2008,38 @@
   },
   {
     "id": "e5ac86edb237b44e",
-    "title": "ラブリー☆えんじぇる!!",
-    "genre": "POPS&ANIME",
-    "artist": "あべにゅうぷろじぇくと feat.佐倉紗織&井上みゆ「パチスロ快盗天使ツインエンジェル」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "210da6f0e14ca105",
-    "title": "Face of Fact",
-    "genre": "POPS&ANIME",
-    "artist": "KOTOKO",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "171ba8edd0345c78",
-    "title": "true my heart -Lovable mix-",
-    "genre": "POPS&ANIME",
-    "artist": "ave;new feat.佐倉紗織",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "2fd2a7c95294c2a5",
-    "title": "桜ノ雨",
-    "genre": "niconico",
-    "artist": "halyosy",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11,
+    "dif_ult": null
   },
   {
     "id": "5236f1ee88121c5f",
-    "title": "いーあるふぁんくらぶ",
-    "genre": "niconico",
-    "artist": "みきとP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "99467e7a35967d96",
@@ -2053,38 +2053,38 @@
   },
   {
     "id": "87d29c3a5e1b129d",
-    "title": "エイリアンエイリアン",
-    "genre": "niconico",
-    "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "518bcf5b94df3521",
-    "title": "虎視眈々",
-    "genre": "niconico",
-    "artist": "梅とら",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "c5da6c694310222f",
-    "title": "アンハッピーリフレイン",
-    "genre": "niconico",
-    "artist": "wowaka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "ef39fe3e6e62ea80",
-    "title": "すきなことだけでいいです",
-    "genre": "niconico",
-    "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "dcb9566239106825",
-    "title": "デリヘル呼んだら君が来た",
-    "genre": "niconico",
-    "artist": "ナナホシ管弦楽団",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "266e53129455ee1e",
@@ -2098,59 +2098,59 @@
   },
   {
     "id": "c60939e628cc3956",
-    "title": "だんだん早くなる",
-    "genre": "niconico",
-    "artist": "40mP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "64b62db1b97e751f",
-    "title": "ECHO",
-    "genre": "niconico",
-    "artist": "CIRCRUSH",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "f19c208da7ca956e",
-    "title": "泡沫、哀のまほろば",
-    "genre": "東方Project",
-    "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "5f31277a35ba0894",
-    "title": "愛き夜道 feat. ランコ、雨天決行",
-    "genre": "東方Project",
-    "artist": "魂音泉",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "fc301f37406c1ae4",
-    "title": "Starlight Dance Floor",
-    "genre": "東方Project",
-    "artist": "発熱巫女～ず",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "e84d69b0fc61ee1b",
-    "title": "Witches night",
-    "genre": "東方Project",
-    "artist": "Liz Triangle",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "9241cc1a18f5f0a7",
-    "title": "Help me, ERINNNNNN!! -Cranky remix-",
-    "genre": "東方Project",
-    "artist": "ビートまりお × Cranky",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "1eefbfd353c1fefd",
-    "title": "仙酌絶唱のファンタジア",
-    "genre": "東方Project",
-    "artist": "博麗神社例大祭コラボユニット",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "2d21501804d745b5",
@@ -2204,17 +2204,17 @@
   },
   {
     "id": "84bc966c092376ca",
-    "title": "Bird Sprite",
-    "genre": "VARIETY",
-    "artist": "syatten",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "76de657b941ea1d2",
-    "title": "オモイヨシノ",
-    "genre": "VARIETY",
-    "artist": "loos feat. 柊莉杏",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "ff70df7ecf38c6d1",
@@ -2228,24 +2228,24 @@
   },
   {
     "id": "82b45654d1551751",
-    "title": "若い力 -SEGA HARD GIRLS MIX-",
-    "genre": "POPS&ANIME",
-    "artist": "セガ・ハード・ガールズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "e7595766be8ddb20",
-    "title": "レッツゴー!陰陽師",
-    "genre": "VARIETY",
-    "artist": "「新豪血寺一族 -煩悩解放-」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "e147dfb82d0af463",
-    "title": "あねぺったん",
-    "genre": "イロドリミドリ",
-    "artist": "月鈴姉妹(イロドリミドリ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "6cba75e570efba0c",
@@ -2262,35 +2262,44 @@
     "title": "天国と地獄 -言ノ葉リンネ-",
     "genre": "ゲキマイ",
     "artist": "伊東歌詞太郎・ろん×れるりり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "1e2cee2204e4dcd2",
-    "title": "最愛テトラグラマトン",
-    "genre": "ORIGINAL",
-    "artist": "片霧烈火",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "87381a7274128222",
     "title": "悪戯",
     "genre": "ゲキマイ",
     "artist": "ろん×田中秀和(MONACA)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "4c4d3140b94e9896",
-    "title": "りばーぶ",
-    "genre": "ゲキマイ",
-    "artist": "高橋菜々×岡部啓一(MONACA)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.2,
+    "dif_ult": null
   },
   {
     "id": "c6f2328a05e90b49",
     "title": "Barbed Eye",
     "genre": "ゲキマイ",
     "artist": "柿チョコ×みきとP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "839a569b0bab5603",
@@ -2307,7 +2316,10 @@
     "title": "相思創愛",
     "genre": "ゲキマイ",
     "artist": "伊東歌詞太郎・ろん×まらしぃ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "6b826dbf0135ce93",
@@ -2331,10 +2343,10 @@
   },
   {
     "id": "68fa3025ed78a6a2",
-    "title": "地球最後の告白を",
-    "genre": "niconico",
-    "artist": "kemu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "48fb09ddc956a9a0",
@@ -2361,28 +2373,34 @@
     "title": "Through The Tower",
     "genre": "VARIETY",
     "artist": "SoundTeMP「ラグナロクオンライン」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "802de576f7e064bc",
-    "title": "前前前世",
-    "genre": "POPS&ANIME",
-    "artist": "RADWIMPS「君の名は。」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "7b570ebe496faf94",
     "title": "華鳥風月",
     "genre": "東方Project",
     "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "d8217f750c13fdbd",
-    "title": "儚きもの人間",
-    "genre": "東方Project",
-    "artist": "豚乙女",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "19426d5881496deb",
@@ -2409,7 +2427,10 @@
     "title": "ＧＯ！ＧＯ！ラブリズム♥ ～あーりん書類審査通過記念Ver.～",
     "genre": "イロドリミドリ",
     "artist": "御形アリシアナオンザイロドリマンション(イロドリミドリ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "b8bd254c61904f7c",
@@ -2423,17 +2444,17 @@
   },
   {
     "id": "16c19562b1a97a5e",
-    "title": "光線チューニング",
-    "genre": "ORIGINAL",
-    "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "90dd99fb2b1c91ae",
-    "title": "立川浄穢捕物帳",
-    "genre": "ORIGINAL",
-    "artist": "青島探偵事務所器楽捜査部B担",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "84ff4b4f5577827a",
@@ -2480,21 +2501,27 @@
     "title": "WE GOTTA SOUL",
     "genre": "ORIGINAL",
     "artist": "魂音泉",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "c7a912c0fa85922e",
-    "title": "哀しみ集め",
-    "genre": "ORIGINAL",
-    "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "7ec081a4d8012570",
     "title": "キラメケ→Shoot it Now!",
     "genre": "ORIGINAL",
     "artist": "t+pazolite feat.ななひら",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "5cc8f728393e7f19",
@@ -2518,24 +2545,27 @@
   },
   {
     "id": "c426773d00677581",
-    "title": "エレクトロサチュレイタ",
-    "genre": "niconico",
-    "artist": "tilt-six",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "f90a92569531a7ee",
     "title": "Palette",
     "genre": "niconico",
     "artist": "ゆよゆっペ/meola",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "249b7ef512d92473",
-    "title": "アマツキツネ",
-    "genre": "niconico",
-    "artist": "まらしぃ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "94a73ff56655cb8c",
@@ -2552,7 +2582,10 @@
     "title": "のぼれ！すすめ！高い塔",
     "genre": "niconico",
     "artist": "きくお",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.3,
+    "dif_ult": null
   },
   {
     "id": "1ca5c440fbbf741d",
@@ -2569,56 +2602,71 @@
     "title": "Vampire",
     "genre": "POPS&ANIME",
     "artist": "電気式華憐音楽集団",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": 15.1
   },
   {
     "id": "23a469d0242d0eb6",
     "title": "ケロ⑨destiny",
     "genre": "東方Project",
     "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "fa732ce3d016a1dd",
     "title": "Last Moments",
     "genre": "東方Project",
     "artist": "NJK Record (3L&maria♂polo)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "cec1b450cea2ee81",
-    "title": "風に乗せた願い",
-    "genre": "東方Project",
-    "artist": "豚乙女",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "ca349b61d106c70a",
-    "title": "天狗の落とし文 feat. ｙｔｒ",
-    "genre": "東方Project",
-    "artist": "魂音泉",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "93444ebc43d6d7ac",
     "title": "星色夜空",
     "genre": "東方Project",
     "artist": "あ～るの～と（いえろ～ぜぶら＆電開製作所）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.5,
+    "dif_ult": null
   },
   {
     "id": "b31dde99acf2d78b",
-    "title": "物凄い勢いでけーねが物凄いうた",
-    "genre": "東方Project",
-    "artist": "Halozy",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": 13.5
   },
   {
     "id": "4613f4ced9f8c688",
     "title": "Wake up Dreamer",
     "genre": "ORIGINAL",
     "artist": "Junk",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "5b6c15e4c7bd7c67",
@@ -2715,63 +2763,90 @@
     "title": "ホシトハナ",
     "genre": "POPS&ANIME",
     "artist": "讃州中学勇者部(照井春佳、三森すずこ、内山夕実、黒沢ともよ、長妻樹里)「結城友奈は勇者である」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "4c9daf5c56f565e8",
     "title": "Just Be Friends",
     "genre": "niconico",
     "artist": "Dixie Flatline",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "d4c9858aaae41734",
     "title": "炉心融解",
     "genre": "niconico",
     "artist": "iroha(sasaki)／kuma(alfred)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "0c768f466a21abe8",
     "title": "Fire◎Flower",
     "genre": "niconico",
     "artist": "halyosy",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "b79717aaefdf7ff0",
     "title": "卑怯戦隊うろたんだー",
     "genre": "niconico",
     "artist": "シンP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "c7f796eb7e7e45e3",
     "title": "イロトリドリのメロディ",
     "genre": "イロドリミドリ",
     "artist": "小仏 凪(CV:佐倉 薫)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "8f381edbe375e374",
     "title": "セハガガガンバッちゃう！！",
     "genre": "POPS&ANIME",
     "artist": "Hi☆sCoool! セハガール",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "abc5bcef7faa5a50",
     "title": "Burning Hearts ～炎のANGEL～",
     "genre": "VARIETY",
     "artist": "光吉猛修「バーニングレンジャー」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "79301a16c553915b",
     "title": "Our Fighting",
     "genre": "POPS&ANIME",
     "artist": "クーナ(CV.喜多村英梨)「PHANTASY STAR ONLINE 2」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "00d6b1a6ba53f33e",
@@ -2798,14 +2873,20 @@
     "title": "夢と夢～あの日のメロディ～",
     "genre": "イロドリミドリ",
     "artist": "月鈴姉妹(イロドリミドリ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.2,
+    "dif_ult": null
   },
   {
     "id": "2f231cc9c57dee36",
     "title": "La Baguette Magique",
     "genre": "ORIGINAL",
     "artist": "OSTER project feat.ジェム",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "5ec8520e797c6cef",
@@ -2822,14 +2903,20 @@
     "title": "The Darkness of Valhalla",
     "genre": "ORIGINAL",
     "artist": "うたたP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "b34388f9b32cb914",
     "title": "時の冒険者",
     "genre": "ORIGINAL",
     "artist": "40mP feat.シャノ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "d300c054c179990a",
@@ -2846,7 +2933,10 @@
     "title": "EXECUTOR",
     "genre": "ORIGINAL",
     "artist": "doriko feat.VALSHE",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "cc5d587f353f9175",
@@ -2863,14 +2953,20 @@
     "title": "L'épilogue",
     "genre": "ゲキマイ",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "1d59ea83dbd69cb7",
     "title": "D✪N’T ST✪P R✪CKIN’ ～[✪_✪] MIX～",
     "genre": "ゲキマイ",
     "artist": "EB (aka EarBreaker)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "052b53d90a460247",
@@ -2887,21 +2983,30 @@
     "title": "プリズム",
     "genre": "イロドリミドリ",
     "artist": "御形 アリシアナ(CV:福原 綾香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "469fabcbd22563ff",
     "title": "Clover Heart's",
     "genre": "POPS&ANIME",
     "artist": "真理絵",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "863336ca722a8c04",
     "title": "スイートマジック",
     "genre": "niconico",
     "artist": "ろん×Junky",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "f7acd63f9ecdce6f",
@@ -2918,7 +3023,10 @@
     "title": "Melody！",
     "genre": "東方Project",
     "artist": "あ～るの～と（いえろ～ぜぶら）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "56ca451fae203eb2",
@@ -2945,35 +3053,50 @@
     "title": "フラジール",
     "genre": "niconico",
     "artist": "ぬゆり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "37ca1b6c33eb7a15",
     "title": "Absolunote",
     "genre": "niconico",
     "artist": "Lemm",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "4060cee5c50d8ed7",
     "title": "木彫り鯰と右肩ゾンビ",
     "genre": "niconico",
     "artist": "hanzo",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "4a74ec55f5099c4a",
     "title": "ヒビカセ",
     "genre": "niconico",
     "artist": "GigaReol",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "34067d7f5a25906a",
     "title": "WAVE",
     "genre": "niconico",
     "artist": "niki",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "93814d236c108aab",
@@ -2990,35 +3113,50 @@
     "title": "ETERNAL DRAIN",
     "genre": "VARIETY",
     "artist": "カラフル・サウンズ・ポート",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "9f4b99a545ca0e31",
     "title": "Paradisus-Paradoxum",
     "genre": "POPS&ANIME",
     "artist": "MYTH & ROID「Re:ゼロから始める異世界生活」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "ccd82825d9039578",
     "title": "チルノのパーフェクトさんすう教室　⑨周年バージョン",
     "genre": "東方Project",
     "artist": "IOSYSと愉快な⑨周年フレンズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "c39d8fa4546c3e8d",
     "title": "Cosmic twinkle star",
     "genre": "POPS&ANIME",
     "artist": "クーナ(CV.喜多村英梨)「PHANTASY STAR ONLINE 2」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "d1651a8e49f620a9",
     "title": "終わりなき物語",
     "genre": "POPS&ANIME",
     "artist": "クーナ(CV.喜多村英梨)「PHANTASY STAR ONLINE 2」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "77596b299d16d2d9",
@@ -3035,7 +3173,10 @@
     "title": "Change me",
     "genre": "niconico",
     "artist": "shu-t",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "fe95fdfeb90525d2",
@@ -3052,7 +3193,10 @@
     "title": "砂の惑星 feat. HATSUNE MIKU",
     "genre": "niconico",
     "artist": "ハチ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "c5776bc09e38f057",
@@ -3079,14 +3223,20 @@
     "title": "色は匂へど散りぬるを",
     "genre": "東方Project",
     "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.2,
+    "dif_ult": null
   },
   {
     "id": "a9b0650d86c8b3df",
     "title": "ポルカドット",
     "genre": "イロドリミドリ",
     "artist": "天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.2,
+    "dif_ult": null
   },
   {
     "id": "462f38b42950cb07",
@@ -3113,42 +3263,60 @@
     "title": "ダンスロボットダンス",
     "genre": "niconico",
     "artist": "ナユタン星人「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "c779c710922e0b42",
     "title": "アルカリレットウセイ",
     "genre": "niconico",
     "artist": "かいりきベア「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "8f0a2b750a18f124",
     "title": "キレキャリオン",
     "genre": "niconico",
     "artist": "ポリスピカデリー「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "fa773628b6050695",
     "title": "グラーヴェ",
     "genre": "niconico",
     "artist": "niki「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "2eb390c70bc30791",
     "title": "レトロマニア狂想曲",
     "genre": "niconico",
     "artist": "PolyphonicBranch「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "b6a4458936ccd396",
     "title": "イロドリミドリ杯花映塚全一決定戦公式テーマソング『ウソテイ』",
     "genre": "イロドリミドリ",
     "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "3b51aee378516f8a",
@@ -3165,35 +3333,50 @@
     "title": "未来イマジネーション！",
     "genre": "POPS&ANIME",
     "artist": "SPRiNGS「温泉むすめ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "9eb58ee010e2ec2f",
     "title": "純情-SAKURA-",
     "genre": "POPS&ANIME",
     "artist": "SPRiNGS「温泉むすめ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "31b6d51701adff38",
     "title": "青春サイダー",
     "genre": "POPS&ANIME",
     "artist": "SPRiNGS「温泉むすめ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "ee27f8ed9e3dcc9b",
     "title": "Very! Merry!! Session!!!",
     "genre": "イロドリミドリ",
     "artist": "明坂 芹菜(CV:新田 恵海)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "ae1bd7a3b88f4ba1",
     "title": "popcorn",
     "genre": "ORIGINAL",
     "artist": "happy machine",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "bb05d8dde2480f9c",
@@ -3210,7 +3393,10 @@
     "title": "はちみつアドベンチャー",
     "genre": "ORIGINAL",
     "artist": "Yunomi feat.nicamoq",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "469e180571b5a364",
@@ -3247,77 +3433,110 @@
     "title": "WARNING×WARNING×WARNING",
     "genre": "東方Project",
     "artist": "暁Records",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "4d1ebc29d5246b97",
     "title": "Grip & Break down !!",
     "genre": "東方Project",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "607ca2c33ab36784",
     "title": "ネ！コ！",
     "genre": "POPS&ANIME",
     "artist": "パトリシア・オブ・エンド(CV：高森奈津美)、黒木 未知(CV：仙台エリ)、夕莉 シャチ(CV：浅川悠)、明日原 ユウキ(CV：種﨑敦美)「ノラと皇女と野良猫ハート」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": 14
   },
   {
     "id": "962934633e92a617",
     "title": "マトリョシカ",
     "genre": "niconico",
     "artist": "ハチ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "3eb0bfd66cc6293d",
     "title": "ゴーゴー幽霊船",
     "genre": "POPS&ANIME",
     "artist": "米津玄師",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "6e6a836703b240d0",
     "title": "La Flesvelka",
     "genre": "VARIETY",
     "artist": "Grand Thaw / Rigel Theatre",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "b491f22f74a6da8d",
     "title": "碧き孤島のアングゥィス",
     "genre": "POPS&ANIME",
     "artist": "電気式華憐音楽集団",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "5a1eb57caffd0e1a",
     "title": "ラブって♡ジュエリー♪えんじぇる☆ブレイク！！",
     "genre": "POPS&ANIME",
     "artist": "あべにゅうぷろじぇくと feat.天月めぐる＆如月すみれ「ツインエンジェルBREAK」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "ad9e57df870d0555",
     "title": "ぶれいくるみるくらぶ！",
     "genre": "POPS&ANIME",
     "artist": "みるくちゃん「ツインエンジェルBREAK」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "da440f473749c209",
     "title": "クレッシェンド・ストーリー",
     "genre": "イロドリミドリ",
     "artist": "月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "39a4a15b1f9e2b47",
     "title": "Sentimental Snow",
     "genre": "ORIGINAL",
     "artist": "霜月はるか",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "6113ecc52c1b2412",
@@ -3344,21 +3563,30 @@
     "title": "厨病激発ボーイ",
     "genre": "niconico",
     "artist": "れるりり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "fe6cf96abfe13f50",
     "title": "StargazeR",
     "genre": "niconico",
     "artist": "骨盤P",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "cf916464ee4cb6ba",
     "title": "ゴーストルール",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "13220b949fdfa3fd",
@@ -3375,21 +3603,30 @@
     "title": "TOMORROW",
     "genre": "POPS&ANIME",
     "artist": "Machico「この素晴らしい世界に祝福を！2」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "b550fe7a828669d4",
     "title": "Super Lovely (Heavenly Remix)",
     "genre": "VARIETY",
     "artist": "EarBreaker feat. Mes w/光吉猛修",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.3,
+    "dif_ult": null
   },
   {
     "id": "5ec6956557cb7eee",
     "title": "Chocolate Happy",
     "genre": "VARIETY",
     "artist": "Carotte☆（ripple＆めらみぽっぷ）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "2196fd5149d6bb1c",
@@ -3406,42 +3643,60 @@
     "title": "ここで一席！　Oshama Scramble!",
     "genre": "イロドリミドリ",
     "artist": "なずな師匠＆小仏亭ちゃんなぎ(イロドリミドリ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "a91c1bfb21b8db93",
     "title": "ウサテイ",
     "genre": "東方Project",
     "artist": "あまね＋ビートまりお(COOL＆CREATE)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "e6292a1d41d594f2",
     "title": "Scream out! -CHUNITHM Tuning-",
     "genre": "東方Project",
     "artist": "A-One",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "29d8cd40926b1eda",
     "title": "Spring of Dreams",
     "genre": "東方Project",
     "artist": "3L (NJK Record)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "8dc0f6774a19045f",
     "title": "Floating Darkness",
     "genre": "東方Project",
     "artist": "Tatsh feat. 月子",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "b9ba6a765c67d7d5",
     "title": "Change Our MIRAI！ (Our 7 Lights)",
     "genre": "イロドリミドリ",
     "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "638f003b58d98576",
@@ -3508,14 +3763,20 @@
     "title": "アンノウン・マザーグース",
     "genre": "niconico",
     "artist": "wowaka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "9123b03e4fccea54",
     "title": "ゆけむり魂温泉 II",
     "genre": "東方Project",
     "artist": "魂音泉",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "26037703f7abac2c",
@@ -3552,119 +3813,170 @@
     "title": "つるぺったん",
     "genre": "東方Project",
     "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "ad44dff7e0d6f05d",
     "title": "咲キ誇レ常世ノ華",
     "genre": "ゲキマイ",
     "artist": "Sou×マチゲリータ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "bf2e7cfd03290f1a",
     "title": "チルノおかんのさいきょう☆バイブスごはん",
     "genre": "東方Project",
     "artist": "D.watt feat. ビートまりお (COOL&CREATE)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "036d756e437233d5",
     "title": "放課後ストライド",
     "genre": "niconico",
     "artist": "Last Note.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "098c3a1faf2fb707",
     "title": "きゅうりバーにダイブ",
     "genre": "東方Project",
     "artist": "ゆずひこ feat.めらみぽっぷ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.4,
+    "dif_ult": null
   },
   {
     "id": "20ab3204039a2e7d",
     "title": "むしとりのうた",
     "genre": "VARIETY",
     "artist": "清水一人(歌：近藤佳奈子)「新甲虫王者ムシキング」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7,
+    "dif_mas": 11,
+    "dif_ult": null
   },
   {
     "id": "110b6c73caa7c818",
     "title": "ミリオン／ワンズ",
     "genre": "niconico",
     "artist": "じん×kemu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "d813b42f85caacbe",
     "title": "ブリキノダンス",
     "genre": "niconico",
     "artist": "日向電工",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "98cc4616dd12fad9",
     "title": "フリィダム ロリィタ",
     "genre": "niconico",
     "artist": "ねじ式",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "903da57875dd46a1",
     "title": "DAYBREAK FRONTLINE",
     "genre": "niconico",
     "artist": "Orangestar",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "0343145cf476d0e3",
     "title": "バレリーコ",
     "genre": "niconico",
     "artist": "みきとP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "0d6e43c3917f39b7",
     "title": "輪廻転生",
     "genre": "niconico",
     "artist": "まふまふ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "b36f0c4c98212152",
     "title": "地獄の端にて君を待つ",
     "genre": "東方Project",
     "artist": "石鹸屋",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "fd5a3fac2facc98b",
     "title": "聖少女サクリファイス",
     "genre": "東方Project",
     "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "f631fde3be4f0d51",
     "title": "究極焼肉レストラン！お燐の地獄亭！",
     "genre": "東方Project",
     "artist": "ARM＋夕野ヨシミ (IOSYS) feat.藤枝あかね",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "c990f7db466a419a",
     "title": "WARNING!",
     "genre": "東方Project",
     "artist": "NJK Record",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "dd1f45de2d908010",
     "title": "Paranoia",
     "genre": "東方Project",
     "artist": "DiGiTAL WiNG feat. 花たん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "3fa605a628ae3ad0",
@@ -3751,70 +4063,100 @@
     "title": "Papyrus",
     "genre": "VARIETY",
     "artist": "papyrus (orangentle)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "a4cd5a23735c8415",
     "title": "Black Lair",
     "genre": "VARIETY",
     "artist": "削除 feat. void (Mournfinale)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "00e2bd0a399a0e8d",
     "title": "オーケー？　オーライ！",
     "genre": "イロドリミドリ",
     "artist": "五十嵐 撫子(CV:花井 美春)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "4adc6397f1fe0608",
     "title": "Black'n White JAMMIN' CATS",
     "genre": "イロドリミドリ",
     "artist": "箱部 なる(CV:M・A・O)＆月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "874e978a4f07a2c5",
     "title": "ライトスピード・デイズ",
     "genre": "イロドリミドリ",
     "artist": "明坂 芹菜(CV:新田 恵海)＆小仏 凪(CV:佐倉 薫)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "96a56e3938994840",
     "title": "Fire me up",
     "genre": "イロドリミドリ",
     "artist": "御形 アリシアナ(CV:福原 綾香)＆天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "cc8e0b7c572d0d0f",
     "title": "朝焼けプラットホーム",
     "genre": "ORIGINAL",
     "artist": "40mP feat.シャノ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "45c81407474c9147",
     "title": "PAST",
     "genre": "ORIGINAL",
     "artist": "164 feat.ウォルピスカーター",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "acd2feaacba15e9c",
     "title": "Blessed",
     "genre": "ORIGINAL",
     "artist": "Palme",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "8c24189a86651bf5",
     "title": "FRIDAY FRIDAY",
     "genre": "ORIGINAL",
     "artist": "emon(Tes.) feat.松平なな",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "5c24f134b841db66",
@@ -3831,14 +4173,20 @@
     "title": "Seagull",
     "genre": "ORIGINAL",
     "artist": "Snail's House",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "aab83db5640133b3",
     "title": "Blaster Heaven",
     "genre": "ORIGINAL",
     "artist": "カヒーナムジカ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "ab0b551f1861450b",
@@ -3855,7 +4203,10 @@
     "title": "Summer is over",
     "genre": "ORIGINAL",
     "artist": "TORIENA",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "21acc638e1b2acba",
@@ -3872,14 +4223,20 @@
     "title": "2DVenture",
     "genre": "ORIGINAL",
     "artist": "dawn-system",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "4a2d11a4ba185887",
     "title": "ぜったい！昇天★鎮魂歌♂",
     "genre": "ORIGINAL",
     "artist": "NirNo",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.3,
+    "dif_ult": null
   },
   {
     "id": "caa97149f8cbd866",
@@ -3916,14 +4273,20 @@
     "title": "涙色メモリア",
     "genre": "ORIGINAL",
     "artist": "キノシタ feat.YURiCa/花たん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "756c4e600189146e",
     "title": "Magic",
     "genre": "ORIGINAL",
     "artist": "niki feat.noire",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "3e6709fb4a8bf392",
@@ -3970,7 +4333,10 @@
     "title": "Solstånd",
     "genre": "ORIGINAL",
     "artist": "Rigel Theatre feat.ミーウェル",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "963c8a66f844993b",
@@ -4007,35 +4373,50 @@
     "title": "CYCLES",
     "genre": "ゲキマイ",
     "artist": "Masayoshi Minoshima feat. 綾倉盟",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "6ef8df0c04393e09",
     "title": "夢花火",
     "genre": "ゲキマイ",
     "artist": "豚乙女",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "b2701619872322cc",
     "title": "FEEL the BEATS",
     "genre": "ゲキマイ",
     "artist": "A-One",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "e12694ecf2efdfd4",
     "title": "ロキ",
     "genre": "niconico",
     "artist": "みきとP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": 14
   },
   {
     "id": "e05c7f9be33ff5d9",
     "title": "Innocent Truth",
     "genre": "ORIGINAL",
     "artist": "Endorfin.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "f89a7138c8e3a496",
@@ -4052,7 +4433,10 @@
     "title": "サヨナラフリーウェイ",
     "genre": "イロドリミドリ",
     "artist": "萩原 七々瀬(CV:東城 日沙子)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "00378e85937c9c8f",
@@ -4079,7 +4463,10 @@
     "title": "Servant of Love",
     "genre": "ORIGINAL",
     "artist": "PandaBoY",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "a40be95f9cdc373e",
@@ -4106,63 +4493,90 @@
     "title": "strelitzia",
     "genre": "ORIGINAL",
     "artist": "zts",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "ee69a84157e5306b",
     "title": "サヨナラチェーンソー",
     "genre": "niconico",
     "artist": "くらげP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "45202504d0a68a11",
     "title": "Seyana. ～何でも言うことを聞いてくれるアカネチャン～",
     "genre": "niconico",
     "artist": "GYARI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "253320feb22cc6f5",
     "title": "はやくそれになりたい！",
     "genre": "niconico",
     "artist": "キノシタ feat. 音街ウナ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "2c6712b6b7cd7bf5",
     "title": "ちがう!!!",
     "genre": "niconico",
     "artist": "カルロス袴田(サイゼP)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "f3a7703ffa4bf88a",
     "title": "雨とペトラ",
     "genre": "niconico",
     "artist": "バルーン",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "7fa5fc38c8239c44",
     "title": "あうんどばいみー",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "6ede3da048178cab",
     "title": "White Traveling Girl",
     "genre": "東方Project",
     "artist": "A-One",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "b9ee8ce3b4292aa5",
     "title": "トランスダンスアナーキー",
     "genre": "東方Project",
     "artist": "暁Records",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "42135c4df65403ac",
@@ -4179,21 +4593,30 @@
     "title": "【東方ニコカラ】秘神マターラ feat.魂音泉【IOSYS】",
     "genre": "東方Project",
     "artist": "ARM (IOSYS)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "27514d13f8a33fa5",
     "title": "Ever green Never end",
     "genre": "イロドリミドリ",
     "artist": "月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "386ac8a31aff2f69",
     "title": "咲かせよ 沸かせよ バンバンBURN！",
     "genre": "POPS&ANIME",
     "artist": "温泉むすめ 下呂美月 役 佐伯伊織「温泉むすめ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "a2db6f007e990c6c",
@@ -4250,42 +4673,60 @@
     "title": "一世嬉遊曲‐ディヴェルティメント‐",
     "genre": "イロドリミドリ",
     "artist": "月鈴 那知(CV:今村 彩夏)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "7f0f63e538faecac",
     "title": "恋のチャイム",
     "genre": "ORIGINAL",
     "artist": "霜月はるか",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "1e5c9d721aa583ff",
     "title": "逃げろ！サテライトキャンパス！！",
     "genre": "ORIGINAL",
     "artist": "solfa feat.茶太",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "5f8601ab51b34f77",
     "title": "THE BRASS OF GOODSPEED!!",
     "genre": "ORIGINAL",
     "artist": "片霧烈火",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "95e56d1a882f2651",
     "title": "カゲロウデイズ",
     "genre": "niconico",
     "artist": "じん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "87768d388b292d0b",
     "title": "妄想感傷代償連盟",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "46ef2e0ca56e419c",
@@ -4302,7 +4743,10 @@
     "title": "Distance",
     "genre": "POPS&ANIME",
     "artist": "村川梨衣「ヒナまつり」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "58e67c0906fa392d",
@@ -4319,28 +4763,40 @@
     "title": "The Pursuit of Speed",
     "genre": "VARIETY",
     "artist": "SoundDrive「龍が如く５　夢、叶えし者」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "0357af500e11d086",
     "title": "光線チューニング ～なずな妄想海フェスイメージトレーニングVer.～",
     "genre": "イロドリミドリ",
     "artist": "ナズナン星人 with せりな・あーりん(イロドリミドリ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "b6184c8af78cd393",
     "title": "39",
     "genre": "niconico",
     "artist": "sasakure.UK x DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "b22c55f6302dd5ac",
     "title": "Funny Funky Freaky",
     "genre": "VARIETY",
     "artist": "mommy",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "36676a714707adca",
@@ -4367,7 +4823,10 @@
     "title": "Agitation！",
     "genre": "イロドリミドリ",
     "artist": "舞ヶ原高校軽音部",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "d6992a762c80ce40",
@@ -4404,21 +4863,30 @@
     "title": "METEOR",
     "genre": "niconico",
     "artist": "DIVELA",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "9eac38102c0d7806",
     "title": "ワールズエンド・ダンスホール",
     "genre": "niconico",
     "artist": "wowaka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "0bc18ae0dba5dab4",
     "title": "Worlds End",
     "genre": "東方Project",
     "artist": "あ～るの～と（いえろ～ぜぶら）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "c608313cf68e6fd1",
@@ -4495,35 +4963,50 @@
     "title": "お嫁にしなさいっ！",
     "genre": "東方Project",
     "artist": "ARM＋夕野ヨシミ (IOSYS)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "05731e4b9a812ef8",
     "title": "待チ人ハ来ズ。",
     "genre": "東方Project",
     "artist": "豚乙女",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "a053af00598653e9",
     "title": "命ばっかり",
     "genre": "niconico",
     "artist": "ぬゆり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "b8762b8138a3c074",
     "title": "テオ",
     "genre": "niconico",
     "artist": "Omoi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "8050cb24ae3c5fee",
     "title": "ハイセンスナンセンス",
     "genre": "niconico",
     "artist": "盛るP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 14.4,
+    "dif_ult": null
   },
   {
     "id": "1189c741e40a3ac9",
@@ -4550,7 +5033,10 @@
     "title": "STARTLINER",
     "genre": "ゲキマイ",
     "artist": "曲：kz(livetune)／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 10.4,
+    "dif_ult": null
   },
   {
     "id": "0be4e4d58174e1f5",
@@ -4597,28 +5083,40 @@
     "title": "UNION",
     "genre": "POPS&ANIME",
     "artist": "OxT「SSSS.GRIDMAN」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "3340c91a9fb0a10e",
     "title": "ただ君に晴れ",
     "genre": "POPS&ANIME",
     "artist": "ヨルシカ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "3e172475d668a2f6",
     "title": "ナンセンス文学",
     "genre": "niconico",
     "artist": "Eve",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "c2be287f8ecfe714",
     "title": "ロスタイムメモリー",
     "genre": "niconico",
     "artist": "じん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "089081b208081064",
@@ -4645,7 +5143,10 @@
     "title": "\"STAR\"T",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa feat.Nadeshiko",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "9b007b5ea2e0147a",
@@ -4682,14 +5183,20 @@
     "title": "サヴァイバル・キリング・メーカー",
     "genre": "ORIGINAL",
     "artist": "じーざす（ワンダフル☆オポチュニティ！） ft.96猫",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "d69fd7b3131fe6f0",
     "title": "ツクヨミステップ",
     "genre": "ORIGINAL",
     "artist": "ユリイ・カノン feat.nameless",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "38c393c50c135f1e",
@@ -4806,14 +5313,20 @@
     "title": "Lover's Trick",
     "genre": "ORIGINAL",
     "artist": "litmus*",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "92614403e7def5ef",
     "title": "まごころのカスクルゥト",
     "genre": "ORIGINAL",
     "artist": "Yu-dachi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.1,
+    "dif_ult": null
   },
   {
     "id": "f0f5da2daac53753",
@@ -4830,56 +5343,80 @@
     "title": "アカリがやってきたぞっ",
     "genre": "niconico",
     "artist": "GYARI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "28c8b0b2757cb3d1",
     "title": "おねがいダーリン",
     "genre": "niconico",
     "artist": "ONE (song by ナナホシ管弦楽団)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "31c213b0e6cd217a",
     "title": "リンカーネイション",
     "genre": "niconico",
     "artist": "kemu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "3afe8669bad27711",
     "title": "太陽系デスコ",
     "genre": "niconico",
     "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "c9f4586a4feb82bc",
     "title": "▲MEW▲△MEW△CAKE",
     "genre": "POPS&ANIME",
     "artist": "KOTOKO「ネコぱら」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.2,
+    "dif_ult": null
   },
   {
     "id": "9a62981cfa7aac82",
     "title": "野良猫ハート",
     "genre": "POPS&ANIME",
     "artist": "パトリシア・オブ・エンド(CV：高森奈津美)、黒木 未知(CV：仙台エリ)、夕莉 シャチ(CV：浅川悠)、明日原 ユウキ(CV：種﨑敦美)「ノラと皇女と野良猫ハート」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "6a00d88000239c23",
     "title": "進捗どうですか？",
     "genre": "東方Project",
     "artist": "sumijun(Halozy) feat. ななひら(Confetto)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "56af59f825a60cd5",
     "title": "単一指向性オーバーブルーム",
     "genre": "イロドリミドリ",
     "artist": "葛城 華(CV:丸岡 和佳奈)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "547e4be9c04330f2",
@@ -4896,7 +5433,10 @@
     "title": "《理想》 ～ Cloudland",
     "genre": "ORIGINAL",
     "artist": "Shi Kuang Lee feat.A-Tz",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "a317f3cbc4f76061",
@@ -4913,7 +5453,10 @@
     "title": "《最愛》 ～ Curse",
     "genre": "ORIGINAL",
     "artist": "James Landino feat.N i i",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "19311f1f1f0351ab",
@@ -4930,21 +5473,30 @@
     "title": "Star Divine",
     "genre": "POPS&ANIME",
     "artist": "スタァライト九九組「少女☆歌劇 レヴュースタァライト」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "fe6244b1d89c00a0",
     "title": "御旗のもとに",
     "genre": "VARIETY",
     "artist": "「サクラ大戦３ ～巴里は燃えているか～」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "991fc7f3e22344ba",
     "title": "みなえをチェック！",
     "genre": "イロドリミドリ",
     "artist": "小野 美苗(CV:伊藤 美来)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "60c0d4c4a3adc8ab",
@@ -4981,28 +5533,40 @@
     "title": "結んで開いて羅刹と骸",
     "genre": "niconico",
     "artist": "ハチ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "4f364349fa68521d",
     "title": "ダブルラリアット",
     "genre": "niconico",
     "artist": "アゴアニキ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "1d9bd07fbe01aaeb",
     "title": "＊ハロー、プラネット。",
     "genre": "niconico",
     "artist": "sasakure.UK",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "509082528f7a94c8",
     "title": "magnet",
     "genre": "niconico",
     "artist": "minato(流星P)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "4913b2176e695381",
@@ -5019,21 +5583,30 @@
     "title": "Endless Seeker",
     "genre": "東方Project",
     "artist": "A-One",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "21fe4fae65d820e7",
     "title": "STRIPES feat. EL.J (2018 reinterpretation)",
     "genre": "東方Project",
     "artist": "発熱巫女～ず",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "ec2d40dc2a3bfa45",
     "title": "Cosmic Magic Shooter",
     "genre": "東方Project",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "44f9d03ff91ff74a",
@@ -5050,7 +5623,10 @@
     "title": "Bad Apple!! feat.nomico (Nhato Remix)",
     "genre": "東方Project",
     "artist": "Masayoshi Minoshima × Nhato",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "d9f9812a43c5f133",
@@ -5067,7 +5643,10 @@
     "title": "Destination",
     "genre": "ORIGINAL",
     "artist": "Nhato",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "ce5488d6cb8e2360",
@@ -5104,14 +5683,20 @@
     "title": "Road without Road",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa feat.Nanase",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "51e37e000a1a42cc",
     "title": "Ladymade Star",
     "genre": "VARIETY",
     "artist": "ESTi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "04eb1ec99c1ee3b7",
@@ -5138,14 +5723,20 @@
     "title": "Rightfully",
     "genre": "POPS&ANIME",
     "artist": "Mili「ゴブリンスレイヤー」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "81e14cc009793b9d",
     "title": "巫女みこナース・愛のテーマ",
     "genre": "POPS&ANIME",
     "artist": "Chu☆",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "dd0db0d2e8ed9fc7",
@@ -5192,14 +5783,20 @@
     "title": "タテマエと本心の大乱闘",
     "genre": "ゲキマイ",
     "artist": "曲：鯨井国家／歌：藍原 椿(CV：橋本 ちなみ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "79fb653c9b8451bc",
     "title": "Zest of Blue",
     "genre": "ゲキマイ",
     "artist": "曲：上松範廉(Elements Garden)／歌：三角 葵(CV：春野 杏)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "c554f04d235a2b30",
@@ -5236,7 +5833,10 @@
     "title": "Catch the Wave",
     "genre": "niconico",
     "artist": "livetune",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "3883c2c121b43c15",
@@ -5263,7 +5863,10 @@
     "title": "やらなきゃいけないことばかり",
     "genre": "イロドリミドリ",
     "artist": "小仏 凪(CV:佐倉 薫)＆月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "ffbeeeff6e06634a",
@@ -5290,14 +5893,20 @@
     "title": "Ghost Dance",
     "genre": "ORIGINAL",
     "artist": "亜沙 feat.くろくも",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "e224036ce6c38a23",
     "title": "モノクロトワイライト",
     "genre": "ORIGINAL",
     "artist": "カラフル・サウンズ・ポート",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "c146bb5205d22963",
@@ -5324,21 +5933,30 @@
     "title": "メルティランドナイトメア",
     "genre": "niconico",
     "artist": "はるまきごはん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "3f3c74adf2ad8145",
     "title": "絶対にチョコミントを食べるアオイチャン",
     "genre": "niconico",
     "artist": "GYARI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "45151403ff953c03",
     "title": "だれかの心臓になれたなら",
     "genre": "niconico",
     "artist": "ユリイ・カノン",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "4b04cc01a5778685",
@@ -5365,7 +5983,10 @@
     "title": "Day by Day CRiSiS Songs",
     "genre": "イロドリミドリ",
     "artist": "御形 アリシアナ(CV:福原 綾香)＆箱部 なる(CV:M・A・O)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "8d280a3e0b500008",
@@ -5382,14 +6003,20 @@
     "title": "7 days a week",
     "genre": "東方Project",
     "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "420ce8668a10b096",
     "title": "メイドと血の懐中時計",
     "genre": "東方Project",
     "artist": "岸田教団&THE明星ロケッツ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "dabc53f59ebded1e",
@@ -5406,7 +6033,10 @@
     "title": "悪戯センセーション",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "104b160baebdff8c",
@@ -5423,7 +6053,10 @@
     "title": "ロング・スロー・アライブ",
     "genre": "ORIGINAL",
     "artist": "はるまきごはん feat.めらみぽっぷ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "6051d208965e754b",
@@ -5480,14 +6113,20 @@
     "title": "アヤカシ",
     "genre": "niconico",
     "artist": "buzzG「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "db2f8b294a09f469",
     "title": "残響",
     "genre": "niconico",
     "artist": "164「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "220904fb98783630",
@@ -5514,7 +6153,10 @@
     "title": "アフタースクール・エモーション",
     "genre": "イロドリミドリ",
     "artist": "明坂 芹菜(CV:新田 恵海)＆天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "154a8551f33f80d4",
@@ -5571,21 +6213,30 @@
     "title": "グリーンライツ・セレナーデ",
     "genre": "niconico",
     "artist": "Omoi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "561aec297373088d",
     "title": "ブレス・ユア・ブレス",
     "genre": "niconico",
     "artist": "和田たけあき",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "51f34a84641d2e1a",
     "title": "Jump for Joy",
     "genre": "niconico",
     "artist": "EasyPop",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "234dba7875774686",
@@ -5632,7 +6283,10 @@
     "title": "檄！帝国華撃団＜新章＞",
     "genre": "VARIETY",
     "artist": "佐倉綾音（天宮さくら）、内田真礼（東雲初穂）、山村響（望月あざみ）、福原綾香（アナスタシア・パルマ）、早見沙織（クラリス）「新サクラ大戦」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "639fc74df0307b6a",
@@ -5649,7 +6303,10 @@
     "title": "君と、この瞬間",
     "genre": "イロドリミドリ",
     "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "4e198b0962af5a0b",
@@ -5706,21 +6363,30 @@
     "title": "Perfect Shining!!",
     "genre": "ゲキマイ",
     "artist": "曲：宮崎誠／歌：星咲 あかり(CV：赤尾 ひかる)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "1723a3dcff84999a",
     "title": "みんな Happy!!",
     "genre": "ゲキマイ",
     "artist": "曲：ヒゲドライバー／歌：藤沢 柚子(CV：久保田 梨沙)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "88283b7c0dead4f9",
     "title": "Here We Go",
     "genre": "ゲキマイ",
     "artist": "曲：TeddyLoid／歌：高瀬 梨緒(CV：久保 ユリカ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "69ba08bdec6fb76c",
@@ -5787,28 +6453,40 @@
     "title": "命に嫌われている",
     "genre": "niconico",
     "artist": "カンザキイオリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "77420b0c5968bafd",
     "title": "乙女解剖",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "80a290bed8d16e61",
     "title": "フィクサー",
     "genre": "niconico",
     "artist": "ぬゆり",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "f2df5a3d86848661",
     "title": "ROAD TO DREAM",
     "genre": "ORIGINAL",
     "artist": "達見 恵 featured by 佐野宏晃",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "6b36289925628ef8",
@@ -5895,7 +6573,10 @@
     "title": "だから僕は音楽を辞めた",
     "genre": "POPS&ANIME",
     "artist": "ヨルシカ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "b38b649a5dbcb92d",
@@ -5912,21 +6593,30 @@
     "title": "彗星ハネムーン",
     "genre": "niconico",
     "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "d02972b680576be8",
     "title": "アンクローズ・ヒューマン",
     "genre": "niconico",
     "artist": "作曲：カジャ　作詞：傘村トータ　編曲：ねじ式　調声：シリア",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "cc332ce793484bf7",
     "title": "ベノム",
     "genre": "niconico",
     "artist": "かいりきベア",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "61fe9ff7387ce35a",
@@ -6033,35 +6723,50 @@
     "title": "愛されなくても君がいる",
     "genre": "niconico",
     "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "2c90b3fb3d59e5c3",
     "title": "ぽかぽかの星",
     "genre": "niconico",
     "artist": "はるまきごはん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 10.9,
+    "dif_ult": null
   },
   {
     "id": "49044d2dbc1644d5",
     "title": "スターナイトスノウ",
     "genre": "niconico",
     "artist": "n-buna × Orangestar",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "f3a1d6d3a83da4bf",
     "title": "白ゆき",
     "genre": "niconico",
     "artist": "n-buna",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "e68a2594b11d2c4f",
     "title": "Shiny Smily Story",
     "genre": "POPS&ANIME",
     "artist": "hololive IDOL PROJECT",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "24c60fabe9001302",
@@ -6078,14 +6783,20 @@
     "title": "しゅわスパ大作戦☆",
     "genre": "東方Project",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "5bc4bb007c435d2e",
     "title": "LOVE EAST",
     "genre": "東方Project",
     "artist": "暁Records",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "a8f208c2716c3042",
@@ -6182,14 +6893,20 @@
     "title": "恋はりんりん☆あーりんベル",
     "genre": "イロドリミドリ",
     "artist": "御形 アリシアナ(CV:福原 綾香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "1ab111108462dfd4",
     "title": "LINK LINK FEVER!!!",
     "genre": "VARIETY",
     "artist": "リンカ (CV: 豊田萌絵)「グルーヴコースター」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "3f6fca72e9371952",
@@ -6236,7 +6953,10 @@
     "title": "ぷよぷよのうた ピコピコミックス",
     "genre": "VARIETY",
     "artist": "あんどうりんご（CV:今井麻美）「ぷよぷよ!!」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "bd2d558c3cc77801",
@@ -6253,14 +6973,20 @@
     "title": "なんかノイズにきこえる",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa feat.Hana",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "fb04a8b6f0a8a465",
     "title": "Over Heart",
     "genre": "イロドリミドリ",
     "artist": "芒崎 奏(CV:立花 理香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "f70496e970495924",
@@ -6287,21 +7013,30 @@
     "title": "レイニーカラー・ウォーターカラー",
     "genre": "ORIGINAL",
     "artist": "烏屋茶房 feat.利香",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "bdcbf3ffd6485d2b",
     "title": "おいでよ！ 高須らいむランド",
     "genre": "ORIGINAL",
     "artist": "柏木るざりん feat.青葉りんご",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "9819acc1b81ad671",
     "title": "Charlatan",
     "genre": "ORIGINAL",
     "artist": "煮ル果実×びす",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "31d2fed74916a983",
@@ -6368,21 +7103,30 @@
     "title": "惑星ループ",
     "genre": "niconico",
     "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "e30cdcf9a8164413",
     "title": "ふぃーばー",
     "genre": "東方Project",
     "artist": "Silver Forest",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "a1fbc70329eab9ae",
     "title": "Earthquake Super Shock",
     "genre": "東方Project",
     "artist": "SOUND HOLIC feat. Nana Takahashi",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "c4dfec3d7e5cd17b",
@@ -6399,7 +7143,10 @@
     "title": "ポーカーフェイス",
     "genre": "東方Project",
     "artist": "少女フラクタル",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 14.1,
+    "dif_ult": null
   },
   {
     "id": "098488ec0eb36783",
@@ -6466,14 +7213,20 @@
     "title": "異世界かるてっと",
     "genre": "POPS&ANIME",
     "artist": "アインズ（CV：日野 聡）、カズマ（CV：福島 潤）、スバル（CV：小林裕介）、ターニャ（CV：悠木 碧）「異世界かるてっと」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "7f67ccbc9c8258f3",
     "title": "正体判明ネームレスガール",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa feat.Minae",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "69b703c020e6e118",
@@ -6500,7 +7253,10 @@
     "title": "BLACK ROSE",
     "genre": "ゲキマイ",
     "artist": "S!N・+α/あるふぁきゅん。×ALI PROJECT",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "7223d4b165b9000c",
@@ -6537,14 +7293,20 @@
     "title": "GranFatalité",
     "genre": "ゲキマイ",
     "artist": "曲：ZAQ／歌：柏木 咲姫(CV：石見 舞菜香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "6f063e577cd9d787",
     "title": "SWEET SHAKE!!",
     "genre": "ゲキマイ",
     "artist": "曲：佐藤純一（fhána）／歌：桜井 春菜(CV：近藤 玲奈)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "89048818766f8c85",
@@ -6611,7 +7373,10 @@
     "title": "セカイはまだ始まってすらいない",
     "genre": "niconico",
     "artist": "ピノキオピー / 初音ミク / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "3d9a3dd58dd16d5c",
@@ -6628,28 +7393,40 @@
     "title": "ハルシナイト",
     "genre": "ORIGINAL",
     "artist": "かしこ。 feat.Cereus",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "25d1f79a7c6d8105",
     "title": "Dark Diver",
     "genre": "ORIGINAL",
     "artist": "emon(Tes.) feat.ねんね",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "857f441fbb3397e5",
     "title": "Tattoo",
     "genre": "ORIGINAL",
     "artist": "みきとP feat. victream",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "0fb093191b079e81",
     "title": "呪歌-JyuKa-",
     "genre": "ORIGINAL",
     "artist": "ガルナ(オワタP) feat.水槽",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "aa6a01351e05ee75",
@@ -6686,14 +7463,20 @@
     "title": "ザ・ライブ革命でSHOW！",
     "genre": "POPS&ANIME",
     "artist": "星井美希、高槻やよい、菊地 真、双海亜美、双海真美、四条貴音「アイドルマスター」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "1336aebd1a38a2ac",
     "title": "Yes! Party Time!!",
     "genre": "POPS&ANIME",
     "artist": "島村卯月、渋谷 凛、本田未央、赤城みりあ、安部菜々「アイドルマスター シンデレラガールズ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "5f0b6c1ca363751b",
@@ -6710,14 +7493,20 @@
     "title": "ヴィラン",
     "genre": "niconico",
     "artist": "てにをは",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "16e456108c92538e",
     "title": "KING",
     "genre": "niconico",
     "artist": "Kanaria",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "579280eedd501222",
@@ -6734,14 +7523,20 @@
     "title": "セカイ",
     "genre": "niconico",
     "artist": "DECO*27×堀江晶太(kemu)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "fad6f0e2eb0eae6e",
     "title": "ローリンガール",
     "genre": "niconico",
     "artist": "wowaka",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "4e812b58e5dc9957",
@@ -6758,14 +7553,20 @@
     "title": "失敗作少女",
     "genre": "niconico",
     "artist": "かいりきベア・MARETU feat.初音ミク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "b460b4e4b69ce5ad",
     "title": "高音厨音域テスト",
     "genre": "niconico",
     "artist": "木村わいP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "81e9f089eb028252",
@@ -6782,7 +7583,10 @@
     "title": "Bad Apple!! feat.nomico (REDALiCE Remix)",
     "genre": "東方Project",
     "artist": "Masayoshi Minoshima × REDALiCE",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "1a63aef29360be12",
@@ -6799,14 +7603,20 @@
     "title": "Little \"Sister\" Bitch",
     "genre": "東方Project",
     "artist": "t+pazolite",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "0e8b2762041d3542",
     "title": "キャプテン・ムラサのケツアンカー",
     "genre": "東方Project",
     "artist": "ARM＋夕野ヨシミ (IOSYS) feat.山本椛",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "25c8dd98db1ca994",
@@ -6903,7 +7713,10 @@
     "title": "DAZZLING♡SEASON",
     "genre": "VARIETY",
     "artist": "jun「CROSSxBEATS」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "1faa90b0e0e20497",
@@ -7000,28 +7813,40 @@
     "title": "DDDD",
     "genre": "ORIGINAL",
     "artist": "monaca:factory feat.NORISTRY",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "4b819e34f1529a40",
     "title": "Ring",
     "genre": "ORIGINAL",
     "artist": "R Sound Design feat.向日葵",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "15c7765538d12f42",
     "title": "Blazing Break",
     "genre": "ORIGINAL",
     "artist": "yksb feat.MiLO",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "6755a218f85ed189",
     "title": "Give me Love♡",
     "genre": "ORIGINAL",
     "artist": "C.G mix feat. RINA",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "85ef7bc1bca05428",
@@ -7058,21 +7883,30 @@
     "title": "コスモポップファンクラブ",
     "genre": "ORIGINAL",
     "artist": "ナユタン星人",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "4441143f5080db93",
     "title": "夢路拍子",
     "genre": "ORIGINAL",
     "artist": "稲葉曇 feat.Rairu",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "42ed3389de7c5da5",
     "title": "人生攻略☆Tips",
     "genre": "ORIGINAL",
     "artist": "れるりり feat.konoco",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "01b34477624dacfb",
@@ -7109,7 +7943,10 @@
     "title": "Echoes",
     "genre": "ORIGINAL",
     "artist": "Aiobahn",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "f369ecefcf6eae8c",
@@ -7136,7 +7973,10 @@
     "title": "自分勝手Dazzling",
     "genre": "ORIGINAL",
     "artist": "星街すいせい(ホロライブ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "3149a7e29dcb35ff",
@@ -7153,7 +7993,10 @@
     "title": "妖怪ですから",
     "genre": "ORIGINAL",
     "artist": "ぼっちぼろまる",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "7027c45c4fb836b0",
@@ -7170,49 +8013,70 @@
     "title": "Spiral Fortune",
     "genre": "ORIGINAL",
     "artist": "Marpril",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "dc4c78cc1df1b7a7",
     "title": "最強 the サマータイム!!!!!",
     "genre": "ゲキマイ",
     "artist": "曲：村カワ基成／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "dde6f18c9be95ce3",
     "title": "スーサイドパレヱド",
     "genre": "niconico",
     "artist": "ユリイ・カノン feat.GUMI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "2c7d8a861a86f33f",
     "title": "永遠にゲームで対戦したいキリタン",
     "genre": "niconico",
     "artist": "GYARI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "54b6fe96441682dd",
     "title": "アンヘル",
     "genre": "niconico",
     "artist": "かいりきベア",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "68cea2981b00c1f4",
     "title": "Get a Life！",
     "genre": "イロドリミドリ",
     "artist": "箱部 なる(CV:M・A・O)＆小仏 凪(CV:佐倉 薫)＆月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "7547e526a55a2658",
     "title": "ロストワードクロニカル",
     "genre": "東方Project",
     "artist": "東方LostWord feat.いとうかなこ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "44355aed3ad7638e",
@@ -7229,14 +8093,20 @@
     "title": "全力ハッピーライフ",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "97bbeee8b07784fa",
     "title": "明星ロケット",
     "genre": "東方Project",
     "artist": "岸田教団&THE明星ロケッツ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "03b39f9c2ab028c3",
@@ -7303,7 +8173,10 @@
     "title": "Limits",
     "genre": "イロドリミドリ",
     "artist": "舞ヶ原シンセ研究会",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "660741f720f3b7da",
@@ -7350,21 +8223,30 @@
     "title": "ラグトレイン",
     "genre": "niconico",
     "artist": "稲葉曇",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "c007c5ca358c01d2",
     "title": "幽霊東京",
     "genre": "niconico",
     "artist": "Ayase",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "26257ffc28c1b674",
     "title": "ポジティブ・パレード",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "122be800cf511228",
@@ -7531,7 +8413,10 @@
     "title": "カラッポ・ノンフィクション",
     "genre": "VARIETY",
     "artist": "Ino(chronoize) feat. 柳瀬マサキ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "2ba572db29457e2c",
@@ -7568,7 +8453,10 @@
     "title": "Starduster",
     "genre": "niconico",
     "artist": "ジミーサムP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 10.8,
+    "dif_ult": null
   },
   {
     "id": "1493aff4d8c69fc1",
@@ -7585,7 +8473,10 @@
     "title": "マージナル",
     "genre": "niconico",
     "artist": "OSTER project",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "4710baa9ce329d35",
@@ -7602,7 +8493,10 @@
     "title": "The secret garden",
     "genre": "niconico",
     "artist": "Project DIVA Original Song feat.初音ミク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "8c068f4c1c823ee6",
@@ -7899,49 +8793,70 @@
     "title": "Cry Baby",
     "genre": "POPS&ANIME",
     "artist": "Official髭男dism「東京リベンジャーズ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "b7a43a33037e8fef",
     "title": "シル・ヴ・プレジデント",
     "genre": "POPS&ANIME",
     "artist": "P丸様。",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "c0baf915df08e849",
     "title": "さんさーら！",
     "genre": "POPS&ANIME",
     "artist": "ARuFa",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "6e660d1be33e4613",
     "title": "モア！ジャンプ！モア！",
     "genre": "niconico",
     "artist": "ナユタン星人 / 初音ミク / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "ddc0b173b8852b99",
     "title": "携帯恋話",
     "genre": "niconico",
     "artist": "まふまふ / 初音ミク / 25時、ナイトコードで。「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "a048610f7aceb953",
     "title": "エンヴィーベイビー",
     "genre": "niconico",
     "artist": "Kanaria",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "f3b4cb5572394735",
     "title": "ダーリンダンス",
     "genre": "niconico",
     "artist": "かいりきベア",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "73d95b55fcc0401e",
@@ -7988,21 +8903,30 @@
     "title": "Forever and…",
     "genre": "イロドリミドリ",
     "artist": "舞ヶ原シンセ研究会",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "fc7745d25e15a0fc",
     "title": "タイムカプセル",
     "genre": "ORIGINAL",
     "artist": "天月-あまつき-",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "6ea0f67be528733a",
     "title": "パズルリボン",
     "genre": "ORIGINAL",
     "artist": "すりぃ feat.りょーくん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "2904be57c293fa57",
@@ -8119,7 +9043,10 @@
     "title": "ジャンキーナイトタウンオーケストラ",
     "genre": "niconico",
     "artist": "すりぃ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "341ff282f3441ae5",
@@ -8136,7 +9063,10 @@
     "title": "トラフィック・ジャム",
     "genre": "niconico",
     "artist": "煮ル果実",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "591a1e6fbc9c65ee",
@@ -8323,7 +9253,10 @@
     "title": "帰り道",
     "genre": "イロドリミドリ",
     "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 10.9,
+    "dif_ult": null
   },
   {
     "id": "19e90b8cb09d9774",
@@ -8380,7 +9313,10 @@
     "title": "僕の戦争",
     "genre": "POPS&ANIME",
     "artist": "神聖かまってちゃん「進撃の巨人」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "83e928eeda7e6b6f",
@@ -8467,49 +9403,70 @@
     "title": "Rumbling hearts",
     "genre": "POPS&ANIME",
     "artist": "栗林みな実",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.6,
+    "dif_ult": null
   },
   {
     "id": "dbd4ff1f251e2a12",
     "title": "非実在系女子達はどうすりゃいいですか？",
     "genre": "POPS&ANIME",
     "artist": "綾瀬理恵",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "e50e97cf199b06f1",
     "title": "恋ひ恋ふ縁",
     "genre": "POPS&ANIME",
     "artist": "KOTOKO",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "abb8b1b556669102",
     "title": "Transcend Lights",
     "genre": "ゲキマイ",
     "artist": "曲：小高光太郎／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "a0bd52e51153f1a7",
     "title": "Get the star for you [DJ Command Remix]",
     "genre": "東方Project",
     "artist": "SOUND HOLIC Vs. Eurobeat Union feat. 709sec.",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "531b1699a7346b63",
     "title": "Music Evolution",
     "genre": "東方Project",
     "artist": "DiGiTAL WiNG feat. 花たん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "eefb33a53ff552ff",
     "title": "ハウリング",
     "genre": "東方Project",
     "artist": "Liz Triangle",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "a5095aec3de220e8",
@@ -8526,7 +9483,10 @@
     "title": "みずいろレインドロップ",
     "genre": "東方Project",
     "artist": "暁Records",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "e2c11bb30b03c818",
@@ -8563,35 +9523,50 @@
     "title": "Before I Rise",
     "genre": "POPS&ANIME",
     "artist": "麻枝 准×やなぎなぎ「ヘブンバーンズレッド」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "4c5c6e49a92615c9",
     "title": "ミックスナッツ",
     "genre": "POPS&ANIME",
     "artist": "Official髭男dism TVアニメ『SPY×FAMILY』オープニング主題歌",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "2d1e40eb8f870786",
     "title": "阿修羅ちゃん",
     "genre": "POPS&ANIME",
     "artist": "Ado",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "1e30546fd9541747",
     "title": "なにやってもうまくいかない",
     "genre": "POPS&ANIME",
     "artist": "meiyo",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "f78cf74753427e66",
     "title": "ユメヲカケル！",
     "genre": "POPS&ANIME",
     "artist": "スペシャルウィーク (CV.和氣あず未)、サイレンススズカ (CV.高野麻里佳)、トウカイテイオー(CV.Machico)、ウオッカ (CV.大橋彩香)、ダイワスカーレット (CV.木村千咲)、ゴールドシップ (CV.上田 瞳)、メジロマックイーン (CV.大西沙織)／TVアニメ『ウマ娘 プリティーダービー Season 2』",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "c2a392ead4883462",
@@ -8608,14 +9583,20 @@
     "title": "キュートなカノジョ",
     "genre": "niconico",
     "artist": "syudou　feat.音楽的同位体　可不（KAFU）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "63553e74ab039da9",
     "title": "神っぽいな",
     "genre": "niconico",
     "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "5b181d4209b86ad1",
@@ -8632,7 +9613,10 @@
     "title": "スカーレット警察のゲットーパトロール24時",
     "genre": "東方Project",
     "artist": "七条レタスグループ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "87c7ff7379dbdc11",
@@ -8719,7 +9703,10 @@
     "title": "クリーパー",
     "genre": "ORIGINAL",
     "artist": "遼遼 feat.あじっこ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "c3ffa7560b7e861b",
@@ -8736,7 +9723,10 @@
     "title": "推してもダメならひいてみな！",
     "genre": "ORIGINAL",
     "artist": "桃井はるこ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "edc083a2c4b7eb30",
@@ -8823,14 +9813,20 @@
     "title": "デザイアシューティング",
     "genre": "東方Project",
     "artist": "あ～るの～と",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "329bd7975df37368",
     "title": "Mami Mami Zone",
     "genre": "東方Project",
     "artist": "REDALiCE feat. 野宮あゆみ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "b2b7ffe16c481478",
@@ -8857,14 +9853,20 @@
     "title": "INSIDE IDENTITY",
     "genre": "POPS&ANIME",
     "artist": "Black Raison d’être「中二病でも恋がしたい！」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "c3f5a90f29bd540b",
     "title": "Van!shment Th!s World",
     "genre": "POPS&ANIME",
     "artist": "Black Raison d’être「中二病でも恋がしたい！戀」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "261ea519e4e6c600",
@@ -8881,14 +9883,20 @@
     "title": "新世界スターター",
     "genre": "イロドリミドリ",
     "artist": "小仏 凪(CV:佐倉 薫)＆五十嵐 撫子(CV:花井 美春)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "70a7b29254c92c58",
     "title": "Girl's Party Planet!",
     "genre": "ゲキマイ",
     "artist": "曲：山本恭平（Arte Refact）／歌：桜井 春菜(CV：近藤 玲奈)、早乙女 彩華(CV：中島 唯)、井之原 小星(CV：ももの はるな)、柏木 咲姫(CV：石見 舞菜香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "fddce44a199ac1e6",
@@ -8965,35 +9973,50 @@
     "title": "ステラ",
     "genre": "niconico",
     "artist": "じん / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "ce5161a14106b3b6",
     "title": "Ready Steady",
     "genre": "niconico",
     "artist": "Giga / 初音ミク / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "d2aec51a680af1c4",
     "title": "群青讃歌",
     "genre": "niconico",
     "artist": "Eve / 初音ミク、星乃一歌、花里みのり、小豆沢こはね、天馬司、宵崎奏「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "d5561ad199eac0f8",
     "title": "キャットラビング",
     "genre": "niconico",
     "artist": "香椎モイミ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "2a35fcc1b90194b1",
     "title": "マーシャル・マキシマイザー",
     "genre": "niconico",
     "artist": "柊マグネタイト feat.可不",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "da8c96706eda71af",
@@ -9050,7 +10073,10 @@
     "title": "Fallin' Darlin' Rollin'",
     "genre": "ORIGINAL",
     "artist": "ave;new feat.佐倉紗織",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "68462774277013c8",
@@ -9067,21 +10093,30 @@
     "title": "シンデレラ",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "0640d784618e75ef",
     "title": "アニマル",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "8e0af351fe3531bb",
     "title": "パラサイト",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "0d2d7f8715aac30e",
@@ -9098,14 +10133,20 @@
     "title": "生きる",
     "genre": "niconico",
     "artist": "水野あつ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "a1f9db7ab795a22c",
     "title": "MAIGAHARA パンチラインキッカーズ",
     "genre": "イロドリミドリ",
     "artist": "箱部 なる(CV:M・A・O)＆小野 美苗(CV:伊藤 美来)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "3fd3b5785a199ff8",
@@ -9122,28 +10163,40 @@
     "title": "irony",
     "genre": "POPS&ANIME",
     "artist": "ClariS「俺の妹がこんなに可愛いわけがない。」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "a493a01b70d4c8be",
     "title": "お空のニュークリアフュージョン道場",
     "genre": "東方Project",
     "artist": "ARM＋夕野ヨシミ (IOSYS) feat. 藤枝あかね",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "760a105440e12b74",
     "title": "全人類ノ非想天則",
     "genre": "東方Project",
     "artist": "SOUND HOLIC feat. 匠眞",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "dc24bf65c211065c",
     "title": "三妖精SAY YA!!!",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "44cd7a5278b4e955",
@@ -9190,21 +10243,30 @@
     "title": "孤独毒毒",
     "genre": "niconico",
     "artist": "syudou「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "8306abe643ebcdd9",
     "title": "スティールユー",
     "genre": "niconico",
     "artist": "Omoi「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "a8803907109a4eda",
     "title": "マチガイサガシ",
     "genre": "niconico",
     "artist": "まふまふ「#コンパス」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "ec00ae533667127a",
@@ -9281,21 +10343,30 @@
     "title": "アマカミサマ",
     "genre": "POPS&ANIME",
     "artist": "名取さな",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "2236339e09fd733c",
     "title": "だじゃれくりえぃしょん",
     "genre": "POPS&ANIME",
     "artist": "名取さな",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "32e79efa24106a30",
     "title": "ワールドイズマイン",
     "genre": "niconico",
     "artist": "supercell feat. 初音ミク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "54d33530d9144d6f",
@@ -9312,7 +10383,10 @@
     "title": "Magic Rock'n Roll Maker",
     "genre": "イロドリミドリ",
     "artist": "月鈴 白奈(CV:高野 麻里佳)＆葛城 華(CV:丸岡 和佳奈)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "b338517762db425a",
@@ -9349,7 +10423,10 @@
     "title": "Alice's Suitcase",
     "genre": "VARIETY",
     "artist": "Endorfin.「Arcaea」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "cad4b41beda166bd",
@@ -9376,7 +10453,10 @@
     "title": "STARRED HEART",
     "genre": "ゲキマイ",
     "artist": "曲：広川恵一 (MONACA)／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "97a2c78640a80680",
@@ -9433,21 +10513,30 @@
     "title": "五等分のカタチ",
     "genre": "POPS&ANIME",
     "artist": "中野家の五つ子（花澤香菜・竹達彩奈・伊藤美来・佐倉綾音・水瀬いのり）「五等分の花嫁∬」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "63939a4336936d03",
     "title": "魔法少女とチョコレゐト",
     "genre": "niconico",
     "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "42edc580401cf3d7",
     "title": "少女レイ",
     "genre": "niconico",
     "artist": "みきとP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "2083698722b34d7a",
@@ -9484,7 +10573,10 @@
     "title": "ぱくぱく☆がーる",
     "genre": "ゲキマイ",
     "artist": "曲：齋藤大／歌：珠洲島 有栖(CV：長縄 まりあ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "4ec6336f49f71fd8",
@@ -9501,7 +10593,10 @@
     "title": "ヒストリー×ブレイカー",
     "genre": "ゲキマイ",
     "artist": "曲：中土智博／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "be8fa4aa0a96494b",
@@ -9518,7 +10613,10 @@
     "title": "絆はずっとGrowing Up!!!",
     "genre": "ゲキマイ",
     "artist": "曲：原田篤（Arte Refact）／歌：ASTERISM [星咲 あかり(CV：赤尾 ひかる)、藤沢 柚子(CV：久保田 梨沙)、三角 葵(CV：春野 杏)]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "375b47016e7c2496",
@@ -9535,28 +10633,40 @@
     "title": "No Limit RED Force",
     "genre": "ゲキマイ",
     "artist": "曲：本多友紀（Arte Refact）／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "8ab62ccc17d74f6c",
     "title": "進め！マイウェイ！",
     "genre": "ゲキマイ",
     "artist": "曲：篠崎あやと、橘亮祐／歌：マーチングポケッツ [日向 千夏(CV：岡咲 美保)、柏木 美亜(CV：和氣 あず未)、東雲 つむぎ(CV：和泉 風花)]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "8095a8234cde1387",
     "title": "Burn My Soul",
     "genre": "POPS&ANIME",
     "artist": "She is Legend「ヘブンバーンズレッド」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "e37892409777adaa",
     "title": "Let you DIVE!",
     "genre": "VARIETY",
     "artist": "HARDCORE TANO*C & エリザベス（CV:大西沙織）「WACCA」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "32be527efdf9a226",
@@ -9603,35 +10713,50 @@
     "title": "青春コンプレックス",
     "genre": "POPS&ANIME",
     "artist": "結束バンド「ぼっち・ざ・ろっく！」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "4997052439ec7c0a",
     "title": "ギターと孤独と蒼い惑星",
     "genre": "POPS&ANIME",
     "artist": "結束バンド「ぼっち・ざ・ろっく！」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "b7e755c428409981",
     "title": "INTERNET OVERDOSE",
     "genre": "POPS&ANIME",
     "artist": "Aiobahn feat. KOTOKO「NEEDY GIRL OVERDOSE」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "9e8754cd26caf753",
     "title": "新時代（ウタfrom ONE PIECE FILM RED）",
     "genre": "POPS&ANIME",
     "artist": "Ado",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "284696bd5de4b4e1",
     "title": "祝福",
     "genre": "POPS&ANIME",
     "artist": "YOASOBI「機動戦士ガンダム 水星の魔女」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "485f4c0da0680a09",
@@ -9648,21 +10773,30 @@
     "title": "おとせサンダー",
     "genre": "POPS&ANIME",
     "artist": "ぼっちぼろまる",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "3d46e25dea0ae140",
     "title": "カレシのジュード",
     "genre": "niconico",
     "artist": "syudou",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "4ef16b4b54dd1081",
     "title": "サラマンダー",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "b3d02c48ebf620b4",
@@ -9739,14 +10873,20 @@
     "title": "やめらんないな!",
     "genre": "ORIGINAL",
     "artist": "薄塩指数 feat.KMNZ LIZ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "5d70241aaa23f430",
     "title": "Dive a Wave",
     "genre": "ORIGINAL",
     "artist": "蝶々P feat.くろくも",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "570e21203c8c94f6",
@@ -9773,7 +10913,10 @@
     "title": "プライマリー進化論",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa feat.芒崎 奏",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "90b66202be2069b3",
@@ -9810,35 +10953,50 @@
     "title": "幻想症候群",
     "genre": "東方Project",
     "artist": "幽閉サテライト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "27212bc6f7336aa1",
     "title": "夜のサーカス",
     "genre": "東方Project",
     "artist": "Liz Triangle",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "860932b2c908d060",
     "title": "Pris-Magic!",
     "genre": "POPS&ANIME",
     "artist": "しぐれうい",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "85bd1c54d9261b70",
     "title": "放課後マーメイド",
     "genre": "POPS&ANIME",
     "artist": "しぐれうい",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "c6df2b541efbe582",
     "title": "Snow Colored Score",
     "genre": "イロドリミドリ",
     "artist": "イロドリミドリ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.8,
+    "dif_ult": 14.4
   },
   {
     "id": "61e039f7120e4a17",
@@ -9855,21 +11013,30 @@
     "title": "独りんぼエンヴィー",
     "genre": "niconico",
     "artist": "koyori（電ポルＰ）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.4,
+    "dif_ult": null
   },
   {
     "id": "74f17aed10e2b575",
     "title": "Shine In The Sky☆",
     "genre": "POPS&ANIME",
     "artist": "U149　TVアニメ「アイドルマスター シンデレラガールズ U149」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "093df7d52f7bf142",
     "title": "よりみちリトルスター",
     "genre": "POPS&ANIME",
     "artist": "U149　TVアニメ「アイドルマスター シンデレラガールズ U149」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "5ac983ed240b2bbe",
@@ -9896,7 +11063,10 @@
     "title": "シンデレラディスコ",
     "genre": "ゲキマイ",
     "artist": "曲：橘亮祐、篠崎あやと／歌：藍原 椿(CV：橋本 ちなみ)、早乙女 彩華(CV：中島 唯)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "7ef09339aee2a724",
@@ -9963,14 +11133,20 @@
     "title": "花となれ",
     "genre": "niconico",
     "artist": "雄之助　feat. 可不",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "81005b63f6e40207",
     "title": "カノン",
     "genre": "niconico",
     "artist": "柊マグネタイト　feat.可不",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "3bfe81bcae076f82",
@@ -9987,7 +11163,10 @@
     "title": "悪魔の踊り方",
     "genre": "niconico",
     "artist": "キタニタツヤ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "358de6f8cbc7422d",
@@ -10004,7 +11183,10 @@
     "title": "夏色花火",
     "genre": "ゲキマイ",
     "artist": "曲：穴山大輔, 水野健治／歌：藤沢 柚子(CV：久保田 梨沙)、早乙女 彩華(CV：中島 唯)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.3,
+    "dif_ult": null
   },
   {
     "id": "0c569a94018cc16f",
@@ -10051,7 +11233,10 @@
     "title": "リハーサルタイム",
     "genre": "イロドリミドリ",
     "artist": "明坂 芹菜(CV:新田 恵海)＆萩原 七々瀬(CV:東城 日沙子)＆芒崎 奏(CV:立花 理香)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "fe30b650110fd2e7",
@@ -10068,14 +11253,20 @@
     "title": "Night Spider",
     "genre": "POPS&ANIME",
     "artist": "▽▲TRiNITY▲▽",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "9312fca16745dde9",
     "title": "#あくあ色ぱれっと",
     "genre": "POPS&ANIME",
     "artist": "湊あくあ（ホロライブ）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "9bc56d35921519a7",
@@ -10122,14 +11313,20 @@
     "title": "あなたは世界の終わりにずんだを食べるのだ",
     "genre": "niconico",
     "artist": "なみぐる",
-    "verse": false
+    "verse": false,
+    "dif_exp": 7.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "0007b9ebd77c997a",
     "title": "ちょっとあざとい",
     "genre": "niconico",
     "artist": "才歌",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "e350eafffb2dfc34",
@@ -10216,14 +11413,20 @@
     "title": "反撃! 突撃! Back To Back!",
     "genre": "ゲキマイ",
     "artist": "曲：矢鴇つかさ & 脇眞富（Arte Refact）／歌：星咲 あかり(CV：赤尾 ひかる)、高瀬 梨緒(CV：久保 ユリカ)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "b49b8e39afc0be37",
     "title": "Sad Creature",
     "genre": "POPS&ANIME",
     "artist": "麻枝 准×やなぎなぎ「ヘブンバーンズレッド」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "2428d950ad5c9666",
@@ -10260,14 +11463,20 @@
     "title": "カリスマ煉獄天神",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "d2021dfc126abac9",
     "title": "シアワセうさぎ",
     "genre": "東方Project",
     "artist": "ビートまりお＋あまね（COOL&CREATE）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "13da34626f1109ad",
@@ -10284,7 +11493,10 @@
     "title": "ぽかぽか温泉音頭",
     "genre": "ゲキマイ",
     "artist": "曲：橘亮祐、篠崎あやと／歌：三角 葵(CV：春野 杏)、逢坂 茜(CV：大空 直美)、日向 千夏(CV：岡咲 美保)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "4f4099cc9f0f8af5",
@@ -10301,14 +11513,20 @@
     "title": "茉子の日常",
     "genre": "POPS&ANIME",
     "artist": "常陸 茉子 (CV：小鳥居 夕花) 「千恋＊万花」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "9479b7a8290dc9b3",
     "title": "キズナヒトツ",
     "genre": "POPS&ANIME",
     "artist": "ムラサメ (CV：佐藤 みかん) 「千恋＊万花」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 10.7,
+    "dif_ult": null
   },
   {
     "id": "71a75e553c0dc72e",
@@ -10325,21 +11543,30 @@
     "title": "Love Cheat!",
     "genre": "POPS&ANIME",
     "artist": "MOSAIC.WAV",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "b6e1f268155a7102",
     "title": "ドーナドーナのうた",
     "genre": "POPS&ANIME",
     "artist": "水夏える feat.月乃",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "f64457b8d301e391",
     "title": "未来への咆哮",
     "genre": "POPS&ANIME",
     "artist": "JAM Project feat. 影山ヒロノブ・遠藤正明・きただにひろし・福山芳樹",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "bebadcc605bb391f",
@@ -10366,7 +11593,10 @@
     "title": "Paradisoda",
     "genre": "ゲキマイ",
     "artist": "魂音泉",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "09b699959d74aba0",
@@ -10383,21 +11613,30 @@
     "title": "ハイファイ☆デイズ",
     "genre": "POPS&ANIME",
     "artist": "佐々木千枝、櫻井桃華、市原仁奈、龍崎薫、赤城みりあ「アイドルマスター シンデレラガールズ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "25bcf126e57d48e5",
     "title": "ALIVE",
     "genre": "POPS&ANIME",
     "artist": "ClariS「リコリス・リコイル」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "fe34422ac9f372ba",
     "title": "可愛くてごめん",
     "genre": "POPS&ANIME",
     "artist": "HoneyWorks feat. ちゅーたん(CV:早見沙織)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "3c2d9004df155c93",
@@ -10414,42 +11653,60 @@
     "title": "マツケンサンバⅡ",
     "genre": "POPS&ANIME",
     "artist": "松平健 [covered by 光吉猛修]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "27945bc6313da6bc",
     "title": "アイドル",
     "genre": "POPS&ANIME",
     "artist": "YOASOBI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "fc33143c0f50a79a",
     "title": "STORM",
     "genre": "POPS&ANIME",
     "artist": "JAM Project featuring 水木一郎、影山ヒロノブ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "3f8e69467c8d67b1",
     "title": "さくゆいたいそう",
     "genre": "POPS&ANIME",
     "artist": "さくゆい",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.7,
+    "dif_ult": null
   },
   {
     "id": "eb13766a1f458d2e",
     "title": "アイデン貞貞メルトダウン",
     "genre": "POPS&ANIME",
     "artist": "えなこ feat. P丸様。「お兄ちゃんはおしまい！」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "e1e801d21ec4ad51",
     "title": "ひめごと＊クライシスターズ",
     "genre": "POPS&ANIME",
     "artist": "ONIMAI SISTERS（高野麻里佳・石原夏織・金元寿子・津田美波）「お兄ちゃんはおしまい！」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "86dbe891b0c98f9f",
@@ -10466,21 +11723,30 @@
     "title": "不可解",
     "genre": "POPS&ANIME",
     "artist": "花譜",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "2c4c6356983bae89",
     "title": "海に化ける",
     "genre": "POPS&ANIME",
     "artist": "花譜",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "d269408d82694dd7",
     "title": "パラレルサーチライト",
     "genre": "POPS&ANIME",
     "artist": "名取さな",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "0d3055539adc9726",
@@ -10497,7 +11763,10 @@
     "title": "とまどい→レシピ",
     "genre": "POPS&ANIME",
     "artist": "みかくにんぐッ！「未確認で進行形」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "57de5e75454c153a",
@@ -10514,7 +11783,10 @@
     "title": "強風オールバック",
     "genre": "niconico",
     "artist": "ゆこぴ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "65f67389d6e7f160",
@@ -10531,28 +11803,40 @@
     "title": "リレイアウター",
     "genre": "niconico",
     "artist": "稲葉曇",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "5ae0d7c17ab06082",
     "title": "おどロボ",
     "genre": "niconico",
     "artist": "海茶・多良レイト",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "2e3f6f360cad638e",
     "title": "Beat Eater",
     "genre": "niconico",
     "artist": "ポリスピカデリー / 鏡音レン / Vivid BAD SQUAD「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "4bd7ecec6f4d9e21",
     "title": "Glory Steady Go!",
     "genre": "niconico",
     "artist": "キノシタ / 巡音ルカ / ワンダーランズ×ショウタイム「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "715e5183c47746df",
@@ -10569,14 +11853,20 @@
     "title": "てらてら",
     "genre": "niconico",
     "artist": "和田たけあき / 初音ミク / Leo/need「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "0e668ff07131f4e6",
     "title": "天使のクローバー",
     "genre": "niconico",
     "artist": "DIVELA / 鏡音リン / MORE MORE JUMP！「プロジェクトセカイ カラフルステージ！ feat. 初音ミク」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "c4ea2360d537778a",
@@ -10613,14 +11903,20 @@
     "title": "ブラック★ロックシューター",
     "genre": "niconico",
     "artist": "supercell feat.初音ミク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "f15f84e178b3dc64",
     "title": "flos",
     "genre": "niconico",
     "artist": "R Sound Design",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.1,
+    "dif_ult": null
   },
   {
     "id": "e7fff1ea662a1dfb",
@@ -10847,7 +12143,10 @@
     "title": "それはもうらぶちゅ",
     "genre": "VARIETY",
     "artist": "タケノコ少年 feat. 周央サンゴ（にじさんじ）「Muse Dash」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "7d50f24ce33b3c09",
@@ -10874,28 +12173,40 @@
     "title": "どこにもいかない",
     "genre": "イロドリミドリ",
     "artist": "箱部なる (CV: M・A・O)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "4c556aaf2ee1928b",
     "title": "ラビットランド・メッセンジャー",
     "genre": "イロドリミドリ",
     "artist": "天王洲 なずな(CV:山本 彩乃)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "0866fddcf8966198",
     "title": "ALL I WANNA DO",
     "genre": "イロドリミドリ",
     "artist": "月鈴 白奈(CV:高野 麻里佳)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "c8741679e5496ee4",
     "title": "オン×ステージ！",
     "genre": "ゲキマイ",
     "artist": "曲：塩野 海／歌：星咲 あかり(CV：赤尾 ひかる)、式宮 舞菜(CV：牧野 天音)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "1bcf55eed2167a92",
@@ -10962,7 +12273,10 @@
     "title": "Jump!! Jump!! Jump!!",
     "genre": "ゲキマイ",
     "artist": "曲：宮崎誠／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "a505af2193a7bcac",
@@ -11009,7 +12323,10 @@
     "title": "少女PastQ",
     "genre": "ORIGINAL",
     "artist": "雄之助 feat.ねんね",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 11.5,
+    "dif_ult": null
   },
   {
     "id": "c0d7ff0b20a356d5",
@@ -11026,7 +12343,10 @@
     "title": "MyPaceInvention",
     "genre": "ORIGINAL",
     "artist": "キツネリ feat.わかばやし",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "de0117076d080d9a",
@@ -11103,7 +12423,10 @@
     "title": "ワーカーホリック",
     "genre": "ORIGINAL",
     "artist": "ミディ feat.小鈴",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "909149e28454cd4b",
@@ -11180,7 +12503,10 @@
     "title": "勇者",
     "genre": "POPS&ANIME",
     "artist": "YOASOBI「葬送のフリーレン」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "61db8a72891072da",
@@ -11197,14 +12523,20 @@
     "title": "唱",
     "genre": "POPS&ANIME",
     "artist": "Ado",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "1aeba1d35edad62c",
     "title": "美少女無罪♡パイレーツ",
     "genre": "POPS&ANIME",
     "artist": "宝鐘マリン（ホロライブ）",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "2e5cc46a89be1eab",
@@ -11221,7 +12553,10 @@
     "title": "寝起きヤシの木",
     "genre": "niconico",
     "artist": "ゆこぴ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "0c3f9b22b04221d9",
@@ -11288,7 +12623,10 @@
     "title": "夏宵スターマイン",
     "genre": "ゲキマイ",
     "artist": "曲：本多友紀（Arte Refact）／歌：オンゲキシューターズ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "81a052ae96e77385",
@@ -11305,7 +12643,10 @@
     "title": "バッドトリッパー",
     "genre": "ORIGINAL",
     "artist": "マイキP",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8,
+    "dif_mas": 12,
+    "dif_ult": null
   },
   {
     "id": "eeeb591fff55d508",
@@ -11342,7 +12683,10 @@
     "title": "優勝Princess♡",
     "genre": "ORIGINAL",
     "artist": "高瀬一矢 feat.R.I.N.A",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13.3,
+    "dif_ult": null
   },
   {
     "id": "b1d7dcaeaee6efcb",
@@ -11359,14 +12703,20 @@
     "title": "おくすり飲んで寝よう",
     "genre": "niconico",
     "artist": "もちうつね",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "d7857bd2da88f89d",
     "title": "匿名M",
     "genre": "niconico",
     "artist": "ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "121fc7216c13227a",
@@ -11423,14 +12773,20 @@
     "title": "ReCoda",
     "genre": "POPS&ANIME",
     "artist": "TRUE「響け！ユーフォニアム３」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "9d5c61dc679d1d4e",
     "title": "Presence",
     "genre": "イロドリミドリ",
     "artist": "小仏 凪(CV:佐倉 薫)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "e040a9bbfe25a0d1",
@@ -11507,7 +12863,10 @@
     "title": "迷星叫",
     "genre": "POPS&ANIME",
     "artist": "MyGO!!!!!",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "a92b517d19a56a28",
@@ -11524,7 +12883,10 @@
     "title": "ずんだパーリナイ",
     "genre": "niconico",
     "artist": "なみぐる feat.ずんだもん",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "d8092254653681f0",
@@ -11551,7 +12913,10 @@
     "title": "X.Y.Z.",
     "genre": "ORIGINAL",
     "artist": "Len feat.SHIKI",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "4596423dbd1fa74f",
@@ -11608,14 +12973,20 @@
     "title": "壊れた人形のマーチ",
     "genre": "東方Project",
     "artist": "少女理論観測所",
-    "verse": false
+    "verse": false,
+    "dif_exp": 8.5,
+    "dif_mas": 12.2,
+    "dif_ult": null
   },
   {
     "id": "83fb985c75e28ece",
     "title": "ヒトリシズカ(Arranged: Iceon)",
     "genre": "東方Project",
     "artist": "幽閉サテライト(direction:嵯峨飛鳥)",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.9,
+    "dif_ult": null
   },
   {
     "id": "73a1902a9bab0880",
@@ -11702,7 +13073,10 @@
     "title": "Sleep Walking Orchestra",
     "genre": "POPS&ANIME",
     "artist": "BUMP OF CHICKEN",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 11.8,
+    "dif_ult": null
   },
   {
     "id": "1a0dd07f1e4b3336",
@@ -11719,7 +13093,10 @@
     "title": "1000年生きてる",
     "genre": "niconico",
     "artist": "いよわ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.5,
+    "dif_ult": null
   },
   {
     "id": "4a85e49911a269f6",
@@ -11766,7 +13143,10 @@
     "title": "Flower",
     "genre": "ゲキマイ",
     "artist": "曲：白戸佑輔(Dream Monster)／歌：ASTERISM [星咲 あかり(CV：赤尾 ひかる)、藤沢 柚子(CV：久保田 梨沙)、三角 葵(CV：春野 杏)]",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "307dac40fff94397",
@@ -11783,21 +13163,30 @@
     "title": "自称、音楽愛好家",
     "genre": "niconico",
     "artist": "卯花ロク",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "32657744f79903a3",
     "title": "デビルじゃないもん",
     "genre": "niconico",
     "artist": "DECO*27, ピノキオピー",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "72dab119f10188b9",
     "title": "ハッピータイフーン",
     "genre": "POPS&ANIME",
     "artist": "KiRaRe「Re:ステージ！プリズムステップ」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 12.4,
+    "dif_ult": null
   },
   {
     "id": "cac932ee1563c995",
@@ -11814,21 +13203,30 @@
     "title": "トゥッティ！",
     "genre": "POPS&ANIME",
     "artist": "北宇治カルテット [黄前久美子 (CV.黒沢ともよ)、加藤葉月 (CV.朝井彩加)、川島緑輝 (CV.豊田萌絵)、高坂麗奈 (CV.安済知佳)]「響け！ユーフォニアム」",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": null
   },
   {
     "id": "1ca9c9188ca54ae0",
     "title": "ハートサーモグラフィー",
     "genre": "POPS&ANIME",
     "artist": "周防パトラ",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "2decbebd5d3152dc",
     "title": "モンダイナイトリッパー！",
     "genre": "POPS&ANIME",
     "artist": "名取さな",
-    "verse": false
+    "verse": false,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": 14.2
   },
   {
     "id": "3e67609129201b0d",
@@ -11865,14 +13263,20 @@
     "title": "On your mark (104期 Ver.)",
     "genre": "POPS&ANIME",
     "artist": "蓮ノ空女学院スクールアイドルクラブ「Link！Like！ラブライブ！」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": 14.2
   },
   {
     "id": "e69b09e53c248fc5",
     "title": "晴る",
     "genre": "POPS&ANIME",
     "artist": "ヨルシカ",
-    "verse": true
+    "verse": true,
+    "dif_exp": 8.5,
+    "dif_mas": 11.9,
+    "dif_ult": 14.1
   },
   {
     "id": "75e72ff0c86b3e50",
@@ -11889,14 +13293,20 @@
     "title": "愛包ダンスホール",
     "genre": "POPS&ANIME",
     "artist": "HIMEHINA",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 12.8,
+    "dif_ult": 14
   },
   {
     "id": "8b542f7309e85910",
     "title": "VERSE",
     "genre": "POPS&ANIME",
     "artist": "KMNZ",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "de5b9edd2ed266ef",
@@ -11923,14 +13333,20 @@
     "title": "好きな惣菜発表ドラゴン",
     "genre": "niconico",
     "artist": "ンバヂ",
-    "verse": true
+    "verse": true,
+    "dif_exp": 7.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "d8a1bab1de4f7461",
     "title": "有頂天ドリーマーズ",
     "genre": "東方Project",
     "artist": "森羅万象",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 12.7,
+    "dif_ult": null
   },
   {
     "id": "e32a43b927533a97",
@@ -12007,14 +13423,20 @@
     "title": "カモンゴー！",
     "genre": "イロドリミドリ",
     "artist": "HaNaMiNa",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13.8,
+    "dif_ult": null
   },
   {
     "id": "bc3e60af25e15393",
     "title": "イルミネーション",
     "genre": "ゲキマイ",
     "artist": "曲：央海加亥／歌：柏木 咲姫(CV：石見 舞菜香)",
-    "verse": true
+    "verse": true,
+    "dif_exp": 8,
+    "dif_mas": 12.9,
+    "dif_ult": null
   },
   {
     "id": "63856781805b8c67",
@@ -12051,7 +13473,10 @@
     "title": "ドリームケッチャー",
     "genre": "ORIGINAL",
     "artist": "OUTLOUD feat.NG。",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 12.3,
+    "dif_ult": null
   },
   {
     "id": "94b328b1b6baa8e1",
@@ -12118,21 +13543,30 @@
     "title": "ジョハリ",
     "genre": "POPS&ANIME",
     "artist": "Nornis",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "14f856c4213457b0",
     "title": "眩耀夜行（104期Ver.）",
     "genre": "POPS&ANIME",
     "artist": "スリーズブーケ[日野下花帆(CV.楡井希実)、乙宗 梢(CV.花宮初奈)、百生吟子(CV.櫻井陽菜)]「Link！Like！ラブライブ！」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "4b2e9655b7acd0b4",
     "title": "KNOT（104期Ver.）",
     "genre": "POPS&ANIME",
     "artist": "DOLLCHESTRA[村野さやか(CV.野中ここな)、夕霧綴理(CV.佐々木琴子)、徒町小鈴(CV.葉山風花)]「Link！Like！ラブライブ！」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "6c46083333f6b1fe",
@@ -12149,35 +13583,50 @@
     "title": "シリウスの輝きのように",
     "genre": "POPS&ANIME",
     "artist": "鳳 ここな(CV.石見舞菜香)、静香(CV.長谷川育美)、カトリナ・グリーベル(CV.天城サリー)、新妻八恵(CV.長縄まりあ)、柳場ぱんだ(CV.大空直美)、流石知冴(CV.佐々木李子)「ワールドダイスター 夢のステラリウム」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 10,
+    "dif_mas": 13,
+    "dif_ult": 14.5
   },
   {
     "id": "f92c51987647ffe1",
     "title": "I Wanna",
     "genre": "POPS&ANIME",
     "artist": "静香(CV.長谷川育美)「ワールドダイスター 夢のステラリウム」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 13.5,
+    "dif_mas": 15,
+    "dif_ult": null
   },
   {
     "id": "bca36e9ba4d8336d",
     "title": "革命ダンス",
     "genre": "POPS&ANIME",
     "artist": "柳場ぱんだ(CV:大空直美)、与那国緋花里(CV:下地紫野)「ワールドダイスター 夢のステラリウム」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "dbee754756b3a1b7",
     "title": "イガク",
     "genre": "niconico",
     "artist": "原口沙輔 feat.重音テト",
-    "verse": true
+    "verse": true,
+    "dif_exp": 10.5,
+    "dif_mas": 14,
+    "dif_ult": null
   },
   {
     "id": "7c801573fbc87114",
     "title": "ザムザ",
     "genre": "niconico",
     "artist": "てにをは",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "a0b7dc96d884c2e1",
@@ -12234,7 +13683,10 @@
     "title": "We don't need tears!",
     "genre": "イロドリミドリ",
     "artist": "舞ヶ原シンセ研究会",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13.6,
+    "dif_ult": null
   },
   {
     "id": "2c518ebb77671272",
@@ -12251,7 +13703,10 @@
     "title": "夜もすがら君想ふ (10th Anniv.)",
     "genre": "niconico",
     "artist": "TOKOTOKO（西沢さんP）",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "14c14ff0776a413a",
@@ -12308,14 +13763,20 @@
     "title": "オーバーライド",
     "genre": "niconico",
     "artist": "吉田夜世",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 12.9,
+    "dif_ult": 14.6
   },
   {
     "id": "6f3decdf6fd4d5a6",
     "title": "ライアーダンサー",
     "genre": "niconico",
     "artist": "マサラダ",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "1d03c1b6975a5134",
@@ -12332,7 +13793,10 @@
     "title": "本能的 Survivor",
     "genre": "ゲキマイ",
     "artist": "曲：eba／歌：⊿TRiEDGE [高瀬 梨緒(CV：久保 ユリカ)、結城 莉玖(CV：朝日奈 丸佳)、藍原 椿(CV：橋本 ちなみ)]",
-    "verse": true
+    "verse": true,
+    "dif_exp": 10,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "908e3778d95a0665",
@@ -12359,7 +13823,10 @@
     "title": "ONLY YOUR STARS!（Trickstar Ver.）",
     "genre": "POPS&ANIME",
     "artist": "歌：Trickstar 作詞：松井洋平　作曲/編曲：中土智博（APDREAM）",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "1f97974d28d62cfc",
@@ -12376,14 +13843,20 @@
     "title": "One with One (Eden ver.)",
     "genre": "POPS&ANIME",
     "artist": "歌：Eden 作詞：こだま さおり　作曲 / 編曲：佐藤 厚仁（Dream Monster）",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.5,
+    "dif_ult": null
   },
   {
     "id": "75decd9502d63764",
     "title": "Surprising Thanks!! (Crazy:B ver.)",
     "genre": "POPS&ANIME",
     "artist": "歌：Crazy:B 作詞：松井洋平　作曲 / 編曲：伊藤和馬 (Arte Refact)",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "6efd3921eedf86cf",
@@ -12400,21 +13873,30 @@
     "title": "ラビットホール",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": true
+    "verse": true,
+    "dif_exp": 11,
+    "dif_mas": 13.7,
+    "dif_ult": null
   },
   {
     "id": "78073235e4bf28ec",
     "title": "あいたい星人",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "5263fbed16a156ef",
     "title": "ハオ",
     "genre": "niconico",
     "artist": "DECO*27",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.1,
+    "dif_ult": null
   },
   {
     "id": "f1912b75135ec1bd",
@@ -12491,7 +13973,10 @@
     "title": "It's a pit world",
     "genre": "VARIETY",
     "artist": "Shohei Tsuchiya(ZUNTATA)「グルーヴコースター」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.2,
+    "dif_ult": null
   },
   {
     "id": "7da13682c7a23d56",
@@ -12518,14 +14003,20 @@
     "title": "淵底のグレイ・ユークロニア",
     "genre": "ゲキマイ",
     "artist": "打打だいず vs. siromaru vs. Tanchiky",
-    "verse": true
+    "verse": true,
+    "dif_exp": 13.5,
+    "dif_mas": 15,
+    "dif_ult": null
   },
   {
     "id": "a4320743997a029d",
     "title": "Campus mode!!",
     "genre": "POPS&ANIME",
     "artist": "歌：初星学園 作詞作曲：田淵智也 編曲：滝澤俊輔（TRYTONELABO）「学園アイドルマスター」",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 12.6,
+    "dif_ult": null
   },
   {
     "id": "2b3544c71a372cb7",
@@ -12542,7 +14033,10 @@
     "title": "ありふれたせかいせいふく",
     "genre": "niconico",
     "artist": "ピノキオピー",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.9,
+    "dif_ult": null
   },
   {
     "id": "1a24a0940ca17f63",
@@ -12569,14 +14063,20 @@
     "title": "新人類",
     "genre": "niconico",
     "artist": "まらしぃ×じん×堀江晶太(kemu) feat.鏡音リン",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9,
+    "dif_mas": 13.4,
+    "dif_ult": null
   },
   {
     "id": "ea8e3ce701840cd0",
     "title": "リアライズ",
     "genre": "niconico",
     "artist": "柊マグネタイト",
-    "verse": true
+    "verse": true,
+    "dif_exp": 9.5,
+    "dif_mas": 13,
+    "dif_ult": null
   },
   {
     "id": "44cdf85d55854111",
