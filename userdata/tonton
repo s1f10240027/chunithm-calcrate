@@ -515,6 +515,16 @@
       "rate": 13.6,
       "rank": "S+",
       "verse": true
+    },
+    "6a88218b1a936bd3_EXPART": {
+      "id": "6a88218b1a936bd3",
+      "title": "B.B.K.K.B.K.K.",
+      "difficulty": "EXPART",
+      "score": 950000,
+      "const": 10,
+      "rate": 8.33,
+      "rank": "AAA",
+      "verse": false
     }
   }
 }
