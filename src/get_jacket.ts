@@ -18,7 +18,8 @@ export async function getJacketFromUnirec(id: string) {
   }
 
   console.error("画像のURLが取得できませんでした。");
-  return null;
+  const imageUrl = "https://ul.h3z.jp/iZzGl7oh.png";
+  return imageUrl;
 }
 
 getJacketFromUnirec("ff3dd3751bea0ca3");
