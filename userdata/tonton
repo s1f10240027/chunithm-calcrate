@@ -6,504 +6,514 @@
     "updated_at": "2023-01-01T00:00:00Z"
   },
   "data": {
-    "8fd5afa160701236_mas": {
+    "8fd5afa160701236_MASTER": {
       "id": "8fd5afa160701236",
       "title": "FREEDOM DiVE",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 984423,
       "const": 15,
       "rate": 15.37,
       "rank": "S",
       "verse": false
     },
-    "e55ae8452323bc80_mas": {
+    "e55ae8452323bc80_MASTER": {
       "id": "e55ae8452323bc80",
       "title": "Grievous Lady",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 989093,
       "const": 14.8,
       "rate": 15.36,
       "rank": "S",
       "verse": false
     },
-    "a2db6f007e990c6c_mas": {
+    "a2db6f007e990c6c_MASTER": {
       "id": "a2db6f007e990c6c",
       "title": "Fracture Ray",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 987671,
       "const": 14.7,
       "rate": 15.2,
       "rank": "S",
       "verse": false
     },
-    "c991d8d8dc82e941_mas": {
+    "c991d8d8dc82e941_MASTER": {
       "id": "c991d8d8dc82e941",
       "title": "最終鬼畜妹フランドール・S",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 992026,
       "const": 14.4,
       "rate": 15.08,
       "rank": "S+",
       "verse": false
     },
-    "61fe9ff7387ce35a_mas": {
+    "61fe9ff7387ce35a_MASTER": {
       "id": "61fe9ff7387ce35a",
       "title": "ナイト・オブ・ナイツ (USAO Remix)",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 993807,
       "const": 14.3,
       "rate": 15.05,
       "rank": "S+",
       "verse": false
     },
-    "1d78b1edba3572f0_exp": {
+    "1d78b1edba3572f0_EXPART": {
       "id": "1d78b1edba3572f0",
       "title": "ラストピースに祝福と栄光を",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 993029,
       "const": 14.3,
       "rate": 15.02,
       "rank": "S+",
       "verse": false
     },
-    "531ea105df6840e7_exp": {
+    "531ea105df6840e7_EXPART": {
       "id": "531ea105df6840e7",
       "title": "Killing Rhythm",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 992226,
       "const": 14.3,
       "rate": 14.98,
       "rank": "S+",
       "verse": false
     },
-    "7f74527410615909_exp": {
+    "7f74527410615909_EXPART": {
       "id": "7f74527410615909",
       "title": "Ultimate Force",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 988787,
       "const": 14.4,
       "rate": 14.95,
       "rank": "S",
       "verse": false
     },
-    "9211ae784b19373c_exp": {
+    "9211ae784b19373c_EXPART": {
       "id": "9211ae784b19373c",
       "title": "To：Be Continued",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 990291,
       "const": 14.3,
       "rate": 14.91,
       "rank": "S+",
       "verse": false
     },
-    "65f67389d6e7f160_mas": {
+    "65f67389d6e7f160_MASTER": {
       "id": "65f67389d6e7f160",
       "title": "星界ちゃんと可不ちゃんのおつかい合騒曲",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 989805,
       "const": 14.3,
       "rate": 14.89,
       "rank": "S",
       "verse": false
     },
-    "b540190b17291461_exp": {
+    "b540190b17291461_EXPART": {
       "id": "b540190b17291461",
       "title": "Titania",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1000964,
       "const": 13.8,
       "rate": 14.89,
       "rank": "SS",
       "verse": false
     },
-    "26037703f7abac2c_mas": {
+    "26037703f7abac2c_MASTER": {
       "id": "26037703f7abac2c",
       "title": "サドマミホリック",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 991852,
       "const": 14.2,
       "rate": 14.87,
       "rank": "S+",
       "verse": false
     },
-    "51961de010178637_exp": {
+    "51961de010178637_EXPART": {
       "id": "51961de010178637",
       "title": "LAMIA",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 994105,
       "const": 14.1,
       "rate": 14.86,
       "rank": "S+",
       "verse": false
     },
-    "42d25199b75ccda2_mas": {
+    "42d25199b75ccda2_MASTER": {
       "id": "42d25199b75ccda2",
       "title": "Last Celebration",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 978976,
       "const": 14.7,
       "rate": 14.85,
       "rank": "S",
       "verse": false
     },
-    "43f8c5a604ac6cb2_exp": {
+    "43f8c5a604ac6cb2_EXPART": {
       "id": "43f8c5a604ac6cb2",
       "title": "DA'AT -The First Seeker of Souls-",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 988777,
       "const": 14.3,
       "rate": 14.85,
       "rank": "S",
       "verse": false
     },
-    "13da34626f1109ad_exp": {
+    "13da34626f1109ad_EXPART": {
       "id": "13da34626f1109ad",
       "title": "Chaotic Ørder",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 988710,
       "const": 14.3,
       "rate": 14.84,
       "rank": "S",
       "verse": false
     },
-    "4b8ac7ffbad08da9_mas": {
+    "4b8ac7ffbad08da9_MASTER": {
       "id": "4b8ac7ffbad08da9",
       "title": "レータイスパークEx",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 991192,
       "const": 14.2,
       "rate": 14.84,
       "rank": "S+",
       "verse": false
     },
-    "cd3fcc38bf5f79af_exp": {
+    "cd3fcc38bf5f79af_EXPART": {
       "id": "cd3fcc38bf5f79af",
       "title": "POTENTIAL",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 995670,
       "const": 14,
       "rate": 14.82,
       "rank": "S+",
       "verse": false
     },
-    "b1d7dcaeaee6efcb_exp": {
+    "b1d7dcaeaee6efcb_EXPART": {
       "id": "b1d7dcaeaee6efcb",
       "title": "リ・フィクション・O",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1000118,
       "const": 13.8,
       "rate": 14.81,
       "rank": "SS",
       "verse": false
     },
-    "9d6da80a21f28fdc_mas": {
+    "9d6da80a21f28fdc_MASTER": {
       "id": "9d6da80a21f28fdc",
       "title": "MEGALOVANIA",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 995228,
       "const": 14,
       "rate": 14.8,
       "rank": "S+",
       "verse": false
     },
-    "653eda0f68eab11a_mas": {
+    "653eda0f68eab11a_MASTER": {
       "id": "653eda0f68eab11a",
       "title": "Joe Fight",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 985639,
       "const": 14.3,
       "rate": 14.72,
       "rank": "S",
       "verse": false
     },
-    "981964f8db0a6328_mas": {
+    "981964f8db0a6328_MASTER": {
       "id": "981964f8db0a6328",
       "title": "ENERGY SYNERGY MATRIX",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 988155,
       "const": 14.2,
       "rate": 14.72,
       "rank": "S",
       "verse": false
     },
-    "cff70713c3582ab0_mas": {
+    "cff70713c3582ab0_MASTER": {
       "id": "cff70713c3582ab0",
       "title": "Don't Fight The Music",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 971957,
       "const": 14.9,
       "rate": 14.69,
       "rank": "AAA",
       "verse": false
     },
-    "cc5f43241fd6230b_mas": {
+    "cc5f43241fd6230b_MASTER": {
       "id": "cc5f43241fd6230b",
       "title": "蜘蛛の糸",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 966543,
       "const": 15.2,
       "rate": 14.63,
       "rank": "AAA",
       "verse": false
     },
-    "15d40acf31987841_mas": {
+    "15d40acf31987841_MASTER": {
       "id": "15d40acf31987841",
       "title": "Brain Power",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 982757,
       "const": 14.3,
       "rate": 14.61,
       "rank": "S",
       "verse": false
     },
-    "a441c34b11e733b9_exp": {
+    "a441c34b11e733b9_EXPART": {
       "id": "a441c34b11e733b9",
       "title": "Opfer",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 997778,
       "const": 13.7,
       "rate": 14.61,
       "rank": "S+",
       "verse": false
     },
-    "089081b208081064_mas": {
+    "089081b208081064_MASTER": {
       "id": "089081b208081064",
       "title": "ヒバナ",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 996822,
       "const": 13.7,
       "rate": 14.57,
       "rank": "S+",
       "verse": false
     },
-    "ff3dd3751bea0ca3_mas": {
+    "ff3dd3751bea0ca3_MASTER": {
       "id": "ff3dd3751bea0ca3",
       "title": "Arcahv",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 986625,
       "const": 14.1,
       "rate": 14.56,
       "rank": "S",
       "verse": false
     },
-    "379e125c378792dd_exp": {
+    "379e125c378792dd_EXPART": {
       "id": "379e125c378792dd",
       "title": "What's up? Pop!",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 986225,
       "const": 14.1,
       "rate": 14.54,
       "rank": "S",
       "verse": false
     },
-    "ffbeeeff6e06634a_mas": {
+    "ffbeeeff6e06634a_MASTER": {
       "id": "ffbeeeff6e06634a",
       "title": "エンドマークに希望と涙を添えて ～イロドリミドリアレンジ～",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 993423,
       "const": 13.8,
       "rate": 14.53,
       "rank": "S+",
       "verse": false
     },
-    "1ec01a60c17e6d42_exp": {
+    "1ec01a60c17e6d42_EXPART": {
       "id": "1ec01a60c17e6d42",
       "title": "Tempestissimo",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1007965,
       "const": 13.9,
       "rate": 15.94,
       "rank": "SSS",
       "verse": true
     },
-    "722cf9686d28fea2_exp": {
+    "722cf9686d28fea2_EXPART": {
       "id": "722cf9686d28fea2",
       "title": "Aether Crest: Celestial",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1003832,
       "const": 14.4,
       "rate": 15.78,
       "rank": "SS",
       "verse": true
     },
-    "7627bc3c7a41a921_mas": {
+    "7627bc3c7a41a921_MASTER": {
       "id": "7627bc3c7a41a921",
       "title": "Oracle",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 985707,
       "const": 14.8,
       "rate": 15.22,
       "rank": "S",
       "verse": true
     },
-    "7627bc3c7a41a921_exp": {
+    "7627bc3c7a41a921_EXPART": {
       "id": "7627bc3c7a41a921",
       "title": "Oracle",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1006812,
       "const": 13.1,
       "rate": 14.96,
       "rank": "SS+",
       "verse": true
     },
-    "722cf9686d28fea2_mas": {
+    "722cf9686d28fea2_MASTER": {
       "id": "722cf9686d28fea2",
       "title": "Aether Crest: Celestial",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 965190,
       "const": 15.5,
       "rate": 14.84,
       "rank": "AAA",
       "verse": true
     },
-    "0c5ee63ee594d669_mas": {
+    "0c5ee63ee594d669_MASTER": {
       "id": "0c5ee63ee594d669",
       "title": "Theatore Creatore",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 986032,
       "const": 14.4,
       "rate": 14.84,
       "rank": "S",
       "verse": true
     },
-    "18f873c982981e92_exp": {
+    "18f873c982981e92_EXPART": {
       "id": "18f873c982981e92",
       "title": "キミとボクへの葬送歌",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 998170,
       "const": 13.9,
       "rate": 14.82,
       "rank": "S+",
       "verse": true
     },
-    "1ec01a60c17e6d42_mas": {
+    "1ec01a60c17e6d42_MASTER": {
       "id": "1ec01a60c17e6d42",
       "title": "Tempestissimo",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 970059,
       "const": 15.1,
       "rate": 14.77,
       "rank": "AAA",
       "verse": true
     },
-    "29142d677f867deb_exp": {
+    "29142d677f867deb_EXPART": {
       "id": "29142d677f867deb",
       "title": "Chronomia",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 1007819,
       "const": 12.7,
       "rate": 14.73,
       "rank": "SSS",
       "verse": true
     },
-    "77bdec3e104b3aec_mas": {
+    "77bdec3e104b3aec_MASTER": {
       "id": "77bdec3e104b3aec",
       "title": "旅星に渇く",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 970563,
       "const": 14.9,
       "rate": 14.6,
       "rank": "AAA",
       "verse": true
     },
-    "f1912b75135ec1bd_exp": {
+    "f1912b75135ec1bd_EXPART": {
       "id": "f1912b75135ec1bd",
       "title": "躯樹の墓守",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 996562,
       "const": 13.7,
       "rate": 14.56,
       "rank": "S+",
       "verse": true
     },
-    "dbee754756b3a1b7_mas": {
+    "dbee754756b3a1b7_MASTER": {
       "id": "dbee754756b3a1b7",
       "title": "イガク",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 988942,
       "const": 14,
       "rate": 14.55,
       "rank": "S",
       "verse": true
     },
-    "2b3544c71a372cb7_mas": {
+    "2b3544c71a372cb7_MASTER": {
       "id": "2b3544c71a372cb7",
       "title": "Fighting My Way",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 989683,
       "const": 13.9,
       "rate": 14.48,
       "rank": "S",
       "verse": true
     },
-    "a974c543ca464494_exp": {
+    "a974c543ca464494_EXPART": {
       "id": "a974c543ca464494",
       "title": "HeinousЯeaper",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 986270,
       "const": 14,
       "rate": 14.45,
       "rank": "S",
       "verse": true
     },
-    "13cbc41df9158952_exp": {
+    "13cbc41df9158952_EXPART": {
       "id": "13cbc41df9158952",
       "title": "淵底のグレイ・ユークロニア",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 998477,
       "const": 13.5,
       "rate": 14.43,
       "rank": "S+",
       "verse": true
     },
-    "747a3397576a5083_exp": {
+    "747a3397576a5083_EXPART": {
       "id": "747a3397576a5083",
       "title": "≠彡\"/了→",
-      "difficulty": "Expart",
+      "difficulty": "EXPART",
       "score": 999622,
       "const": 13.4,
       "rate": 14.38,
       "rank": "S+",
       "verse": true
     },
-    "6efd3921eedf86cf_mas": {
+    "6efd3921eedf86cf_MASTER": {
       "id": "6efd3921eedf86cf",
       "title": "殺屋中毒",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 992711,
       "const": 13.6,
       "rate": 14.3,
       "rank": "S+",
       "verse": true
     },
-    "94b328b1b6baa8e1_mas": {
+    "94b328b1b6baa8e1_MASTER": {
       "id": "94b328b1b6baa8e1",
       "title": "ラブリージャッジメント",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 992056,
       "const": 13.6,
       "rate": 14.28,
       "rank": "S+",
       "verse": true
     },
-    "0b994191bf7d6dfb_mas": {
+    "0b994191bf7d6dfb_MASTER": {
       "id": "0b994191bf7d6dfb",
       "title": "Black MInD",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 966875,
       "const": 14.8,
       "rate": 14.25,
       "rank": "AAA",
       "verse": true
     },
-    "b777046a2958ba7e_mas": {
+    "b777046a2958ba7e_MASTER": {
       "id": "b777046a2958ba7e",
       "title": "ラビットホール",
-      "difficulty": "Master",
+      "difficulty": "MASTER",
       "score": 988463,
       "const": 13.7,
       "rate": 14.23,
       "rank": "S",
+      "verse": true
+    },
+    "75e72ff0c86b3e50_MASTER": {
+      "id": "75e72ff0c86b3e50",
+      "title": "ビビデバ",
+      "difficulty": "MASTER",
+      "score": 992491,
+      "const": 12.9,
+      "rate": 13.6,
+      "rank": "S+",
       "verse": true
     }
   }

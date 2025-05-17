@@ -12,7 +12,7 @@ const rl = readline.createInterface({
 
 const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 
-function update_savedata(title: string, diff: string, score: number) {
+export function update_savedata(title: string, diff: string, score: number) {
     const path: string = "userdata/tonton";
 
     if (!fs.existsSync(path)) {
@@ -36,26 +36,26 @@ function update_savedata(title: string, diff: string, score: number) {
         C	500,000	0
         */
         //更新チェック
-        if (savedata.data[`${song.id}_${diff}`]) {
-            const oldScore = savedata.data[`${song.id}_${diff}`].score;
+
+        let chart;
+        let difname = ""
+        if (diff.toLowerCase() == "expart" || diff == "exp") {
+            chart = song.dif_exp;
+            difname = "EXPART"
+        } else if (diff.toLowerCase() == "master" || diff == "mas") {
+            chart = song.dif_mas;
+            difname = "MASTER"
+        } else if (diff.toLowerCase() == "ultima" || diff == "ult") {
+            chart = song.dif_ult;
+            difname = "ULTIMA"
+        }
+
+        if (savedata.data[`${song.id}_${difname}`]) {
+            const oldScore: number = savedata.data[`${song.id}_${difname}`].score;
             if (oldScore >= score) {
                 console.log(`${title}の${diff}のスコアの更新はスキップします。`);
                 return;
             }
-        }
-
-
-        let chart;
-        let difname = ""
-        if (diff == "exp") {
-            chart = song.dif_exp;
-            difname = "Expart"
-        } else if (diff == "mas") {
-            chart = song.dif_mas;
-            difname = "Master"
-        } else if (diff == "ult") {
-            chart = song.dif_ult;
-            difname = "Ultima"
         }
 
         let rate: number = CHUNITHMRating.calculate(score, chart);
@@ -85,9 +85,9 @@ function update_savedata(title: string, diff: string, score: number) {
             verse: song.verse            
         };
 
-        savedata.data[`${song.id}_${diff}`] = songData;
+        savedata.data[`${song.id}_${difname}`] = songData;
         fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
-        console.log(`✅ スコアを更新しました : ${title} - ${diff}: ${score}`);
+        console.log(`✅ スコアを更新しました : ${title} - ${difname}: ${score}`);
     } else {
         console.error("⚠️ 曲が見つかりませんでした");
     }
@@ -140,7 +140,8 @@ function EnterSongData() {
         }
 
         rl.question("難易度を入力: ", (difficulty) => {
-            if (difficulty.toLowerCase() !== "exp" && difficulty.toLowerCase() !== "mas" && difficulty.toLowerCase() !== "ult") {
+            const validDifficulties = ["exp", "expart", "mas", "master", "ult", "ultima"];
+            if (!validDifficulties.includes(difficulty.toLowerCase())) {
                 console.error("⚠️ 難易度は exp, mas, ult のいずれかで入力してください。");
                 return EnterSongData();
             }
