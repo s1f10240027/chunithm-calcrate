@@ -9,10 +9,21 @@ const rl = readline.createInterface({
     terminal: true
 });
 
+export type SaveResult = {
+    id: string | null;
+    title: string;
+    difficulty: string;
+    score: number | null;
+    const: number | null;
+    rate: number | null;
+    rank: string | null;
+    verse: boolean | null;
+};
+
 
 const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 
-export function update_savedata(title: string, diff: string, score: number) {
+export function update_savedata(title: string, diff: string, score: number, action: string): SaveResult | Error {
     const path: string = "userdata/tonton";
 
     if (!fs.existsSync(path)) {
@@ -49,47 +60,84 @@ export function update_savedata(title: string, diff: string, score: number) {
             chart = song.dif_ult;
             difname = "ULTIMA"
         }
-
-        if (savedata.data[`${song.id}_${difname}`]) {
-            const oldScore: number = savedata.data[`${song.id}_${difname}`].score;
-            if (oldScore >= score) {
-                console.log(`${title}の${diff}のスコアの更新はスキップします。`);
-                return;
-            }
+        if (!chart) {
+            console.error("⚠️ 指定した難易度が見つかりませんでした");
+            return new Error("指定した難易度が見つかりません");
         }
 
-        let rate: number = CHUNITHMRating.calculate(score, chart);
-        const ranksList = [
-            { score: 1009000, rank: "SSS+" },
-            { score: 1007500, rank: "SSS" },
-            { score: 1005000, rank: "SS+" },
-            { score: 1000000, rank: "SS" },
-            { score: 990000,  rank: "S+" },
-            { score: 975000,  rank: "S" },
-            { score: 950000,  rank: "AAA" },
-            { score: 925000,  rank: "AA" },
-            { score: 900000,  rank: "A" },
-            { score: 800000,  rank: "BBB" },
-        ];
 
-        const rank = ranksList.find(r => score >= r.score)?.rank ?? "C";
+        if (action === "register") {
+            if (score > 1010000 || score < 0) {
+                console.error("⚠️ スコアは0以上1010000以下で入力してください");
+                return new Error("スコアは0 - 1010000の範囲で入力してください");
+            }
+        
+            if (savedata.data[`${song.id}_${difname}`]) {
+                const oldScore: number = savedata.data[`${song.id}_${difname}`].score;
+                if (oldScore >= score) {
+                    console.log(`${title}のスコアの更新は不要です。`);
+                    return new Error("既存のスコアの方が高いため、更新は行われませんでした");
+                }
+            }
 
-        const songData = {
-            id: song.id,
-            title: title,
-            difficulty: difname,
-            score: score,
-            const: chart,
-            rate: rate,
-            rank: rank,
-            verse: song.verse            
-        };
+            let rate: number = CHUNITHMRating.calculate(score, chart);
+            const ranksList = [
+                { score: 1009000, rank: "SSS+" },
+                { score: 1007500, rank: "SSS" },
+                { score: 1005000, rank: "SS+" },
+                { score: 1000000, rank: "SS" },
+                { score: 990000,  rank: "S+" },
+                { score: 975000,  rank: "S" },
+                { score: 950000,  rank: "AAA" },
+                { score: 925000,  rank: "AA" },
+                { score: 900000,  rank: "A" },
+                { score: 800000,  rank: "BBB" },
+            ];
 
-        savedata.data[`${song.id}_${difname}`] = songData;
-        fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
-        console.log(`✅ スコアを更新しました : ${title} - ${difname}: ${score}`);
+            const rank = ranksList.find(r => score >= r.score)?.rank ?? "C";
+
+            const songData = {
+                id: song.id,
+                title: title,
+                difficulty: difname,
+                score: score,
+                const: chart,
+                rate: rate,
+                rank: rank,
+                verse: song.verse            
+            };
+
+            savedata.data[`${song.id}_${difname}`] = songData;
+            fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
+            console.log(`✅ スコアを更新しました : ${title} - ${difname}: ${score}`);
+            return songData;
+        } else if (action === "delete") {
+            if (savedata.data[`${song.id}_${difname}`]) {
+
+                const songData = {
+                    id: null,
+                    title: title,
+                    difficulty: difname,
+                    score: score,
+                    const: null,
+                    rate: null,
+                    rank: null,
+                    verse: null            
+                };
+
+                delete savedata.data[`${song.id}_${difname}`];
+                fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
+                return songData
+            } else {
+                console.error("⚠️ 曲が見つかりませんでした");
+                return new Error("データが見つかりませんでした");
+            }
+
+        }
+        return new Error("不明なエラーが発生しました");
     } else {
         console.error("⚠️ 曲が見つかりませんでした");
+        return new Error("曲が見つかりませんでした");
     }
 }
 
@@ -115,7 +163,8 @@ function UploadCSVdata() {
                 const title = record["title"];
                 const difficulty = record["difficulty"].toLowerCase();
                 const score = parseInt(record["score"]);
-                update_savedata(title, difficulty, score);
+                const result = update_savedata(title, difficulty, score, "register");
+                console.log(result);
             }
         } else {
             console.error("⚠️ CSVファイルが見つかりませんでした");
@@ -123,6 +172,8 @@ function UploadCSVdata() {
         }
     })
 }
+
+
 function EnterSongData() {
     rl.question("曲名を入力: ", (title) => {
         if (title === "exitloop") {
@@ -149,7 +200,8 @@ function EnterSongData() {
             rl.question("スコアを入力: ", (scoreStr) => {
                 const score = parseInt(scoreStr);
                 if (!isNaN(score)) {
-                    update_savedata(title, difficulty, score);
+                    const result = update_savedata(title, difficulty, score, "register");
+                    console.log(result);
                 } else {
                     console.error("⚠️ スコアは数字で入力してください。");
                 }
@@ -159,4 +211,7 @@ function EnterSongData() {
     });
 }
 
-EnterSongData();
+
+if (import.meta.url === `file://${process.argv[1]}`) {
+    EnterSongData();
+}
