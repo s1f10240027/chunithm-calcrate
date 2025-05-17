@@ -46,8 +46,8 @@ function getSingleData(id: string) {
         .then((response) => response.json())
         .then((data: any) => {
             result["esp"] = data.data.EXP ? data.data.EXP.const : null;
-            result["mas"] = data.data.MAS ? data.data.MAS.const : null;
-            result["ult"] = data.data.ULT ? data.data.ULT.const : null;
+            result["MASTER"] = data.data.MAS ? data.data.MAS.const : null;
+            result["ULTIMA"] = data.data.ULT ? data.data.ULT.const : null;
         })
     return result;
 }
@@ -133,14 +133,48 @@ function update_songs(type: string) {
             console.log(`処理完了件数: ${correct_num}`);
             console.log(`不明件数: ${Nodata_num}`);
         })();
-    };
+    } else if (type == "fix") {
+        //titleがない曲を修正するための処理
+        const URL_ALL: string = `https://api.chunirec.net/2.0/music/showall.json?region=jp2&token=${TOKEN}`;
+        const OldData = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
+        const needFixSongs = OldData.filter((song: any) => !song.title);
+        fetch(URL_ALL)
+            .then((response) => response.json())
+            .then((data: unknown) => {
+                const songs = data as Song[];
+                needFixSongs.forEach((fixSong: any) => {
+                    const found = songs.find(song => song.meta.id === fixSong.id);
+                    if (found) {
+                        const fixedSong = {
+                            id: found.meta.id,
+                            title: found.meta.title,
+                            genre: found.meta.genre,
+                            artist: found.meta.artist,
+                            verse: fixSong.verse,
+                            dif_exp: fixSong.dif_exp,
+                            dif_mas: fixSong.dif_mas,
+                            dif_ult: fixSong.dif_ult
+                        };
+
+                        const index = OldData.findIndex((db_song: any) => db_song.id === found.meta.id);
+                        if (index !== -1) {
+                            OldData[index] = fixedSong;
+                        };
+                        console.log(fixedSong);
+                    };
+                });
+                fs.writeFileSync("songs.json", JSON.stringify(OldData, null, 2), "utf-8");
+            });
+    }
 }
 
-rl.question("update typeを入力してください (all, single): ", (input) => {
+rl.question("update typeを入力してください (all, single, fix): ", (input) => {
     if (input == "all") {
         update_songs("all");
     } else if (input == "single") {
         update_songs("single");
+    } else if (input == "fix") {
+        update_songs("fix");
     } else {
         getSingleData("aa");
         console.error("⚠️ update typeはallかsingleで入力してください。");
