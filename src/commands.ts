@@ -46,7 +46,20 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
     };
 
 });
-
+function deleteTmpFiles(filePath: string) {
+    try {
+        if (fs.existsSync(filePath)) {
+            fs.unlinkSync(filePath);
+            return;
+        } else {
+            console.log(`File not found: ${filePath}`);
+            return;
+        }
+    } catch (error) {
+        console.error(`Error deleting file: ${error}`);
+        return;
+    }
+}
 client.on('interactionCreate', async (interaction: Interaction) => {
     if (!interaction.isChatInputCommand()) return;
 
@@ -137,7 +150,8 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                 if (!image) {
                     image = "https://ul.h3z.jp/iZzGl7oh.png";
                 }     
-                const tempImagePath = path.join("tmp", "jacket_tmp.jpg");
+                const tempImagePath = path.join("tmp", `jacket_original_${interaction.user.id}_${Date.now()}.jpg`);
+                const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}__${Date.now()}.jpg`);
                 const response = await axios.get(image, {
                     responseType: "arraybuffer",
                     headers: {
@@ -146,35 +160,51 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     },
                 });
 
+                if (!fs.existsSync('./tmp')) {
+                    console.log('tmpフォルダが存在しません');
+                }
                 fs.writeFileSync(tempImagePath, response.data);    
-                await sharp('./tmp/jacket_tmp.jpg')
+                const buffer = fs.readFileSync(tempImagePath);
+                await sharp(buffer)
                     .resize(300, 300)
-                    .toFile('./tmp/jacket.jpg');
-                const file = new AttachmentBuilder('./tmp/jacket.jpg', { name: 'thumbnail.jpg' });  
+                    .toFile(resizeImagePath);
+
+                const file = new AttachmentBuilder(resizeImagePath, { name: `thumbnail_${interaction.user.id}.jpg` });  
                 const embed = new EmbedBuilder()
                     .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
                     .setColor(SuccessColor)
                     .setTitle(title)
-                    .setImage(`attachment://thumbnail.jpg`)
+                    .setImage(`attachment://thumbnail_${interaction.user.id}.jpg`)
                     .addFields(
-                        { name: 'ジャンル', value: songData.meta.genre, inline: true },
-                        { name: 'アーティスト', value: songData.meta.artist, inline: true },
-                        { name: 'リリース日', value: songData.meta.release, inline: true },
-                        { name: 'Basic', value: songData.data.BAS ? `${songData.data.BAS.const}` : 'N/A', inline: true },
-                        { name: 'Advanced', value: songData.data.ADV ? `${songData.data.ADV.const}` : 'N/A', inline: true },
-                        { name: 'Expert', value: songData.data.EXP ? `${songData.data.EXP.const}` : 'N/A', inline: true },
-                        { name: 'Master', value: songData.data.MAS ? `${songData.data.MAS.const}` : 'N/A', inline: true },
-                        { name: 'Ultima', value: songData.data.ULT ? `${songData.data.ULT.const}` : 'N/A', inline: true }
+                        { name: 'ジャンル', value: String(songData.meta.genre), inline: true },
+                        { name: 'アーティスト', value: String(songData.meta.artist), inline: true },
+                        { name: '\u200B', value: '\u200B', inline: true },
+                        
+                    )
+                    .addFields(
+                        { name: 'リリース日', value: String(songData.meta.release), inline: true },
+                        { name: '解禁方法', value: String(songData.meta.unlock), inline: true },
+                        { name: 'BPM', value: String(songData.meta.bpm ? songData.meta.bpm : "-"), inline: true },
+                    )
+                    .addFields(
+                        {
+                            name: '譜面定数:',
+                            value:
+                                `**Basic**: ${songData.data.BAS ? `${songData.data.BAS.const}` : '-'}\n` +
+                                `**Advanced**: ${songData.data.ADV ? `${songData.data.ADV.const}` : '-'}\n` +
+                                `**Expert**: ${songData.data.EXP ? `${songData.data.EXP.const}` : '-'}\n` +
+                                `**Master**: ${songData.data.MAS ? `${songData.data.MAS.const}` : '-'}\n` +
+                                `**Ultima**: ${songData.data.ULT ? `${songData.data.ULT.const}` : '-'}`,
+                            inline: false
+                        }
                     );
 
                 await interaction.reply({ 
                     files: [file],
                     embeds: [embed] 
                 });
-                setTimeout(() => {
-                    fs.unlinkSync(tempImagePath);
-                    fs.unlinkSync('./tmp/jacket.jpg');
-                }, 100);
+                deleteTmpFiles(tempImagePath);
+                deleteTmpFiles(resizeImagePath);
                 return;
             }
         } else {

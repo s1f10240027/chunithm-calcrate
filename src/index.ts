@@ -1,4 +1,5 @@
 import { REST, Routes, SlashCommandBuilder } from 'discord.js';
+import fs from 'fs';
 import dotenv from "dotenv";
 dotenv.config();
 
@@ -92,6 +93,22 @@ const commandsWithOptions = [
 client.once('ready', async () => {
     if (client.user) {
         console.log(`Logged in as ${client.user.tag}!`);
+        
+        fs.readdir('./tmp', (err: any, files: string[]) => {
+            if (err) {
+                console.error('Error reading directory:', err);
+                return;
+            }
+            for (const file of files) {
+                fs.unlink(`./tmp/${file}`, (err: any) => {
+                    if (err) {
+                        console.error('Error deleting file:', err);
+                    } else {
+                        console.log(`Deleted tmp files`);
+                    }
+                });
+            }
+        });
     } else {
         console.log('Logged in, but client.user is null.');
     }
