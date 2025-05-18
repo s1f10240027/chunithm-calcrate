@@ -2,6 +2,7 @@ import readline from "readline";
 import fs from "fs";
 import { CHUNITHMRating } from "rg-stats"
 import { parse } from 'csv-parse/sync';
+import { client } from './client.js';
 
 const rl = readline.createInterface({
     input: process.stdin,
@@ -23,11 +24,22 @@ export type SaveResult = {
 
 const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 
-export function update_savedata(title: string, diff: string, score: number, action: string): SaveResult | Error {
-    const path: string = "userdata/tonton";
+export async function update_savedata(title: string, diff: string, score: number, action: string, userId: string): Promise<SaveResult | Error> {
+    const path: string =  `userdata/${userId}.json`;
 
     if (!fs.existsSync(path)) {
-        fs.writeFileSync(path, JSON.stringify({ "meta": {}, "data": {} }, null, 2), "utf-8");
+        const user = await client.users.fetch(userId);
+        fs.writeFileSync(path, JSON.stringify(
+            { 
+                "meta": {
+                    id: userId,
+                    name: user.tag,
+                    created_at: new Date().toISOString(),
+                    updated_at: ""
+                }, 
+                "data": {} 
+            }, 
+            null, 2), "utf-8");
     };
 
     const savedata = JSON.parse(fs.readFileSync(path, "utf-8"));
@@ -108,6 +120,7 @@ export function update_savedata(title: string, diff: string, score: number, acti
             };
 
             savedata.data[`${song.id}_${difname}`] = songData;
+            savedata.meta["updated_at"] = new Date().toISOString();
             fs.writeFileSync(path, JSON.stringify(savedata, null, 2), "utf-8");
             console.log(`✅ スコアを更新しました : ${title} - ${difname}: ${score}`);
             return songData;
@@ -163,7 +176,7 @@ function UploadCSVdata() {
                 const title = record["title"];
                 const difficulty = record["difficulty"].toLowerCase();
                 const score = parseInt(record["score"]);
-                const result = update_savedata(title, difficulty, score, "register");
+                const result = update_savedata(title, difficulty, score, "register", "tonton");
                 console.log(result);
             }
         } else {
@@ -200,7 +213,7 @@ function EnterSongData() {
             rl.question("スコアを入力: ", (scoreStr) => {
                 const score = parseInt(scoreStr);
                 if (!isNaN(score)) {
-                    const result = update_savedata(title, difficulty, score, "register");
+                    const result = update_savedata(title, difficulty, score, "register", "tonton");
                     console.log(result);
                 } else {
                     console.error("⚠️ スコアは数字で入力してください。");
