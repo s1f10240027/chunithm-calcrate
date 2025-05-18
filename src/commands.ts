@@ -11,8 +11,8 @@ import { getSongData } from './search.js';
 import { getJacketFromUnirec } from './get_jacket.js';
 import { sortResults } from './show_rating.js';
 
-const ErrorColor = 0xd80b0b;
-const SuccessColor = 0x2ee23d;
+const ErrorColor: number = 0xd80b0b;
+const SuccessColor: number = 0x2ee23d;
 
 const ratingProcessingUsers = new Set<string>();
 
@@ -35,8 +35,8 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
     if (!interaction.isAutocomplete()) return;
 
     if (
-        (interaction.commandName === 'register' || interaction.commandName === 'delete') ||
-        (interaction.commandName === 'search' && interaction.options.getString('type') === 'title')
+        (interaction.commandName === 'register' || interaction.commandName === 'delete' || 
+        (interaction.commandName === 'search' && interaction.options.getString('type') === 'title'))
     ) {
         const focusedValue = normalize(interaction.options.getFocused());
 
