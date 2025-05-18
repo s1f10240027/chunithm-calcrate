@@ -69,6 +69,10 @@ const commandsWithOptions = [
                 .setAutocomplete(true)
         ),
     new SlashCommandBuilder()
+        .setName('rating')
+        .setDescription('make a rating image.'),
+
+    new SlashCommandBuilder()
         .setName('shutdown')
         .setDescription('Botをシャットダウンします。')
             

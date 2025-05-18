@@ -9,10 +9,12 @@ import axios from 'axios';
 import { client } from './client.js';
 import { getSongData } from './search.js';
 import { getJacketFromUnirec } from './get_jacket.js';
-
+import { sortResults } from './show_rating.js';
 
 const ErrorColor = 0xd80b0b;
 const SuccessColor = 0x2ee23d;
+
+const ratingProcessingUsers = new Set<string>();
 
 function normalize(str: string): string {
     return str
@@ -62,13 +64,12 @@ function deleteTmpFiles(filePath: string) {
 }
 client.on('interactionCreate', async (interaction: Interaction) => {
     if (!interaction.isChatInputCommand()) return;
-
+    
     if (interaction.commandName === 'register') {
-        
         const title: string = interaction.options.getString('title')!;
         const difficulty: string = interaction.options.getString('difficulty')!;
         const score: number = interaction.options.getNumber('score')!;
-        const result = update_savedata(title, difficulty, score, "register");
+        const result = await update_savedata(title, difficulty, score, "register", interaction.user.id);
         if (!result) {
             await interaction.reply('エラー: 結果が取得できませんでした。');
             return;
@@ -104,7 +105,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
         
         const title: string = interaction.options.getString('title')!;
         const difficulty: string = interaction.options.getString('difficulty')!;
-        const result = update_savedata(title, difficulty, 0, "delete");
+        const result = await update_savedata(title, difficulty, 0, "delete", interaction.user.id);
         if (!result) {
             await interaction.reply('エラー: 結果が取得できませんでした。');
             return;
@@ -211,6 +212,54 @@ client.on('interactionCreate', async (interaction: Interaction) => {
             await interaction.reply('曲が見つかりませんでした。');
             return;
         };
+    } else if (interaction.commandName === 'rating') {
+        
+        if (ratingProcessingUsers.has(interaction.user.id)) {
+            await interaction.reply({
+                        content: "既に実行中です。しばらくお待ちください。",
+                        ephemeral: true
+                    });
+                return;
+            }
+        ratingProcessingUsers.add(interaction.user.id);
+        try{
+            await interaction.reply({
+                content: "画像を生成中です...\nこれには数十秒かかる場合があります。",
+                ephemeral: true
+            });
+            const result = await sortResults(interaction.user.id)
+            if (result) { 
+                const outputPath = path.join("outputs", `${interaction.user.tag}.png`);
+                if (!fs.existsSync(outputPath)) {
+                    const embed = new EmbedBuilder()
+                        .setColor(ErrorColor)
+                        .setTitle("画像生成に失敗しました")
+                        .setDescription("画像ファイルが見つかりませんでした。");
+                    await interaction.editReply({ embeds: [embed], content: null });
+                    return;
+                }
+                const file = new AttachmentBuilder(outputPath, { name: `${interaction.user.id}.png` });
+                // Ensure the channel is a TextChannel, NewsChannel, or ThreadChannel before sending
+                if (interaction.channel && interaction.channel.type == 0) {
+                    await interaction.channel.send({ files: [file], content: `<@${interaction.user.id}>` });
+                } else {
+                    const embed = new EmbedBuilder()
+                        .setColor(ErrorColor)
+                        .setTitle("エラーが発生しました")
+                        .setDescription("チャンネルが見つかりませんでした。");
+                    await interaction.editReply({ embeds: [embed], content: null });
+                }
+            } else {
+                const embed = new EmbedBuilder()
+                    .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                    .setColor(ErrorColor)
+                    .setTitle(`エラーが発生しました`)
+                await interaction.editReply({ embeds: [embed], content: null })
+                return;
+            }
+        } finally {
+            ratingProcessingUsers.delete(interaction.user.id);
+        }
 
     } else if (interaction.commandName === 'shutdown') {
         interaction.reply('Botをシャットダウンします。');

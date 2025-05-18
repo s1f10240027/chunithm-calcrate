@@ -24,7 +24,7 @@ for (const key in original_locs_n) {
     original_locs_n[key as keyof typeof original_locs_n][0] += 990;
 }
 
-export async function createRateImage(b_result: any[], n_result: any[], user: string) {
+export async function createRateImage(b_result: any[], n_result: any[], user: string): Promise<boolean> {
     let locs_b = JSON.parse(JSON.stringify(original_locs_b));
     let locs_n = JSON.parse(JSON.stringify(original_locs_n));
 
@@ -166,9 +166,12 @@ export async function createRateImage(b_result: any[], n_result: any[], user: st
     
 
     // 保存
-    const out = fs.createWriteStream('./output.png');
-    const stream = canvas.createPNGStream();
-    stream.pipe(out);
-    
-
+    await new Promise<void>((resolve, reject) => {
+        const out = fs.createWriteStream(`./outputs/${user}.png`);
+        const stream = canvas.createPNGStream();
+        stream.pipe(out);
+        out.on('finish', () => resolve());
+        out.on('error', (err) => reject(err));
+    }); 
+    return true;
 }
