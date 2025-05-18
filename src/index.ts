@@ -60,11 +60,20 @@ const commandsWithOptions = [
         ),
 
     new SlashCommandBuilder()
-        .setName('detail')
+        .setName('search')
         .setDescription('Send the details of entered song.') 
         .addStringOption(option =>
-            option.setName('title')
-                .setDescription('Music title')
+            option.setName('type')
+                .setDescription('Select the type of search')
+                .setRequired(true)
+                .addChoices(
+                    { name: 'title', value: 'title' },
+                    { name: 'artist', value: 'artist' }
+                )
+        )
+        .addStringOption(option =>
+            option.setName('value')
+                .setDescription('Music title or Artist name')
                 .setRequired(true)
                 .setAutocomplete(true)
         ),

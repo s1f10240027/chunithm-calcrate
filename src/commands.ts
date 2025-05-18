@@ -30,10 +30,14 @@ const NormalizedSongs = SongsData.map((song: any) => ({
     normalizedTitle: normalize(song.title)
 }));
 
-client.on(Events.InteractionCreate, async (interaction: Interaction) => {
-	if (!interaction.isAutocomplete()) return;
 
-    if (interaction.commandName === 'register' || interaction.commandName === 'delete' || interaction.commandName === 'detail') {
+client.on(Events.InteractionCreate, async (interaction: Interaction) => {
+    if (!interaction.isAutocomplete()) return;
+
+    if (
+        (interaction.commandName === 'register' || interaction.commandName === 'delete') ||
+        (interaction.commandName === 'search' && interaction.options.getString('type') === 'title')
+    ) {
         const focusedValue = normalize(interaction.options.getFocused());
 
         const filtered = NormalizedSongs
@@ -43,10 +47,37 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
                 name: song.title,
                 value: song.title
             }));
-            
-        await interaction.respond(filtered);
-    };
 
+        await interaction.respond(filtered);
+    
+    } else if (interaction.commandName === 'search' && interaction.options.getString('type') === 'artist') {
+        const filtered: { name: string; value: string }[] = [];
+        await interaction.respond(filtered);
+        return;
+        /*
+        const focusedValue = normalize(interaction.options.getFocused());
+
+        let sortedArtists: string[] = [];
+        SongsData.map((song: { artist: string }) => {
+            const featIndex = song.artist.indexOf(' feat');
+            const displayArtist = featIndex !== -1 ? song.artist.slice(0, featIndex) : song.artist;
+            sortedArtists.push(displayArtist);
+        });
+
+        const uniqueArtists = [...new Set(sortedArtists)];
+
+        const filtered = uniqueArtists
+            .filter((artist: string) => normalize(artist).startsWith(focusedValue))
+            .slice(0, 20)
+            .map((artist: string) => ({
+            name: artist,
+            value: artist
+            }));
+
+        await interaction.respond(filtered);
+        */
+    
+    }
 });
 function deleteTmpFiles(filePath: string) {
     try {
@@ -131,87 +162,132 @@ client.on('interactionCreate', async (interaction: Interaction) => {
             await interaction.reply({ embeds: [embed] });
             return;
         }
-    } else if (interaction.commandName === 'detail') {
-        const title: string = interaction.options.getString('title')!;
-        const song = SongsData.find((song: any) => song.title === title);
-        if (song) {
-            const songDataResult = await getSongData(song.id);
-            if (songDataResult instanceof Error) {
-                const embed = new EmbedBuilder()
-                    .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
-                    .setColor(ErrorColor)
-                    .setTitle(`エラーが発生しました`)
-                    .setDescription(songDataResult.message)
-                await interaction.reply({ embeds: [embed] });
-                return;
-            } else { 
-                const songData = songDataResult;
+    } else if (interaction.commandName === 'search') {
+        const type: string = interaction.options.getString('type')!;
+        const value: string = interaction.options.getString('value')!;
+        if (type == "title") {
+            const song = SongsData.find((song: any) => song.title === value);
+            if (song) {
+                const songDataResult = await getSongData(song.id);
+                if (songDataResult instanceof Error) {
+                    const embed = new EmbedBuilder()
+                        .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                        .setColor(ErrorColor)
+                        .setTitle(`エラーが発生しました`)
+                        .setDescription(songDataResult.message)
+                    await interaction.reply({ embeds: [embed] });
+                    return;
+                } else { 
+                    const songData = songDataResult;
 
-                let image: string = await getJacketFromUnirec(songData.meta.id);
-                if (!image) {
-                    image = "https://ul.h3z.jp/iZzGl7oh.png";
-                }     
-                const tempImagePath = path.join("tmp", `jacket_original_${interaction.user.id}_${Date.now()}.jpg`);
-                const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}__${Date.now()}.jpg`);
-                const response = await axios.get(image, {
-                    responseType: "arraybuffer",
-                    headers: {
-                        "User-Agent": "Mozilla/5.0",
-                        "Referer": "https://db.chunirec.net/", 
-                    },
-                });
+                    let image: string = await getJacketFromUnirec(songData.meta.id);
+                    if (!image) {
+                        image = "https://ul.h3z.jp/iZzGl7oh.png";
+                    }     
+                    const tempImagePath = path.join("tmp", `jacket_original_${interaction.user.id}_${Date.now()}.jpg`);
+                    const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}__${Date.now()}.jpg`);
+                    const response = await axios.get(image, {
+                        responseType: "arraybuffer",
+                        headers: {
+                            "User-Agent": "Mozilla/5.0",
+                            "Referer": "https://db.chunirec.net/", 
+                        },
+                    });
 
-                if (!fs.existsSync('./tmp')) {
-                    console.log('tmpフォルダが存在しません');
+                    if (!fs.existsSync('./tmp')) {
+                        console.log('tmpフォルダが存在しません');
+                    }
+                    fs.writeFileSync(tempImagePath, response.data);    
+                    const buffer = fs.readFileSync(tempImagePath);
+                    await sharp(buffer)
+                        .resize(300, 300)
+                        .toFile(resizeImagePath);
+
+                    const file = new AttachmentBuilder(resizeImagePath, { name: `thumbnail_${interaction.user.id}.jpg` });  
+                    const embed = new EmbedBuilder()
+                        .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                        .setColor(SuccessColor)
+                        .setTitle(value)
+                        .setImage(`attachment://thumbnail_${interaction.user.id}.jpg`)
+                        .addFields(
+                            { name: 'ジャンル', value: String(songData.meta.genre), inline: true },
+                            { name: 'アーティスト', value: String(songData.meta.artist), inline: true },
+                            { name: '\u200B', value: '\u200B', inline: true },
+                            
+                        )
+                        .addFields(
+                            { name: 'リリース日', value: String(songData.meta.release), inline: true },
+                            { name: '解禁方法', value: String(songData.meta.unlock), inline: true },
+                            { name: 'BPM', value: String(songData.meta.bpm ? songData.meta.bpm : "-"), inline: true },
+                        )
+                        .addFields(
+                            {
+                                name: '譜面定数:',
+                                value:
+                                    `**Basic**: ${songData.data.BAS ? `${songData.data.BAS.const}` : '-'}\n` +
+                                    `**Advanced**: ${songData.data.ADV ? `${songData.data.ADV.const}` : '-'}\n` +
+                                    `**Expert**: ${songData.data.EXP ? `${songData.data.EXP.const}` : '-'}\n` +
+                                    `**Master**: ${songData.data.MAS ? `${songData.data.MAS.const}` : '-'}\n` +
+                                    `**Ultima**: ${songData.data.ULT ? `${songData.data.ULT.const}` : '-'}`,
+                                inline: false
+                            }
+                        );
+
+                    await interaction.reply({ 
+                        files: [file],
+                        embeds: [embed] 
+                    });
+                    deleteTmpFiles(tempImagePath);
+                    deleteTmpFiles(resizeImagePath);
+                    return;
                 }
-                fs.writeFileSync(tempImagePath, response.data);    
-                const buffer = fs.readFileSync(tempImagePath);
-                await sharp(buffer)
-                    .resize(300, 300)
-                    .toFile(resizeImagePath);
-
-                const file = new AttachmentBuilder(resizeImagePath, { name: `thumbnail_${interaction.user.id}.jpg` });  
+            } else {
+                await interaction.reply('曲が見つかりませんでした。');
+                return;
+            };
+        } else if (type == "artist") {
+            const artist = SongsData.filter((song: any) => song.artist.toLowerCase().includes(value.toLowerCase()));
+            if (artist.length > 0) {
                 const embed = new EmbedBuilder()
                     .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
                     .setColor(SuccessColor)
-                    .setTitle(title)
-                    .setImage(`attachment://thumbnail_${interaction.user.id}.jpg`)
-                    .addFields(
-                        { name: 'ジャンル', value: String(songData.meta.genre), inline: true },
-                        { name: 'アーティスト', value: String(songData.meta.artist), inline: true },
-                        { name: '\u200B', value: '\u200B', inline: true },
-                        
-                    )
-                    .addFields(
-                        { name: 'リリース日', value: String(songData.meta.release), inline: true },
-                        { name: '解禁方法', value: String(songData.meta.unlock), inline: true },
-                        { name: 'BPM', value: String(songData.meta.bpm ? songData.meta.bpm : "-"), inline: true },
-                    )
-                    .addFields(
-                        {
-                            name: '譜面定数:',
-                            value:
-                                `**Basic**: ${songData.data.BAS ? `${songData.data.BAS.const}` : '-'}\n` +
-                                `**Advanced**: ${songData.data.ADV ? `${songData.data.ADV.const}` : '-'}\n` +
-                                `**Expert**: ${songData.data.EXP ? `${songData.data.EXP.const}` : '-'}\n` +
-                                `**Master**: ${songData.data.MAS ? `${songData.data.MAS.const}` : '-'}\n` +
-                                `**Ultima**: ${songData.data.ULT ? `${songData.data.ULT.const}` : '-'}`,
-                            inline: false
+                    .setTitle(`${value} を含むアーティストの楽曲`);
+                try {
+                    const artistMap: { [artist: string]: string[] } = {};
+                    artist.forEach((song: any) => {
+                        if (!artistMap[song.artist]) {
+                            artistMap[song.artist] = [];
                         }
-                    );
+                        artistMap[song.artist].push(` ・${song.title}`);
+                    });
 
-                await interaction.reply({ 
-                    files: [file],
-                    embeds: [embed] 
-                });
-                deleteTmpFiles(tempImagePath);
-                deleteTmpFiles(resizeImagePath);
+                    for (const [artistName, titles] of Object.entries(artistMap)) {
+                        embed.addFields({
+                            name: artistName,
+                            value: titles.join('\n'),
+                            inline: false
+                        });
+                    }
+                    await interaction.reply({ embeds: [embed] });
+                    return;
+                } catch (error) {
+                    console.error('Error:', error);
+                    const embed = new EmbedBuilder()
+                        .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                        .setColor(ErrorColor)
+                        .setTitle(`エラーが発生しました`)
+                        .setDescription("候補が多すぎるため、より具体的に入力してください。")
+                    await interaction.reply({ embeds: [embed] });
+                    return;
+                }
+            } else {
+                await interaction.reply('アーティストが見つかりませんでした。');
                 return;
-            }
+            };
         } else {
-            await interaction.reply('曲が見つかりませんでした。');
+            await interaction.reply('無効な検索タイプです。');
             return;
-        };
+        }
     } else if (interaction.commandName === 'rating') {
         
         if (ratingProcessingUsers.has(interaction.user.id)) {
@@ -239,7 +315,6 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     return;
                 }
                 const file = new AttachmentBuilder(outputPath, { name: `${interaction.user.id}.png` });
-                // Ensure the channel is a TextChannel, NewsChannel, or ThreadChannel before sending
                 if (interaction.channel && interaction.channel.type == 0) {
                     await interaction.channel.send({ files: [file], content: `<@${interaction.user.id}>` });
                 } else {
@@ -262,7 +337,18 @@ client.on('interactionCreate', async (interaction: Interaction) => {
         }
 
     } else if (interaction.commandName === 'shutdown') {
-        interaction.reply('Botをシャットダウンします。');
-        client.destroy();
+        if (interaction.user.id == process.env.ADMIN_ID) {
+            interaction.reply({
+                content: "Botをシャットダウンします。",
+                ephemeral: true
+            });
+            
+            client.destroy();
+        } else {
+            interaction.reply({
+                content: "このコマンドを実行する権限がありません。",
+                ephemeral: true
+            });
+        }
     }
 });
