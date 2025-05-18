@@ -90,28 +90,3 @@ async function getMoreInfoFromWiki(songTitle: string): Promise<{ unlock: string,
         return { unlock: "-", bpm: "0" };
     };
 }
-/*
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-    terminal: true
-});
-
-const songs = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
-
-function SearchSong() {
-    rl.question("曲名を入力: ", (input) => {
-        const matched = songs.find((songs: any) => songs.title == input);
-        if (matched) {
-            console.log(`曲名: ${matched.title}`);
-            console.log(`曲ID: ${matched.id}`);
-            getSongData(matched.id);
-        } else {
-            console.log("曲が見つかりませんでした");
-        };
-
-        rl.close();
-    });
-};
-SearchSong();
-*/
