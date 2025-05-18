@@ -11,26 +11,25 @@ type ResultTypes = {
   rank: string;
   verse: boolean;
 };
+export async function sortResults(userId: string): Promise<boolean> {
+    const userdata = JSON.parse(fs.readFileSync(`userdata/${userId}.json`, "utf-8"));
+    const NonverseData: ResultTypes[] = [];
+    const verseData: ResultTypes[] = [];
 
+    for (const songsec in userdata.data) {
+        const songData = userdata.data[songsec];
+        if (!songData.verse) {
+            NonverseData.push(songData);
+        } else {
+            verseData.push(songData);
+        }verseData
+    }
 
-const userdata: any = JSON.parse(fs.readFileSync("userdata/tonton", "utf-8"));
-const results: [ResultTypes[], ResultTypes[]] = [[], []];
+    NonverseData.sort((a, b) => b.rate - a.rate);
+    verseData.sort((a, b) => b.rate - a.rate);
 
-for (const songsec in userdata["data"]) {
-    const songData = userdata["data"][songsec];
-    
-    if (!songData.verse) {
-        results[0].push(songData);
-    } else {
-        results[1].push(songData);
-    };
-};
+    const sorted0 = NonverseData.length > 30 ? NonverseData.slice(0, 30) : NonverseData;
+    const sorted1 = verseData.length > 20 ? verseData.slice(0, 20) : verseData;
 
-const sorted: [ResultTypes[], ResultTypes[]] = [
-    [...results[0]].sort((a, b) => b.rate - a.rate).slice(0, 30),
-    [...results[1]].sort((a, b) => b.rate - a.rate).slice(0, 20)
-];
-
-console.log("Loading...");
-createRateImage(sorted[0], sorted[1], userdata["meta"].name);
-
+    return await createRateImage(sorted0, sorted1, userdata.meta.name);
+}
