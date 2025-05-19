@@ -515,16 +515,6 @@
       "rate": 13.6,
       "rank": "S+",
       "verse": true
-    },
-    "65fc5dc3349c6d00_MASTER": {
-      "id": "65fc5dc3349c6d00",
-      "title": "祈 -我ら神祖と共に歩む者なり-",
-      "difficulty": "MASTER",
-      "score": 1000000,
-      "const": 15.7,
-      "rate": 16.7,
-      "rank": "SS",
-      "verse": false
     }
   }
 }

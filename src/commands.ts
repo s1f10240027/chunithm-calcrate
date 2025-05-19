@@ -51,32 +51,20 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
         await interaction.respond(filtered);
     
     } else if (interaction.commandName === 'search' && interaction.options.getString('type') === 'artist') {
-        const filtered: { name: string; value: string }[] = [];
+        const filtered: { name: string; value: string }[] = [
+            { name: "アーティスト検索では候補の自動補完は利用できません", value: "アーティスト検索では候補の自動補完は利用できません" }
+        ];
         await interaction.respond(filtered);
         return;
-        /*
-        const focusedValue = normalize(interaction.options.getFocused());
-
-        let sortedArtists: string[] = [];
-        SongsData.map((song: { artist: string }) => {
-            const featIndex = song.artist.indexOf(' feat');
-            const displayArtist = featIndex !== -1 ? song.artist.slice(0, featIndex) : song.artist;
-            sortedArtists.push(displayArtist);
-        });
-
-        const uniqueArtists = [...new Set(sortedArtists)];
-
-        const filtered = uniqueArtists
-            .filter((artist: string) => normalize(artist).startsWith(focusedValue))
-            .slice(0, 20)
-            .map((artist: string) => ({
-            name: artist,
-            value: artist
-            }));
-
+    } else if (interaction.commandName === 'search' && interaction.options.getString('type') === 'difficulty') {
+        let diffs: { name: string; value: string }[] = []
+        for (let i = 15; i >= 7; i--) {
+            diffs.push({ name: `${i}.0～`, value: `${i}.0～` });
+        }
+        const filtered: { name: string; value: string }[] = diffs;
         await interaction.respond(filtered);
-        */
-    
+        return;
+
     }
 });
 function deleteTmpFiles(filePath: string) {
@@ -284,6 +272,14 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                 await interaction.reply('アーティストが見つかりませんでした。');
                 return;
             };
+        } else if (type == "difficulty") {
+            const diffData = SongsData.filter((song: any) => parseInt(song.const) == parseInt(value));
+            if (diffData.length > 0) {
+                const embed = new EmbedBuilder()
+                    .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                    .setColor(SuccessColor)
+                    .setTitle(`${value} の楽曲リスト`);
+            }
         } else {
             await interaction.reply('無効な検索タイプです。');
             return;

@@ -68,7 +68,8 @@ const commandsWithOptions = [
                 .setRequired(true)
                 .addChoices(
                     { name: 'title', value: 'title' },
-                    { name: 'artist', value: 'artist' }
+                    { name: 'artist', value: 'artist' },
+                    { name: 'difficulty', value: 'difficulty' }
                 )
         )
         .addStringOption(option =>
@@ -80,7 +81,7 @@ const commandsWithOptions = [
     new SlashCommandBuilder()
         .setName('rating')
         .setDescription('make a rating image.'),
-
+    
     new SlashCommandBuilder()
         .setName('shutdown')
         .setDescription('Botをシャットダウンします。')
