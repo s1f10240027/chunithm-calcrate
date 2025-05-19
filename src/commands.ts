@@ -1,4 +1,4 @@
-import { Events, EmbedBuilder, Interaction, AttachmentBuilder } from 'discord.js';
+import { Events, EmbedBuilder, Interaction, AttachmentBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';
 import { update_savedata, SaveResult } from './update_savedata.js';
 import fs from 'fs';
 import path from 'path';
@@ -30,7 +30,7 @@ const NormalizedSongs = SongsData.map((song: any) => ({
     normalizedTitle: normalize(song.title)
 }));
 
-
+// AutoComplete
 client.on(Events.InteractionCreate, async (interaction: Interaction) => {
     if (!interaction.isAutocomplete()) return;
 
@@ -57,9 +57,10 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
         await interaction.respond(filtered);
         return;
     } else if (interaction.commandName === 'search' && interaction.options.getString('type') === 'difficulty') {
-        let diffs: { name: string; value: string }[] = []
+        const diffs: { name: string; value: string }[] = [];
         for (let i = 15; i >= 7; i--) {
-            diffs.push({ name: `${i}.0～`, value: `${i}.0～` });
+            diffs.push({ name: `${i}+`, value: (i + 0.5).toString() });
+            diffs.push({ name: `${i}`, value: i.toString() });
         }
         const filtered: { name: string; value: string }[] = diffs;
         await interaction.respond(filtered);
@@ -273,12 +274,134 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                 return;
             };
         } else if (type == "difficulty") {
-            const diffData = SongsData.filter((song: any) => parseInt(song.const) == parseInt(value));
+            const start = Date.now();
+            let minnum = parseFloat(value);
+            let maxnum = minnum + 0.4;
+
+            let diffData = SongsData.filter((song: any) => 
+                (
+                    (minnum <= parseFloat(song.dif_exp) && parseFloat(song.dif_exp) <= maxnum) ||
+                    (minnum <= parseFloat(song.dif_mas) && parseFloat(song.dif_mas) <= maxnum) ||
+                    (minnum <= parseFloat(song.dif_ult) && parseFloat(song.dif_ult) <= maxnum)
+                )
+            );
             if (diffData.length > 0) {
-                const embed = new EmbedBuilder()
-                    .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
-                    .setColor(SuccessColor)
-                    .setTitle(`${value} の楽曲リスト`);
+
+                const difficulties = ['dif_exp', 'dif_mas', 'dif_ult'];
+                const diffMap: { [key: string]: string[] } = {};
+                for (let i = minnum; i < maxnum; i += 0.1) {
+                    diffMap[i.toFixed(1)] = [];
+                }
+
+                diffData.sort((a: any, b: any) => a.title.localeCompare(b.title));
+                for (const song of SongsData) {
+                    for (const diffKey of difficulties) {
+                        const diffValue = parseFloat(song[diffKey]);
+                        if (diffValue >= minnum && diffValue <= maxnum) {
+                            const key = diffValue.toFixed(1);
+                            if (!diffMap[key]) diffMap[key] = [];
+                            diffMap[key].push(` ・${song.title}`);
+                        }
+                    }
+                }
+
+                const embeds: EmbedBuilder[] = [];
+                for (const key in diffMap) {
+                    if (diffMap[key].length === 0) {
+                        delete diffMap[key];
+                        continue;
+                    } else {
+                        const embed = new EmbedBuilder()
+                            .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
+                            .setColor(SuccessColor)
+                            .setTitle(`譜面定数: ${key} - ${diffMap[key].length}楽曲`)
+                            .setDescription(diffMap[key].join('\n') || '-',);
+                        embeds.push(embed);
+                    }
+                }
+
+                let index = 0;
+                const localEmbeds = embeds;
+                const row = new ActionRowBuilder<ButtonBuilder>().addComponents([
+                    new ButtonBuilder()
+                        .setCustomId('first')
+                        .setLabel('<<')
+                        .setStyle(ButtonStyle.Secondary)
+                        .setDisabled(index == 0),
+                    new ButtonBuilder()
+                        .setCustomId('prev')
+                        .setLabel('<')
+                        .setStyle(ButtonStyle.Secondary)
+                        .setDisabled(index == 0),
+                    new ButtonBuilder()
+                        .setCustomId('next')
+                        .setLabel('>')
+                        .setStyle(ButtonStyle.Secondary)
+                        .setDisabled(index == localEmbeds.length - 1),
+                    new ButtonBuilder()
+                        .setCustomId('last')
+                        .setLabel('>>')
+                        .setStyle(ButtonStyle.Secondary)
+                        .setDisabled(index == localEmbeds.length - 1)
+                ]);
+                
+                const sentMessage = await interaction.reply({ embeds: [localEmbeds[index]], components: [row.toJSON()], fetchReply: true });
+
+                const col = interaction.channel?.createMessageComponentCollector({
+                    filter: (i) => 
+                        i.user.id === interaction.user.id &&
+                        i.message.id === sentMessage.id,
+                    time: 1000 * 600,
+                    idle: 1000 * 300
+                });
+                const end = Date.now();
+                console.log(`譜面定数検索処理時間: ${end - start} ms`);
+                col?.on('collect', async (i) => {
+                    try {
+                        if (i.customId === 'next') {
+                            index++;
+                        } else if (i.customId === 'prev') {
+                            index--;
+                        } else if (i.customId === 'first') {
+                            index = 0;
+                        } else if (i.customId === 'last') {
+                            index = localEmbeds.length - 1;
+                        }
+                        if (index < 0) index = 0;
+                        if (index >= localEmbeds.length) index = localEmbeds.length - 1;
+
+                        const newRow = new ActionRowBuilder<ButtonBuilder>().addComponents(
+                            new ButtonBuilder()
+                                .setCustomId('first')
+                                .setLabel('<<')
+                                .setStyle(ButtonStyle.Secondary)
+                                .setDisabled(index == 0),
+                            new ButtonBuilder()
+                                .setCustomId('prev')
+                                .setLabel('<')
+                                .setStyle(ButtonStyle.Secondary)
+                                .setDisabled(index == 0),
+                            new ButtonBuilder()
+                                .setCustomId('next')
+                                .setLabel('>')
+                                .setStyle(ButtonStyle.Secondary)
+                                .setDisabled(index == localEmbeds.length - 1),
+                            new ButtonBuilder()
+                                .setCustomId('last')
+                                .setLabel('>>')
+                                .setStyle(ButtonStyle.Secondary)
+                                .setDisabled(index == localEmbeds.length - 1)
+                        );
+
+                        await i.update({ embeds: [localEmbeds[index]], components: [newRow.toJSON()] });
+                    } catch (error) {}
+                });
+
+                col?.on('end', () => {
+                    try {
+                        interaction.editReply({ components: [] });
+                    } catch (error) {}
+                });
             }
         } else {
             await interaction.reply('無効な検索タイプです。');
