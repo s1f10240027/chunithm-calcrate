@@ -1,4 +1,4 @@
-import { REST, Routes, SlashCommandBuilder } from 'discord.js';
+import { REST, Routes, SlashCommandBuilder, ActivityType } from 'discord.js';
 import fs from 'fs';
 import dotenv from "dotenv";
 dotenv.config();
@@ -107,7 +107,7 @@ const commandsWithOptions = [
 client.once('ready', async () => {
     if (client.user) {
         console.log(`Logged in as ${client.user.tag}!`);
-        
+        client.user.setActivity({ name: 'CHUNITHM VERSE', type: ActivityType.Playing });
         fs.readdir('./tmp', (err: any, files: string[]) => {
             if (err) {
                 console.error('Error reading directory:', err);
