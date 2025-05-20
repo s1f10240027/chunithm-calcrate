@@ -41,14 +41,13 @@ client.on(Events.InteractionCreate, async (interaction: Interaction) => {
     ) {
         const focusedValue = normalize(interaction.options.getFocused());
 
-        const filtered = NormalizedSongs
-            .filter((song: { title: string; normalizedTitle: string }) => song.normalizedTitle.startsWith(focusedValue))
-            .slice(0, 10)
-            .map((song: { title: string; normalizedTitle: string }) => ({
-                name: song.title,
-                value: song.title
-            }));
-
+        const filtered: { name: string; value: string }[] = [];
+        for (const song of NormalizedSongs) {
+            if (song.normalizedTitle.startsWith(focusedValue)) {
+                filtered.push({ name: song.title, value: song.title });
+                if (filtered.length >= 10) break;
+            }
+        }
         await interaction.respond(filtered);
     
     } else if (interaction.commandName === 'search' && interaction.options.getString('type') === 'artist') {
@@ -174,8 +173,8 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     if (!image) {
                         image = "https://ul.h3z.jp/iZzGl7oh.png";
                     }     
-                    const tempImagePath = path.join("tmp", `jacket_original_${interaction.user.id}_${Date.now()}.jpg`);
-                    const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}__${Date.now()}.jpg`);
+                    const now = Date.now();
+                    const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}_${now}.jpg`);
                     const response = await axios.get(image, {
                         responseType: "arraybuffer",
                         headers: {
@@ -185,11 +184,10 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     });
 
                     if (!fs.existsSync('./tmp')) {
-                        console.log('tmpフォルダが存在しません');
+                        fs.mkdirSync('./tmp');
                     }
-                    fs.writeFileSync(tempImagePath, response.data);    
-                    const buffer = fs.readFileSync(tempImagePath);
-                    await sharp(buffer)
+
+                    await sharp(response.data)
                         .resize(300, 300)
                         .toFile(resizeImagePath);
 
@@ -203,7 +201,6 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                             { name: 'ジャンル', value: String(songData.meta.genre), inline: true },
                             { name: 'アーティスト', value: String(songData.meta.artist), inline: true },
                             { name: '\u200B', value: '\u200B', inline: true },
-                            
                         )
                         .addFields(
                             { name: 'リリース日', value: String(songData.meta.release), inline: true },
@@ -227,7 +224,6 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                         files: [file],
                         embeds: [embed] 
                     });
-                    deleteTmpFiles(tempImagePath);
                     deleteTmpFiles(resizeImagePath);
                     return;
                 }
