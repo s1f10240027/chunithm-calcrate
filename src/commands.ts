@@ -10,6 +10,7 @@ import { client } from './client.js';
 import { getSongData } from './search.js';
 import { getJacketFromUnirec } from './get_jacket.js';
 import { sortResults } from './show_rating.js';
+//import { diff } from 'util';
 
 const ErrorColor: number = 0xd80b0b;
 const SuccessColor: number = 0x2ee23d;
@@ -288,34 +289,46 @@ client.on('interactionCreate', async (interaction: Interaction) => {
             if (diffData.length > 0) {
 
                 const difficulties = ['dif_exp', 'dif_mas', 'dif_ult'];
-                const diffMap: { [key: string]: string[] } = {};
+                const diffMap_verse: { [key: string]: string[] } = {};
+                const diffMap_noverse: { [key: string]: string[] } = {};
                 for (let i = minnum; i < maxnum; i += 0.1) {
-                    diffMap[i.toFixed(1)] = [];
+                    diffMap_verse[i.toFixed(1)] = ["**新曲：**"];
+                    diffMap_noverse[i.toFixed(1)] = ["**過去曲：**"];
                 }
 
                 diffData.sort((a: any, b: any) => a.title.localeCompare(b.title));
-                for (const song of SongsData) {
+                for (const song of diffData) {
                     for (const diffKey of difficulties) {
                         const diffValue = parseFloat(song[diffKey]);
                         if (diffValue >= minnum && diffValue <= maxnum) {
                             const key = diffValue.toFixed(1);
-                            if (!diffMap[key]) diffMap[key] = [];
-                            diffMap[key].push(` ・${song.title}`);
+                            if (song.verse) {
+                                diffMap_verse[key].push(` ・${song.title}`);
+                            } else {
+                                diffMap_noverse[key].push(` ・${song.title}`);
+                            }
                         }
                     }
                 }
 
                 const embeds: EmbedBuilder[] = [];
-                for (const key in diffMap) {
-                    if (diffMap[key].length === 0) {
-                        delete diffMap[key];
-                        continue;
-                    } else {
+                for (const key in diffMap_verse) {
+                    let count_verse = diffMap_verse[key].length -1;
+                    let count_noverse = diffMap_noverse[key].length -1;
+                    console.log(`count_verse: ${count_verse}, count_noverse: ${count_noverse}`);
+                    if (count_verse == 0) {
+                        diffMap_verse[key].push("\-");
+                    }
+                    if (count_noverse == 0) {
+                        diffMap_noverse[key].push("\-");
+                    }
+                    if (count_verse + count_noverse != 0){
+                        const descriptions = diffMap_verse[key].join('\n') + '\n\n' + diffMap_noverse[key].join('\n');
                         const embed = new EmbedBuilder()
                             .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
                             .setColor(SuccessColor)
-                            .setTitle(`譜面定数: ${key} - ${diffMap[key].length}楽曲`)
-                            .setDescription(diffMap[key].join('\n') || '-',);
+                            .setTitle(`譜面定数: ${key}  -  ${count_verse + count_noverse}楽曲`)
+                            .setDescription(descriptions);
                         embeds.push(embed);
                     }
                 }
@@ -352,7 +365,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                         i.user.id === interaction.user.id &&
                         i.message.id === sentMessage.id,
                     time: 1000 * 600,
-                    idle: 1000 * 300
+                    idle: 1000 * 180
                 });
                 const end = Date.now();
                 console.log(`譜面定数検索処理時間: ${end - start} ms`);
