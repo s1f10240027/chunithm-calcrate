@@ -84,7 +84,7 @@ function deleteTmpFiles(filePath: string) {
 }
 client.on('interactionCreate', async (interaction: Interaction) => {
     if (!interaction.isChatInputCommand()) return;
-    
+
     if (interaction.commandName === 'register') {
         const title: string = interaction.options.getString('title')!;
         const difficulty: string = interaction.options.getString('difficulty')!;
@@ -152,11 +152,14 @@ client.on('interactionCreate', async (interaction: Interaction) => {
             return;
         }
     } else if (interaction.commandName === 'search') {
+
         const type: string = interaction.options.getString('type')!;
         const value: string = interaction.options.getString('value')!;
         if (type == "title") {
+            await interaction.deferReply({ ephemeral: false });
             const song = SongsData.find((song: any) => song.title === value);
             if (song) {
+
                 const songDataResult = await getSongData(song.id);
                 if (songDataResult instanceof Error) {
                     const embed = new EmbedBuilder()
@@ -164,7 +167,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                         .setColor(ErrorColor)
                         .setTitle(`エラーが発生しました`)
                         .setDescription(songDataResult.message)
-                    await interaction.reply({ embeds: [embed] });
+                    await interaction.editReply({ embeds: [embed] });
                     return;
                 } else { 
                     const songData = songDataResult;
@@ -173,6 +176,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     if (!image) {
                         image = "https://ul.h3z.jp/iZzGl7oh.png";
                     }     
+    
                     const now = Date.now();
                     const resizeImagePath = path.join("tmp", `jacket_resized_${interaction.user.id}_${now}.jpg`);
                     const response = await axios.get(image, {
@@ -183,14 +187,9 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                         },
                     });
 
-                    if (!fs.existsSync('./tmp')) {
-                        fs.mkdirSync('./tmp');
-                    }
-
                     await sharp(response.data)
                         .resize(300, 300)
                         .toFile(resizeImagePath);
-
                     const file = new AttachmentBuilder(resizeImagePath, { name: `thumbnail_${interaction.user.id}.jpg` });  
                     const embed = new EmbedBuilder()
                         .setAuthor({ name: `${interaction.user.tag}`, iconURL: interaction.user.displayAvatarURL() })
@@ -219,8 +218,7 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                                 inline: false
                             }
                         );
-
-                    await interaction.reply({ 
+                    await interaction.editReply({ 
                         files: [file],
                         embeds: [embed] 
                     });
@@ -271,7 +269,6 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                 return;
             };
         } else if (type == "difficulty") {
-            const start = Date.now();
             let minnum = parseFloat(value);
             let maxnum = minnum + 0.4;
 
@@ -363,8 +360,6 @@ client.on('interactionCreate', async (interaction: Interaction) => {
                     time: 1000 * 600,
                     idle: 1000 * 180
                 });
-                const end = Date.now();
-                console.log(`譜面定数検索処理時間: ${end - start} ms`);
                 col?.on('collect', async (i) => {
                     try {
                         if (i.customId === 'next') {
