@@ -39,7 +39,7 @@ interface Song {
     }
 }
 
-function update_songs(type: string) {
+export function update_songs(type: string) {
     if (type == "all") {
         fetch(URL_ALL)
             .then((response) => response.json())
@@ -120,6 +120,7 @@ function update_songs(type: string) {
         })();
     } else if (type == "update") {
         // songs.jsonに含まれていない新しい曲を取得して追加する
+        let addNum = 0;
         (async () => {     
             const URL_ALL: string = `https://api.chunirec.net/2.0/music/showall.json?region=jp2&token=${TOKEN}`;
             const OldData = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
@@ -154,6 +155,7 @@ function update_songs(type: string) {
                             };
 
                             OldData.push(updatedSong);
+                            addNum++;
                             console.log(`✅ 新しい曲を追加しました: ${updatedSong.title}`);
 
                         } catch (err) {
@@ -165,12 +167,12 @@ function update_songs(type: string) {
                     };
                 };
                 writeFileSync("songs.json", JSON.stringify(OldData, null, 2), "utf-8");
-
             })
             .catch((error: unknown) => {
                 console.error('Error fetching data:', error);
             });
         })();
+        console.log(`${addNum}件の新しい曲を追加しました。`);
     }
 }
 

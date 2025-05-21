@@ -6,6 +6,8 @@ dotenv.config();
 
 import { client } from './client.js';
 import "./commands.js";
+import { update_songs } from './update_songdata.js';
+
 
 const token = process.env.DISCORD_TOKEN!;
 const clientId = process.env.DISCORD_CLIENT_ID!;
@@ -103,6 +105,7 @@ const commandsWithOptions = [
     }
 })();
 
+update_songs("update");
 
 client.once('ready', async () => {
     if (client.user) {
