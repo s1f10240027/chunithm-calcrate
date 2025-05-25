@@ -1,4 +1,4 @@
-import { REST, Routes, SlashCommandBuilder, ActivityType } from 'discord.js';
+import { REST, Routes, SlashCommandBuilder, ActivityType, EmbedBuilder } from 'discord.js';
 import fs from 'fs';
 import dotenv from "dotenv";
 dotenv.config();
@@ -105,7 +105,23 @@ const commandsWithOptions = [
     }
 })();
 
-update_songs("update");
+(async () => {
+    const NewSongs = await update_songs("update");
+    console.log(NewSongs);
+    if (NewSongs) {
+        const channelId = process.env.AlartChannelId;
+        if (channelId) {
+            const channel = client.channels.cache.get(channelId);
+            if (channel && channel.isTextBased() && channel.type === 0) { 
+                let desc = NewSongs.join("\n・");
+                const embed = new EmbedBuilder()
+                    .setTitle(`新曲が登録されました`)
+                    .setDescription(`・${desc}`);
+                await channel.send({ embeds: [embed] });
+            }
+        }
+    }
+})();
 
 client.once('ready', async () => {
     if (client.user) {

@@ -15498,5 +15498,75 @@
     "dif_exp": null,
     "dif_mas": null,
     "dif_ult": null
+  },
+  {
+    "id": "751fa94f0c42909f",
+    "title": "We Are Us(IOSYS TRAX Remix)",
+    "genre": "イロドリミドリ",
+    "artist": "舞ヶ原シンセ研究会",
+    "verse": true,
+    "dif_exp": 10.9,
+    "dif_mas": 14,
+    "dif_ult": null
+  },
+  {
+    "id": "a97a0168416475b6",
+    "title": "宵の平安京 Stargazer",
+    "genre": "VARIETY",
+    "artist": "永田泰之",
+    "verse": true,
+    "dif_exp": 11.4,
+    "dif_mas": 14.9,
+    "dif_ult": null
+  },
+  {
+    "id": "565b2f14945b1772",
+    "title": "超最終鬼畜妹フランドール・S",
+    "genre": "東方Project",
+    "artist": "ビートまりお×まろん",
+    "verse": true,
+    "dif_exp": 12.3,
+    "dif_mas": 15,
+    "dif_ult": null
+  },
+  {
+    "id": "f35d3a30e8dac820",
+    "title": "Help me, ERINNNNNN!!",
+    "genre": "東方Project",
+    "artist": "ビートまりお",
+    "verse": true,
+    "dif_exp": 10.8,
+    "dif_mas": 14.1,
+    "dif_ult": null
+  },
+  {
+    "id": "f8f18621ae2976b8",
+    "title": "Destined Marionette",
+    "genre": "VARIETY",
+    "artist": "ビートまりお",
+    "verse": true,
+    "dif_exp": 12.5,
+    "dif_mas": 14.4,
+    "dif_ult": null
+  },
+  {
+    "id": "c7af0db0e60ff050",
+    "title": "ひつぎとふたご【狂】",
+    "genre": "WORLD'S END",
+    "artist": "plastic feat. サキト",
+    "verse": true,
+    "dif_exp": null,
+    "dif_mas": null,
+    "dif_ult": null
+  },
+  {
+    "id": "eaa75f42dc7d12f2",
+    "title": "Imperishable Night 2006 (2016 Refine)【狂】",
+    "genre": "WORLD'S END",
+    "artist": "ゆうゆ / 篠螺悠那",
+    "verse": true,
+    "dif_exp": null,
+    "dif_mas": null,
+    "dif_ult": null
   }
 ]

@@ -1,6 +1,5 @@
 import fetch from 'node-fetch';
 import { writeFileSync } from 'fs';
-import readline from "readline";
 import * as fs from 'fs';
 import dotenv from "dotenv";
 dotenv.config();
@@ -11,12 +10,6 @@ const TOKEN = process.env.CHUNITHM_API_TOKEN;
 //const TOKEN4 = process.env.CHUNITHM_API_TOKEN4;
 //const TOKEN5 = process.env.CHUNITHM_API_TOKEN5;
 const URL_ALL: string = `https://api.chunirec.net/2.0/music/showall.json?region=jp2&token=${TOKEN}`;
-
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-    terminal: true
-});
 
 interface Song {
     meta: {
@@ -39,7 +32,7 @@ interface Song {
     }
 }
 
-export function update_songs(type: string) {
+export async function update_songs(type: string): Promise<void | any[]> {
     if (type == "all") {
         fetch(URL_ALL)
             .then((response) => response.json())
@@ -120,61 +113,65 @@ export function update_songs(type: string) {
         })();
     } else if (type == "update") {
         // songs.jsonに含まれていない新しい曲を取得して追加する
+        let result: any[] = [];
         let addNum = 0;
-        (async () => {     
-            const URL_ALL: string = `https://api.chunirec.net/2.0/music/showall.json?region=jp2&token=${TOKEN}`;
-            const OldData = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
+        const OldData = JSON.parse(fs.readFileSync("songs.json", "utf-8"));
 
-            fetch(URL_ALL)
-            .then((response) => response.json())
-            .then(async (data: unknown) => {
-                const songs = data as Song[];
-                for (const song of songs) {
-                    const exists = OldData.some((existSong: any) => existSong.id === song.meta.id);
-                    if (!exists) {
-                        
-                        const URL_ID = `https://api.chunirec.net/2.0/music/show.json?region=jp2&id=${song.meta.id}&token=${TOKEN}`;
+        const response = await fetch(URL_ALL);
+        const data = await response.json();
+        const songs = data as Song[];
 
-                        try {
-                            const res = await fetch(URL_ID);
-                            const text = await res.text();
-                            const data = JSON.parse(text);
-                            if (!data) {
-                                continue;
-                            }
+        for (const song of songs) {
+            const exists = OldData.some((existSong: any) => existSong.id === song.meta.id);
+            if (!exists) {
+                const URL_ID = `https://api.chunirec.net/2.0/music/show.json?region=jp2&id=${song.meta.id}&token=${TOKEN}`;
 
-                            const updatedSong = {
-                                id: song.meta.id,
-                                title: song.meta.title,
-                                genre: song.meta.genre,
-                                artist: song.meta.artist,
-                                verse: song.meta.release >= "2024-12-12",
-                                dif_exp: song.data.EXP ? song.data.EXP.const : null,
-                                dif_mas: song.data.MAS ? song.data.MAS.const : null,
-                                dif_ult: song.data.ULT ? song.data.ULT.const : null
-                            };
+                try {
+                    const res = await fetch(URL_ID);
+                    const text = await res.text();
+                    const data = JSON.parse(text);
+                    if (!data) {
+                        continue;
+                    }
 
-                            OldData.push(updatedSong);
-                            addNum++;
-                            console.log(`✅ 新しい曲を追加しました: ${updatedSong.title}`);
-
-                        } catch (err) {
-                            console.error(`エラー: id=${song.meta.id}`, err);
-                            break;
-                        };
-
-                        await new Promise((r) => setTimeout(r, 100));
+                    const updatedSong = {
+                        id: song.meta.id,
+                        title: song.meta.title,
+                        genre: song.meta.genre,
+                        artist: song.meta.artist,
+                        verse: song.meta.release >= "2024-12-12",
+                        dif_exp: song.data.EXP ? song.data.EXP.const : null,
+                        dif_mas: song.data.MAS ? song.data.MAS.const : null,
+                        dif_ult: song.data.ULT ? song.data.ULT.const : null
                     };
-                };
-                writeFileSync("songs.json", JSON.stringify(OldData, null, 2), "utf-8");
-            })
-            .catch((error: unknown) => {
-                console.error('Error fetching data:', error);
-            });
-        })();
+
+                    OldData.push(updatedSong);
+                    addNum++;
+                    console.log(`✅ 新しい曲を追加しました: ${updatedSong.title}`);
+                    result.push(updatedSong.title);
+
+                } catch (err) {
+                    console.error(`エラー: id=${song.meta.id}`, err);
+                    break;
+                }
+
+                await new Promise((r) => setTimeout(r, 100));
+            }
+        }
+        writeFileSync("songs.json", JSON.stringify(OldData, null, 2), "utf-8");
         console.log(`${addNum}件の新しい曲を追加しました。`);
+        return result;
+        
     }
 }
+
+/*
+import readline from "readline";
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+    terminal: true
+});
 
 rl.question("update typeを入力してください (all, single, update): ", (input) => {
     if (input == "all") {
@@ -189,3 +186,4 @@ rl.question("update typeを入力してください (all, single, update): ", (i
     rl.close();
     return;
 })
+*/
